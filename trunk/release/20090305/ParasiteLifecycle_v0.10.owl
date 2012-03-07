@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:provenir="http://www.provenir.owl/provenir#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://paige.ctegd.uga.edu/TcruziPSE/ParasiteLifecycle.owl#"
+    xmlns:p1="http://www.owl-ontologies.com/assert.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://paige.ctegd.uga.edu/TcruziPSE/ParasiteLifecycle.owl">
+  <owl:Ontology rdf:about="">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The Parasite Life Cycle ontology was developed as part of the NIH-funded "Semantics and Services enabled Problem Solving Environment for Tcruzi" project (Grant#1R01HL087795-01A1). 
+
+The Kno.e.sis center, Computer Science and Engineering Department, Wright State University, USA and the Tarleton Lab, Center for Tropical and Emerging Global Diseases (CTEGD), University of Georgia, USA collaborated to create this ontology.
+
+Resource page: http://knoesis.wright.edu/trykipedia</rdfs:comment>
+  </owl:Ontology>
+  <owl:Class rdf:ID="organism">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >any living structure capable of growth and reproduction</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="parasitic_organism">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An organism which is dependent on another for existence or support without making a useful or adequate return.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#organism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Trypanosoma_cruzi_amastigote">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="amastigote"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the nonflagellate intracellular morphologic stage in the development of Trypanosoma cruzi parasites</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.provenir.owl/provenir#spatial_parameter"/>
+  <owl:Class rdf:ID="Canis_familiaris">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="mammal"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A dog</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Trypanosoma_brucei_metacyclic_trypomastigote">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Infectious stage of Trypanosoma brucei, found in tsetse fly salivary glands.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="metacyclic_trypomastigote"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="epimastigote">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="lifecycle_stage"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a developmental stage in trypanosomes. The undulating membrane is shortened and the flagellar pocket and the kinetoplast are anterior to the nucleus; in the previous stage they are near the tail and behind the nucleus. This stage occurs in the insect host.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="salivary_gland">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="anatomical_location"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Leishmania_sp">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A genus of trypanosomatid protozoans, aetiological agent of Leishmaniasis.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#parasitic_organism"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="has_vector_organism"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="sand_fly"/>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="has_lifecycle_stage"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <owl:Class rdf:about="#amastigote"/>
+              <owl:Class rdf:ID="promastigote"/>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Leishmania_sp_amastigote">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the nonflagellate intracellular morphologic stage in the development of Leishmania species parasites</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="macrophages"/>
+        </owl:allValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="has_organism_anatomical_location"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#amastigote"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Trypanosoma_brucei_trypomastigote">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >trypomastigote morphological form of Trypanosoma brucei</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="trypomastigote"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#has_organism_anatomical_location"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="bloodstream"/>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="blood_stream_form_trypomastigote">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A trypomastigote found in the mammalian host blood stream.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom>
+          <owl:Class rdf:about="#bloodstream"/>
+        </owl:allValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#has_organism_anatomical_location"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#trypomastigote"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="vector_organism">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Commonly used to describe insect hosts of parasitic organisms.  An integral stage in the parasite lifecycle.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#organism"/>
+  </owl:Class>
+  <owl:Class rdf:about="#sand_fly">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Small flies, sandy in colour (hence the name), involved in transmitting Leishmania species - particularly by genus Phlebotomus in the Old World, and genus Lutzomyia in the New World</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#vector_organism"/>
+  </owl:Class>
+  <owl:Class rdf:about="#bloodstream">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#anatomical_location"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >flowing blood encountered in the circulatory system.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Mus_musculus">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A mouse</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#mammal"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Glossina_morsitans">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The tsetse fly, curse of sub-Saharan Africa.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#vector_organism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Homo_sapiens">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#mammal"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A human</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="procyclic_trypomastigote">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#trypomastigote"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >dividing form of Trypanosoma brucei found in the tsetse fly midgut</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#trypomastigote">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lifecycle_stage"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the characteristic developmental stage of trypanosomes, a leaf-like form, with undulating membrane and flagellum.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="hindgut">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the posterior region of the intestinal tract, particularly used to describe insect anatomical location</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#anatomical_location"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="procyclic_promastigote">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#promastigote"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >non-infective promastigote stage of Leishmania species, found in the insect vector</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Trypanosoma_cruzi_epimastigote">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="midgut"/>
+        </owl:allValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#has_organism_anatomical_location"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#epimastigote"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the epimastigote stage of Trypanosoma cruzii, found in the insect vector</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="triatominae">
+    <rdfs:subClassOf rdf:resource="#vector_organism"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A bug of the large, cosmopolitan family of predatory insects in the suborder Heteroptera, commonly involved in the transmission of Chagas disease in South America</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Trypanosoma_brucei_epimastigote">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the epimastigote stage of Trypanosoma brucei, found in the tsetse fly</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#epimastigote"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="#salivary_gland"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#has_organism_anatomical_location"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Trypanosoma_cruzi_metacyclic_trypomastigote">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Infectious stage of Trypanosoma cruzi, found in reduviid bug hindgut.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#metacyclic_trypomastigote"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Trypanosoma_cruzi">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A genus of trypanosomatid protozoans, aetiological agent of Chagas disease, also called South American Trypanosomiasis.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#parasitic_organism"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <owl:Class rdf:about="#epimastigote"/>
+              <owl:Class rdf:about="#amastigote"/>
+              <owl:Class rdf:about="#metacyclic_trypomastigote"/>
+              <owl:Class rdf:ID="Trypanosoma_cruzi_trypomastigote"/>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:allValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#has_lifecycle_stage"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom rdf:resource="#triatominae"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#has_vector_organism"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="organism_strain">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a variant of an organism, or an inbred organism used for experimental purposes</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="host_organism">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >an organism that hosts a parasite</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#organism"/>
+  </owl:Class>
+  <owl:Class rdf:about="#anatomical_location">
+    <rdfs:subClassOf rdf:resource="http://www.provenir.owl/provenir#spatial_parameter"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Terms to help identify relative positions within an organism</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#metacyclic_trypomastigote">
+    <rdfs:subClassOf rdf:resource="#trypomastigote"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >infectious stage of Trypanosoma species</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#promastigote">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >one of the morphological stages in the development of Leishmania species, characterized by a free anterior flagellum and the kinetoplast at the anterior end of the body.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#lifecycle_stage"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#midgut">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the middle region of the intestinal tract, particularly used to describe insect anatomical location</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#anatomical_location"/>
+  </owl:Class>
+  <owl:Class rdf:about="#mammal">
+    <rdfs:subClassOf rdf:resource="#host_organism"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any warm-blooded vertebrate of the class Mammalia.  Characterized by a covering of hair on the skin and, in the female, milk producing mammary glands for feeding the young.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="metacyclic_promastigote">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Infectious promastigote stage of Leishmania species.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#promastigote"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Trypanosoma_cruzi_trypomastigote">
+    <rdfs:subClassOf rdf:resource="#trypomastigote"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#has_organism_anatomical_location"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="#bloodstream"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >trypomastigote morphological form of Trypanosoma cruzi</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#lifecycle_stage">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >period of time in the lifecycle of a cell</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#amastigote">
+    <rdfs:subClassOf rdf:resource="#lifecycle_stage"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >the nonflagellate intracellular morphologic stage in the development of trypanosomatid parasites</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#macrophages">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="nucleated_cell"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A species of phagocytic white blood cell</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Trypanosoma_brucei">
+    <rdfs:subClassOf rdf:resource="#parasitic_organism"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#has_lifecycle_stage"/>
+        </owl:onProperty>
+        <owl:allValuesFrom>
+          <owl:Class>
+            <owl:unionOf rdf:parseType="Collection">
+              <owl:Class rdf:about="#blood_stream_form_trypomastigote"/>
+              <owl:Class rdf:about="#metacyclic_trypomastigote"/>
+              <owl:Class rdf:about="#epimastigote"/>
+              <owl:Class rdf:about="#procyclic_trypomastigote"/>
+            </owl:unionOf>
+          </owl:Class>
+        </owl:allValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#has_vector_organism"/>
+        </owl:onProperty>
+        <owl:allValuesFrom rdf:resource="#Glossina_morsitans"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A genus of trypanosomatid protozoans, aetiological agent of Sleeping sickness, also called Human African Trypanosomiasis.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#nucleated_cell">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >a cell with a nucleus</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#anatomical_location"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="#has_organism_anatomical_location">
+    <rdfs:range rdf:resource="#anatomical_location"/>
+    <rdfs:domain rdf:resource="#lifecycle_stage"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="has_strain">
+    <rdfs:range rdf:resource="#organism_strain"/>
+    <rdfs:domain rdf:resource="#organism"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="has_host_organism">
+    <rdfs:range rdf:resource="#host_organism"/>
+    <rdfs:domain rdf:resource="#parasitic_organism"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#has_vector_organism">
+    <rdfs:range rdf:resource="#vector_organism"/>
+    <rdfs:domain rdf:resource="#parasitic_organism"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#has_lifecycle_stage">
+    <rdfs:domain rdf:resource="#parasitic_organism"/>
+    <rdfs:range rdf:resource="#lifecycle_stage"/>
+  </owl:ObjectProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->
