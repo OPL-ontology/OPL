@@ -1,13 +1,1 @@
-#Please check [http://wiki.knoesis.org/index.php/Ontology_for_Parasite_Life_Cycle, Trykipedia] site for details on OPL terms and definitions.
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Please check [http://wiki.knoesis.org/index.php/Ontology_for_Parasite_Life_Cycle, Trykipedia] site for details on OPL including all the terms and definitions.
