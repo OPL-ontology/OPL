@@ -52,16 +52,16 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
@@ -732,14 +732,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000178"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000027"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000074"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000074"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -1010,14 +1010,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000038"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000063"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000027"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -1084,14 +1084,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000178"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000027"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000129"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000129"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -1132,14 +1132,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000215"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000081"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000215"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T. brucei procyclic trypomastigote</obo:IAO_0000118>
@@ -1192,6 +1192,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1201,12 +1207,6 @@
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T. brucei metacyclic trypomastigote</obo:IAO_0000118>
@@ -1305,14 +1305,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000046"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000133"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -1382,9 +1382,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matt Berriman and Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matt Berriman, Priti Parikh, S. Khan, C. Janse</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum erythrocytic ring trophozoite stage</obo:IAO_0000118>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ring trophozoite stage in the lifecycle of Plasmodium falciparum.  During this stage some Plasmodium falciparum merozoites undergo asexual reproduction cycle in erythrocytes and form young trophozoites that are referred to as &quot;ring form&quot; due to their morphology.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ring trophozoite stage, in the Plasmodium falciparum life cycle, occurs in erythrocytes. During this stage some Plasmodium falciparum merozoites undergo asexual reproduction cycle in erythrocytes and form young trophozoites that are referred to as &quot;ring form&quot; due to their morphology.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia: Plasmodium falciparum biology</obo:IAO_0000119>
     </owl:Class>
     
@@ -1519,14 +1519,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5693"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000223"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000088"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000223"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T. cruzi epimastigote</obo:IAO_0000118>
@@ -1608,14 +1608,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000126"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000047"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000106"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S. japonicum 3 week worm</obo:IAO_0000118>
@@ -2247,14 +2247,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000037"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000097"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000111"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000111"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000097"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -2315,14 +2315,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000128"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000047"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000107"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000107"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -2725,14 +2725,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000166"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000163"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000083"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000083"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000163"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -3063,14 +3063,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000038"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000133"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000014"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -3223,6 +3223,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merozoite stage, in the lifecycle of Plasmodium falciparum, occurs in the bloodstream of a vertebrate host.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum merozoite</obo:IAO_0000118>
+        <obo:IAO_0000117>P. Parkh</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -3422,14 +3423,14 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000113"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000113"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum oocyst</obo:IAO_0000118>
@@ -3581,18 +3582,19 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000207"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum trophozoite</obo:IAO_0000118>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum Ring stage trphozoite matures into a larger trophozoite in erythrocytes called Plasmodium falciparum trophozoites.  </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum trophozoite is a feeding form. Depending on its location, it is either called hepatic or erythrocytic trophozoite.  The trophozoite stage has only 1 nucleus.</obo:IAO_0000115>
+        <obo:IAO_0000117>P. Parkh, S. Khan, C. Janse</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -3833,14 +3835,14 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000058"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000194"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000194"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L. major procyclic promastigote</obo:IAO_0000118>
@@ -3857,19 +3859,20 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000199"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium falciparum zygote is formed after fertilisation of the macrogamete by a microgamete in the midgut of the mosquito vector. This round form is the only diploid stage in the Plasmodium falciparum life cycle.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum zygote</obo:IAO_0000118>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When Plasmodium falciparum microgamete and macrogamete fertilizes each other the resulting diploid cell is called zygote, which is found in the midgut of a mosquito vector.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia: Plasmodium falciparum biology</obo:IAO_0000119>
+        <obo:IAO_0000117>C. Janse, S. Khan, P. Parkh</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -3933,6 +3936,12 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5693"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -3943,12 +3952,6 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000169"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priti Parikh</obo:IAO_0000117>
@@ -4305,6 +4308,12 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5691"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000175"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -4314,12 +4323,6 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000175"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T. brucei trypomastigote</obo:IAO_0000118>
@@ -4702,7 +4705,10 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum zygote stage</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia: Plasmodium falciparum biology</obo:IAO_0000119>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zygote stage in the lifecycle of Plasmodium falciparum where microgamete and macrogamete fertilizes each other to produce a diploid cell called zygote.  This stage occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zygote stage in the lifecycle of Plasmodium falciparum where microgamete and macrogamete fertilizes each other to produce a diploid cell called zygote.  This stage occurs in the midgut of a mosquito vector.
+
+The zygote stage, in the P. falciparum lifecycle, occurs in the midgut of the mosquito vector. 
+where microgamete and macrogamete fertilizes each other to produce a diploid cell called zygote.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -4732,14 +4738,14 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000178"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000124"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000005"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000124"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -4805,14 +4811,14 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5664"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000157"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000122"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000122"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000157"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L. major amastigote</obo:IAO_0000118>
@@ -4829,14 +4835,14 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000178"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000005"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000062"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -4885,8 +4891,9 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythrocytic trophozoite stage in the lifecycle of Plasmodium falciparum.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythrocytic trophozoite stage, in the P. falciparum life cycle, occurs in erythrocytes.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum erythrocytic trophozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000117>P. Parkh, S. Khan, C. Janse</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -5106,14 +5113,14 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000038"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000133"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000045"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan, Anna Protasio</obo:IAO_0000117>
@@ -5190,7 +5197,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000222">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum erythrocytic ring trophozoite</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/opl.owl#c1"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -5198,8 +5205,9 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum erythrocytic ring trophozoite</obo:IAO_0000118>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ring-form trophozoites of Plasmodium falciparum are often thin and delicate, measuring on average 1/5 the diameter of the red blood cell. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum ring trophozoite is found in erythrocytes. It is a young trophozoite stage that has a typical &#39;ring-like&#39; appearance. Ring-form trophozoites of Plasmodium falciparum are often thin and delicate, measuring on average 1/5 the diameter of the red blood cell.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.dpd.cdc.gov/dpdx/html/frames/m-r/malaria/falciparum/body_malariadffalcring.htm</obo:IAO_0000119>
+        <obo:IAO_0000117>P. Parkh, S. Khan, C. Janse</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -5530,6 +5538,15 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#unfolds_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>P. falciparum hepatic trophozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000115>Trophozoite stage, in the P. falciparum life cycle, occurs in hepatocytes.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -5554,7 +5571,9 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/opl.owl#1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trophozoite stage, in the P. falciparum life cycle, occurs in hepatocytes.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum trophozoite that is found in hepatocytes. It is a feeding stage with a single nucleus</obo:IAO_0000115>
+        <obo:IAO_0000118>P. falciparum hepatic trophozoite</obo:IAO_0000118>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -5570,6 +5589,9 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000207"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118>P. falciparum erythrocytic trophozoite</obo:IAO_0000118>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000115>Plasmodium falciparum trophozoite that is found in erythrocytes. It is a feeding stage with a single nucleus.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -5598,6 +5620,9 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115>Gamete stage, in the Plasmodium falciparum lifecycle, occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum gamete stage</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -5620,6 +5645,8 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum gametes that are found in midgut of mosquito vector. There are two forms of gametes: micro- and macrogametocytes.</obo:IAO_0000115>
+        <obo:IAO_0000118>P. falciparum gamete</obo:IAO_0000118>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -5637,6 +5664,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum oocyst-derived sporozoite</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum sporozoites are formed in the oocyst. They migrate to and resides in the salivary glands of the mosquito vector. A distinction is made between oocyst-derived and salivary gland-derived sporozoites. </obo:IAO_0000115>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -5654,6 +5682,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum salivary gland-derived sporozoite</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum sporozoites are formed in the oocyst. They migrate to and resides in the salivary glands of the mosquito vector. A distinction is made between oocyst-derived and salivary gland-derived sporozoites. Sporozoites invade hepatocytes In the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -5692,6 +5721,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sporozoite stage, in the P. falciparum lifecycle, occurs in the hemocoel and the salivary glands of the mosquito. Sporozoites invade hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -5712,6 +5742,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sporozoite stage, in the P. falciparum lifecycle, occurs in the hemocoel and the salivary glands of the mosquito. Sporozoites invade hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -5736,6 +5767,9 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/opl.owl#c8"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum erythrocytic merozoite</obo:IAO_0000118>
+        <obo:IAO_0000115>Plasmodium falciparum erythrocytic merozoites are produced in a erythrocytic schizont and are released into the bloodstream of a vertebrate host. These forms invade erythrocytes.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -5751,6 +5785,9 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/opl.owl#c7"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000115>Plasmodium falciparum hepatic merozoites are produced in a hepatic schizont and are released into the bloodstream of a vertebrate host. These forms invade erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000118>P. falciparum hepatic merozoite</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -5788,6 +5825,9 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000115>Hepatic merozoite stage in the P. falciparum lifecycle, occurs in the hepatocyte of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000118>P. falciparum hepatic merozoite stage</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -5807,6 +5847,9 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000117>S. Khan, C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum erythrocytic merozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000115>Erythrocytic merozoite stage, in the Plasmodium falciparum lifecycle, occurs in the bloodstream of a vertebrate host.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -5818,6 +5861,12 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000192"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -5827,12 +5876,6 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000192"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum gametocyte located either in the bloodstream of the vertebrate host or midgut of mosquito vector. Gametocytes are  the precursor cells of the macro- or microgametes </obo:IAO_0000115>
@@ -6041,8 +6084,8 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5658"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000171"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6053,8 +6096,8 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000171"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L. major</obo:IAO_0000118>
@@ -6082,8 +6125,8 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5690"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000055"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7393"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6094,8 +6137,8 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000055"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7393"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A genus of trypanosomatid protozoans, aetiological agent of Sleeping sickness, also called Human African Trypanosomiasis.</obo:IAO_0000115>
@@ -6110,6 +6153,12 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
     <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5693">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trypanosoma cruzi</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5690"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000055"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_70999"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6127,12 +6176,6 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000055"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_70999"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A genus of trypanosomatid protozoans, aetiological agent of Chagas disease, also called South American Trypanosomiasis.</obo:IAO_0000115>
@@ -6165,14 +6208,14 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000171"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000171"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum</obo:IAO_0000118>
@@ -6200,6 +6243,12 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6181"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000171"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -6209,12 +6258,6 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000171"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -6258,12 +6301,6 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6181"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000171"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -6273,6 +6310,12 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000171"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -6730,6 +6773,19 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000224"/>
         </owl:distinctMembers>
     </rdf:Description>
@@ -6740,19 +6796,6 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000227"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229"/>
-        </owl:distinctMembers>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
-        <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428"/>
         </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>
