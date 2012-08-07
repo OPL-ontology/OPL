@@ -8,23 +8,18 @@
      xmlns:bfo="http://www.ifomis.org/bfo/1.1#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
-     xmlns:IDOMAL="http://purl.org/obo/owl/IDOMAL#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
-     xmlns:CARO="http://purl.org/obo/owl/CARO#"
-     xmlns:NCBITaxon="http://purl.org/obo/owl/NCBITaxon#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:roproposed="http://purl.org/obo/owl/OBO_REL#"
-     xmlns:UBERON="http://purl.org/obo/owl/UBERON#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:obi="http://purl.obolibrary.org/obo/obi/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
-     xmlns:CL="http://purl.org/obo/owl/CL#">
+     xmlns:span="http://www.ifomis.org/bfo/1.1/span#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/opl.owl">
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-08-04</dc:date>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anna Protasio</dc:creator>
@@ -542,7 +537,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000002">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leishmania major metacyclic promastigote</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5664"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5664"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -578,10 +573,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001046"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001046"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_70999"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70999"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -599,10 +594,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0002107"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -762,7 +757,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000012">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma haematobium miracidium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6185"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -814,7 +809,7 @@
                     <rdf:Description rdf:about="http://purl.org/obo/owl/BTO#BTO_0001117"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7198"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7198"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -837,7 +832,7 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5664"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5664"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -883,7 +878,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000018">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miracidium stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -904,10 +899,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001359"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001359"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1073,10 +1068,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0002097"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1179,10 +1174,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001045"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001045"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7164"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7164"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1196,7 +1191,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000033">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trypomastigote stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -1275,7 +1270,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000036">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">merozoite stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -1293,7 +1288,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000037">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma haematobium worm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6185"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -1311,7 +1306,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000038">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma mansoni schistosomulum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6183"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -1356,10 +1351,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/CL#CL0000182"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL0000182"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1422,7 +1417,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000043">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma japonicum cercaria</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -1506,10 +1501,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0005617"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005617"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1528,10 +1523,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5691"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5691"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1547,7 +1542,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000049">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trypanosoma cruzi epimastigote</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5693"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5693"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -1621,7 +1616,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000052">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma japonicum egg</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -1698,7 +1693,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000057">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trophozoite stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -1764,7 +1759,7 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -1798,7 +1793,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000061">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trypanosoma cruzi amastigote</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5693"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5693"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -2001,7 +1996,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000070">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cercaria stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -2063,7 +2058,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000073">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oocyst stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -2148,7 +2143,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000077">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma japonicum schistosomulum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -2178,7 +2173,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000079">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma haematobium cercaria</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6185"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -2223,7 +2218,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000082">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -2247,7 +2242,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
                     <rdf:Description rdf:about="http://purl.org/obo/owl/BTO#BTO_0000597"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_157969"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_157969"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2262,7 +2257,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000084">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schizont stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -2337,10 +2332,10 @@ in subclasses located_in different cell types will be inferred after reasoning, 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001045"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001045"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_70999"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70999"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2355,7 +2350,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000089">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum ookinete</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -2426,7 +2421,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000092">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trypanosoma brucei epimastigote</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5691"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5691"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -2479,7 +2474,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000094">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma japonicum sporocyst</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -2497,7 +2492,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000095">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schistomulum stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -2518,10 +2513,10 @@ in subclasses located_in different cell types will be inferred after reasoning, 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/CL#CL0000232"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL0000232"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2553,7 +2548,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000098">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sporocyst stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -2696,7 +2691,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
                     <rdf:Description rdf:about="http://purl.org/obo/owl/BTO#BTO_0000597"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6525"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6525"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2711,7 +2706,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000105">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma mansoni egg</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6183"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -2785,7 +2780,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000108">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epimastigote stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -2826,7 +2821,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000110">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum erythrocytic schizont</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -2928,7 +2923,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000114">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amastigote stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -3016,10 +3011,10 @@ in subclasses located_in different cell types will be inferred after reasoning, 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000178"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3103,10 +3098,10 @@ in subclasses located_in different cell types will be inferred after reasoning, 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001044"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001044"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7164"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7164"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3124,10 +3119,10 @@ in subclasses located_in different cell types will be inferred after reasoning, 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/CL#CL0000235"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL0000235"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3217,7 +3212,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000126">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma japonicum worm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -3247,7 +3242,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000128">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma mansoni worm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6183"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -3293,7 +3288,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000130">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum merozoite</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -3379,10 +3374,10 @@ in subclasses located_in different cell types will be inferred after reasoning, 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0002048"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3405,7 +3400,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
                     <rdf:Description rdf:about="http://purl.org/obo/owl/BTO#BTO_0000597"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_56140"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_56140"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3473,7 +3468,7 @@ in subclasses located_in different cell types will be inferred after reasoning, 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000137">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum sporozoite</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -3509,7 +3504,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000138">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum oocyst</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -3583,10 +3578,10 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000160"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000160"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3672,7 +3667,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000146">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum trophozoite</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -3697,7 +3692,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000147">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma mansoni sporocyst</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6183"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -3738,7 +3733,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000150">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gametocyte stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A life cycle stage where a cell differentiates into male or female sexual forms.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priti Parikh</obo:IAO_0000117>
     </owl:Class>
@@ -3749,7 +3744,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000151">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">promastigote stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -3766,7 +3761,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000152">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sporozoite stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -3784,7 +3779,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000153">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ookinete stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -3805,10 +3800,10 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001044"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001044"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7393"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7393"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3840,10 +3835,10 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6182"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6182"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3932,7 +3927,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000160">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leishmania major procyclic promastigote</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5664"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5664"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -3957,7 +3952,7 @@ Plasmodium falciparum sporozoites are formed in the oocyst. They migrate to and 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000161">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum zygote</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -4036,7 +4031,7 @@ need to be fixed</obi:LIMS_0033>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000164">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trypanosoma cruzi trypomastigote</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5693"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5693"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -4072,10 +4067,10 @@ need to be fixed</obi:LIMS_0033>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4091,7 +4086,7 @@ need to be fixed</obi:LIMS_0033>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000166">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma haematobium sporocyst</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6185"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -4126,7 +4121,7 @@ need to be fixed</obi:LIMS_0033>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000168">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma mansoni cercaria</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6183"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -4232,7 +4227,7 @@ need to be fixed</obi:LIMS_0033>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000173">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypnozoite stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
@@ -4305,10 +4300,10 @@ need to be fixed</obi:LIMS_0033>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000056"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000056"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4328,10 +4323,10 @@ need to be fixed</obi:LIMS_0033>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6185"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6185"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4347,7 +4342,7 @@ need to be fixed</obi:LIMS_0033>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000178">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma haematobium schistosomulum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6185"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -4365,7 +4360,7 @@ need to be fixed</obi:LIMS_0033>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000179">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma japonicum miracidium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -4383,7 +4378,7 @@ need to be fixed</obi:LIMS_0033>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000180">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">egg stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The life cycle stage of some parasites in which a non-operculate egg emerges from the adult female worm.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.path.cam.ac.uk/~schisto/schistosoma/schisto_lifecycle_egg.html</obo:IAO_0000119>
         <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
@@ -4398,7 +4393,7 @@ need to be fixed</obi:LIMS_0033>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
                         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
@@ -4416,7 +4411,7 @@ need to be fixed</obi:LIMS_0033>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000182">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trypanosoma brucei trypomastigote</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5691"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5691"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -4486,10 +4481,10 @@ need to be fixed</obi:LIMS_0033>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5693"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5693"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4614,7 +4609,7 @@ need to be fixed</obi:LIMS_0033>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000190">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum hepatic schizont</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -4709,10 +4704,10 @@ need to be fixed</obi:LIMS_0033>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001045"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001045"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7198"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7198"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4811,7 +4806,7 @@ need to be fixed</obi:LIMS_0033>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000106"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000106"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
                         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000161"/>
@@ -4840,7 +4835,7 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000200">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma haematobium egg</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6185"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -4913,10 +4908,10 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6183"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6183"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4932,7 +4927,7 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000204">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leishmania major amastigote</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5664"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5664"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -5027,7 +5022,7 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000208">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma mansoni miracidium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6183"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
@@ -5048,10 +5043,10 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5664"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5664"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5133,7 +5128,7 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000213">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vesical venus plexus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vesical plexus envelops the lower part of the bladder and the base of the prostate and communicates with the pudendal and prostatic plexuses. </obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia - Vesical venus plexus</obo:IAO_0000119>
         <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
@@ -5160,10 +5155,10 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001045"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001045"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7393"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7393"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5268,10 +5263,10 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001255"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001255"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5745,7 +5740,7 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/opl.owl#c10">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamete stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obi:LIMS_0033>need definition</obi:LIMS_0033>
     </owl:Class>
     
@@ -5777,7 +5772,7 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/opl.owl#c12">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum gamete</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -6009,7 +6004,7 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/opl.owl#c9">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum gametocyte</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
@@ -6040,7 +6035,7 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
 
     <owl:Class rdf:about="http://purl.org/obo/owl/BTO#BTO_0000597">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatopancreas</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestive gland of crustaceans with functions approximately analogous to liver and pancreas of vertebrates - enzyme secretion, food absorption and storage.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Dictionary of Cell and Molecular Biology:Third Edition</obo:IAO_0000119>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">midgut gland</obo:IAO_0000118>
@@ -6053,7 +6048,7 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
 
     <owl:Class rdf:about="http://purl.org/obo/owl/BTO#BTO_0001117">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proboscis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1: The trunk of an elephant; also: any long flexible snout.n2: Any of various elongated or extensible tubular processes as the sucking organ of a butterfly of the oral region of an invertebrate.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.m-w.com/cgi-bin/dictionary?book=Dictionary&amp;va=proboscis</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/brenda"/>
@@ -6061,9 +6056,9 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/CARO#CARO_0000003 -->
+    <!-- http://purl.obolibrary.org/obo/CARO_0000003 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/CARO#CARO_0000003">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000003">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:MAH</obo:IAO_0000119>
@@ -6073,11 +6068,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/CARO#CARO_0000013 -->
+    <!-- http://purl.obolibrary.org/obo/CARO_0000013 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/CARO#CARO_0000013">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000013">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:MAH</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
@@ -6085,11 +6080,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/CL#CL0000182 -->
+    <!-- http://purl.obolibrary.org/obo/CL0000182 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL0000182">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL0000182">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000013"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000013"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:tfm</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:041204691</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A.11.436.348</obo:IAO_0000119>
@@ -6099,11 +6094,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/CL#CL0000232 -->
+    <!-- http://purl.obolibrary.org/obo/CL0000232 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL0000232">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL0000232">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythrocyte</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000013"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000013"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A red blood cell. In mammals, mature erythrocytes are biconcave disks containing hemoglobin whose function is to transport oxygen.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:tfm</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A.11.118.290</obo:IAO_0000119>
@@ -6114,11 +6109,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/CL#CL0000235 -->
+    <!-- http://purl.obolibrary.org/obo/CL0000235 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL0000235">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL0000235">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000013"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000013"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:tfm</obo:IAO_0000119>
@@ -6132,9 +6127,9 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/IDOMAL#IDOMAL_0000565 -->
+    <!-- http://purl.obolibrary.org/obo/IDOMAL_0000565 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/IDOMAL#IDOMAL_0000565">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000565">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insects (Class Insecta) are arthropods, having a hard exoskeleton, a three-part body (head, thorax, and abdomen), three pairs of jointed legs, compound eyes, and two antennae.</obo:IAO_0000115>
@@ -6144,11 +6139,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/IDOMAL#IDOMAL_0000605 -->
+    <!-- http://purl.obolibrary.org/obo/IDOMAL_0000605 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/IDOMAL#IDOMAL_0000605">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000605">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/IDOMAL#IDOMAL_0001274"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_0001274"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6162,9 +6157,9 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/IDOMAL#IDOMAL_0001274 -->
+    <!-- http://purl.obolibrary.org/obo/IDOMAL_0001274 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/IDOMAL#IDOMAL_0001274">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0001274">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertebrate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any member of the subphylum Vertebrata, chordates with backbones or spinal columns.</obo:IAO_0000115>
@@ -6174,11 +6169,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_10090 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_10090">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mus musculus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/IDOMAL#IDOMAL_0000605"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_0000605"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">house mouse</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -6186,11 +6181,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_157969 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_157969 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_157969">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_157969">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulinus</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6447"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6202,11 +6197,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_56140 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_56140 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_56140">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_56140">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oncomelania</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6447"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6218,9 +6213,9 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5658 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5658 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5658">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5658">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leishmania</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -6228,11 +6223,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5664 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5664 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5664">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5664">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leishmania major</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5658"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5658"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6242,13 +6237,13 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000055"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7198"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7198"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L. major</obo:IAO_0000118>
@@ -6259,9 +6254,9 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5690 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5690 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5690">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5690">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trypanosoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -6269,21 +6264,21 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5691 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5691 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5691">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5691">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trypanosoma brucei</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5690"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5690"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000055"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7393"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7393"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6299,15 +6294,15 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5693 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5693 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5693">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5693">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trypanosoma cruzi</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5690"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5690"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000055"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_70999"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70999"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6316,8 +6311,8 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
-                            <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9615"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9615"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
@@ -6336,9 +6331,9 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5820 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5820 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5820">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -6346,21 +6341,21 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5833 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5833">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5833">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_5820"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000065"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPL_0000055"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7164"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7164"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6377,9 +6372,9 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6181 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6181 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6181">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6181">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
@@ -6387,11 +6382,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6182 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6182 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6182">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6182">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma japonicum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6181"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6404,8 +6399,8 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_56140"/>
-                            <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_56140"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
@@ -6416,11 +6411,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6183 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6183 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6183">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6183">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma mansoni</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6181"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6433,8 +6428,8 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6525"/>
-                            <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6525"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
@@ -6445,11 +6440,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6185 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6185 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6185">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6185">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schistosoma haematobium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6181"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6462,8 +6457,8 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_157969"/>
-                            <rdf:Description rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_157969"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
@@ -6474,9 +6469,9 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6447 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6447 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6447">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6447">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mollusca</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molluscs</obo:IAO_0000118>
@@ -6486,11 +6481,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6525 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6525 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6525">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6525">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomphalaria</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6447"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6502,11 +6497,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_70999 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_70999 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_70999">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_70999">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Triatominae</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/IDOMAL#IDOMAL_0000565"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_0000565"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6519,11 +6514,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7164 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7164 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7164">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7164">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anopheles</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/IDOMAL#IDOMAL_0000565"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_0000565"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6535,11 +6530,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7198 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7198 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7198">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7198">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phlebotominae</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/IDOMAL#IDOMAL_0000565"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_0000565"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6553,11 +6548,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7393 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7393 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7393">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7393">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glossina</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/IDOMAL#IDOMAL_0000565"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_0000565"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6570,11 +6565,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/IDOMAL#IDOMAL_0000605"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_0000605"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_role"/>
@@ -6588,11 +6583,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9615 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9615 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9615">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9615">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis lupus familiaris</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/IDOMAL#IDOMAL_0000605"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_0000605"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis canis</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis domesticus</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis familiaris</obo:IAO_0000118>
@@ -6603,11 +6598,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0000056 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000056 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000056">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000056">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ureter</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ureter is one of a pair of thick-walled tubes that transports urine from the kidney pelvis to the urinary bladder[GO]. Muscular duct that propels urine from the kidneys to the urinary bladder, or related organs. In humans, organ with organ cavity which connects the renal sinus to the urinary bladder. Examples: There are only two ureters, the right and the left ureters.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Ureter</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -6615,9 +6610,9 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0000105 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000105 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000105">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">life cycle stage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spatiotemporal region encompassing some part of the life cycle of an organism.</obo:IAO_0000115>
@@ -6628,11 +6623,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0000106 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000106 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000106">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000106">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zygote stage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-cell stage</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stage at which the organism is a single cell produced by means of sexual reproduction.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Zygote</obo:IAO_0000119>
@@ -6643,11 +6638,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0000160 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000160 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000160">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000160">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intestine</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:GO</obo:IAO_0000119>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Segment of the alimentary canal extending from the stomach to the anus and, in humans and other mammals, consists of two segments, the small intestine and the large intestine.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Intestine</obo:IAO_0000119>
@@ -6656,11 +6651,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0000178 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0000178">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circulating body substance which consists of blood plasma and hemoglobin-carrying red blood cells. Excludes blood analogues (see UBERON:0000179 haemolymphatic fluid).</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9670</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Blood</obo:IAO_0000119>
@@ -6672,11 +6667,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0001044 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001044 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001044">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001044">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salivary gland</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:000743</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Salivary_gland</obo:IAO_0000119>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saliva-secreting exocrine glands of the oral cavity[GO]. The salivary glands in mammals are exocrine glands, glands with ducts, that produce saliva. They also secrete amylase, an enzyme that breaks down starch into maltose. In other organisms such as insects, salivary glands are often used to produce biologically important proteins like silk or glues, and fly salivary glands contain polytene chromosomes that have been useful in genetic research[WP].</obo:IAO_0000115>
@@ -6685,11 +6680,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0001045 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001045 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001045">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001045">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">midgut</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0007494</obo:IAO_0000119>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle subdivision of a digestive tract[CJM]. In vertebrates: The middle part of the alimentary canal from the stomach, or entrance of the bile duct, to, or including, the large intestine[GO]. In humans: originates from the foregut at the opening of the bile duct into the duodenum and continues through the small intestine and much of the large intestine until the transition to the hindgut about two-thirds of the way through the transverse colon. That part of the alimentary canal which lies between the gizzard and the hind intestine.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Midgut</obo:IAO_0000119>
@@ -6698,11 +6693,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0001046 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001046 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001046">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001046">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindgut</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Posterior subdivision of a digestive tract[CJM].</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Hindgut</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -6710,11 +6705,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0001255 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001255 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001255">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001255">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urinary bladder</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:15900</obo:IAO_0000119>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ with organ cavity which is continuous proximally with the right and left ureters and distally with the urethra.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Urinary_bladder</obo:IAO_0000119>
@@ -6725,11 +6720,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0001359 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001359 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0001359">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001359">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebrospinal fluid</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSF</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:FMA</obo:IAO_0000119>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transudate contained in the subarachnoid space.</obo:IAO_0000115>
@@ -6740,11 +6735,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0002048 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002048 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0002048">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000763 </obo:IAO_0000119>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiration organ present in all air-breathing animals whose principal function is to transport oxygen from the atmosphere into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Lung</obo:IAO_0000119>
@@ -6753,11 +6748,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0002097 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002097 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0002097">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin of body</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7163</obo:IAO_0000119>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonparenchymatous organ that consists of the dermis and epidermis. Subdivisions of the skin surround various body parts; as a whole, the skin constitutes the external layer of the body. Examples: There is only one skin[FMA]. Surface structure that consists of the external membranous integument of the animal.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMD:skin</obo:IAO_0000119>
@@ -6769,11 +6764,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0002107 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002107 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0002107">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000759</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Liver</obo:IAO_0000119>
@@ -6782,11 +6777,11 @@ where microgamete and macrogamete fertilizes each other to produce a diploid cel
     
 
 
-    <!-- http://purl.org/obo/owl/UBERON#UBERON_0005617 -->
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005617 -->
 
-    <owl:Class rdf:about="http://purl.org/obo/owl/UBERON#UBERON_0005617">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005617">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesenteric vein</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
     
