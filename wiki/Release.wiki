@@ -2,15 +2,16 @@
  
  * [http://bioportal.bioontology.org/ontologies/46353?p=terms Download]
  * Release date: 10/06/2011
- * Notes: Using BFO 1.1 as upper ontology
+ * Notes: has been listed as OBO foundry candidate ontology
 
 * Release Version 1.0 * 
  
  * [http://rest.bioontology.org/bioportal/ontologies/download/45823?apikey=4ea81d74-8960-4525-810b-fa1baab576ff&userapikey= Download]
  * Release date: 06/14/2011
- * Notes: Using BFO 1.1 as upper ontology
+ * Notes: Using BFO 1.1 as upper ontology and IAO for ontology metadata, all the terms have been assigned IDs in OBO foundry ontologies required format
 
 * Release Version 0.10 * 
  
  * [http://rest.bioontology.org/bioportal/ontologies/download/39544?apikey=4ea81d74-8960-4525-810b-fa1baab576ff&userapikey= Download]
  * Release date: 03/07/2009
+ * Notes: not use upper level ontology
