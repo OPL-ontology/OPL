@@ -3,11 +3,10 @@
  * [https://opl-ontology.googlecode.com/svn/trunk/release/20120907/opl_inferred.owl Download]
  * Release date: 09/07/2012
  * Notes: 
-
-
-
-
-
+   # 22 newly added Plasmodium falciparum life cycle related terms, details see [https://opl-ontology.googlecode.com/svn/trunk/doc/newIDs_20120907.tab new terms file]
+   # IRIs of OBO foundry ontologies terms were updated to new OBO foundry recommended format
+   # BFO 1.1 and its compatible IAO ontology-metadata.owl were used and merged in this version
+    
 * Release Version 2.0 *
  
  * [http://opl-ontology.googlecode.com/svn/trunk/release/20110927/opl_inferred_version_v2.0.owl Download]
