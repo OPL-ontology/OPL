@@ -1,0 +1,23 @@
+Old IRI	New ID	Label	Term Type
+http://purl.obolibrary.org/obo/opl.owl#c4	http://purl.obolibrary.org/obo/OPL_0000241	Plasmodium falciparum hepatic merozoite	Class
+http://purl.obolibrary.org/obo/opl.owl#c3	http://purl.obolibrary.org/obo/OPL_0000242	Plasmodium falciparum erythrocytic merozoite	Class
+http://purl.obolibrary.org/obo/opl.owl#c2	http://purl.obolibrary.org/obo/OPL_0000243	erythrocytic trophozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#c1	http://purl.obolibrary.org/obo/OPL_0000244	Plasmodium falciparum erythrocytic trophozoite	Class
+http://purl.obolibrary.org/obo/opl.owl#c8	http://purl.obolibrary.org/obo/OPL_0000245	Plasmodium falciparum erythrocytic merozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#c7	http://purl.obolibrary.org/obo/OPL_0000246	Plasmodium falciparum hepatic merozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#c6	http://purl.obolibrary.org/obo/OPL_0000247	hepatic merozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#c5	http://purl.obolibrary.org/obo/OPL_0000248	erythrocytic merozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#c9	http://purl.obolibrary.org/obo/OPL_0000249	Plasmodium falciparum gametocyte	Class
+http://purl.obolibrary.org/obo/opl.owl#1	http://purl.obolibrary.org/obo/OPL_0000250	Plasmodium falciparum hepatic trophozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#Plasmodium_falciparum_trophozoite_stage	http://purl.obolibrary.org/obo/OPL_0000251	Plasmodium falciparum trophozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#c18	http://purl.obolibrary.org/obo/OPL_0000252	Plasmodium falciparum oocyst-derived sporozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#c16	http://purl.obolibrary.org/obo/OPL_0000253	salivary gland-derived sporozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#c17	http://purl.obolibrary.org/obo/OPL_0000254	Plasmodium falciparum salivary gland-derived sporozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#c14	http://purl.obolibrary.org/obo/OPL_0000255	Plasmodium falciparum salivary gland-derived sporozoite	Class
+http://purl.obolibrary.org/obo/opl.owl#c15	http://purl.obolibrary.org/obo/OPL_0000256	oocyst-derived sporozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#Plasmodium_falciparum_trophozoite_hepatic	http://purl.obolibrary.org/obo/OPL_0000257	Plasmodium falciparum hepatic trophozoite	Class
+http://purl.obolibrary.org/obo/opl.owl#c12	http://purl.obolibrary.org/obo/OPL_0000258	Plasmodium falciparum gamete	Class
+http://purl.obolibrary.org/obo/opl.owl#c13	http://purl.obolibrary.org/obo/OPL_0000259	Plasmodium falciparum oocyst-derived sporozoite	Class
+http://purl.obolibrary.org/obo/opl.owl#c10	http://purl.obolibrary.org/obo/OPL_0000260	gamete stage	Class
+http://purl.obolibrary.org/obo/opl.owl#3	http://purl.obolibrary.org/obo/OPL_0000261	hepatic trophozoite stage	Class
+http://purl.obolibrary.org/obo/opl.owl#c11	http://purl.obolibrary.org/obo/OPL_0000262	Plasmodium falciparum gamete stage	Class
