@@ -263,9 +263,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL0000182 -->
+    <!-- http://purl.obolibrary.org/obo/CL_0000182 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL0000182">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000182">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000013"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:tfm</obo:IAO_0000119>
@@ -277,9 +277,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL0000232 -->
+    <!-- http://purl.obolibrary.org/obo/CL_0000232 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL0000232">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000232">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythrocyte</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000013"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A red blood cell. In mammals, mature erythrocytes are biconcave disks containing hemoglobin whose function is to transport oxygen.</obo:IAO_0000115>
@@ -292,9 +292,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL0000235 -->
+    <!-- http://purl.obolibrary.org/obo/CL_0000235 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL0000235">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000235">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000013"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.</obo:IAO_0000115>
@@ -1670,7 +1670,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL0000182"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000182"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -2822,7 +2822,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL0000232"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000232"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -3422,7 +3422,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL0000235"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000235"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -6187,7 +6187,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#unfolds_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL0000182"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A trophozoite stage, in some protozoan parasite life cycle, which occurs in hepatocytes.</obo:IAO_0000115>
@@ -6450,7 +6450,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#unfolds_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL0000232"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000232"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A trophozoite stage, in some protozoan parasite life cycle, which occurs in erythrocytes.</obo:IAO_0000115>
@@ -6516,7 +6516,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#unfolds_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL0000182"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A merozoite stage in the Plasmodium lifecycle, occurring in the hepatocyte of a vertebrate host.</obo:IAO_0000115>
