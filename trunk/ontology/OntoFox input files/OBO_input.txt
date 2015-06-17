@@ -1,0 +1,291 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/opl/import_OBO.owl
+
+############################################################
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+BTO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BTO_0001117
+http://purl.obolibrary.org/obo/BTO_0000597
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BTO_0001117
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/BTO_0000597
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+
+############################################################
+[Source ontology]
+#comment here
+CARO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/CARO_0000013
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CARO_0000003
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/CARO_0000013
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+
+############################################################
+[Source ontology]
+#comment here
+CL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000182
+http://purl.obolibrary.org/obo/CL_0000232
+http://purl.obolibrary.org/obo/CL_0000235
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CL_0000182
+subClassOf http://purl.obolibrary.org/obo/CARO_0000013
+http://purl.obolibrary.org/obo/CL_0000232
+subClassOf http://purl.obolibrary.org/obo/CARO_0000013
+http://purl.obolibrary.org/obo/CL_0000235
+subClassOf http://purl.obolibrary.org/obo/CARO_0000013
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+
+############################################################
+[Source ontology]
+#comment here
+IDOMAL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IDOMAL_0000565
+http://purl.obolibrary.org/obo/IDOMAL_0000605
+http://purl.obolibrary.org/obo/IDOMAL_0001274
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IDOMAL_0000565
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026
+http://purl.obolibrary.org/obo/IDOMAL_0000605
+subClassOf http://purl.obolibrary.org/obo/IDOMAL_0001274
+http://purl.obolibrary.org/obo/IDOMAL_0001274
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+
+############################################################
+[Source ontology]
+#comment here
+IDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IDO_0000403
+http://purl.obolibrary.org/obo/IDO_0000409
+http://purl.obolibrary.org/obo/IDO_0000410
+http://purl.obolibrary.org/obo/IDO_0000418
+http://purl.obolibrary.org/obo/IDO_0000420
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IDO_0000403
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/IDO_0000409
+subClassOf http://purl.obolibrary.org/obo/OBI_0000725
+http://purl.obolibrary.org/obo/IDO_0000410
+subClassOf http://purl.obolibrary.org/obo/OBI_0000725
+http://purl.obolibrary.org/obo/IDO_0000418
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/IDO_0000420
+subClassOf http://purl.obolibrary.org/obo/IDO_0000418
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+
+############################################################
+[Source ontology]
+#comment here
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_10090
+http://purl.obolibrary.org/obo/NCBITaxon_157969
+http://purl.obolibrary.org/obo/NCBITaxon_56140
+http://purl.obolibrary.org/obo/NCBITaxon_5658
+http://purl.obolibrary.org/obo/NCBITaxon_5664
+http://purl.obolibrary.org/obo/NCBITaxon_5690
+http://purl.obolibrary.org/obo/NCBITaxon_5691
+http://purl.obolibrary.org/obo/NCBITaxon_5693
+http://purl.obolibrary.org/obo/NCBITaxon_5820
+http://purl.obolibrary.org/obo/NCBITaxon_5833
+http://purl.obolibrary.org/obo/NCBITaxon_6181
+http://purl.obolibrary.org/obo/NCBITaxon_6182
+http://purl.obolibrary.org/obo/NCBITaxon_6183
+http://purl.obolibrary.org/obo/NCBITaxon_6185
+http://purl.obolibrary.org/obo/NCBITaxon_6447
+http://purl.obolibrary.org/obo/NCBITaxon_6525
+http://purl.obolibrary.org/obo/NCBITaxon_70999
+http://purl.obolibrary.org/obo/NCBITaxon_7164
+http://purl.obolibrary.org/obo/NCBITaxon_7198
+http://purl.obolibrary.org/obo/NCBITaxon_7393
+http://purl.obolibrary.org/obo/NCBITaxon_9606
+http://purl.obolibrary.org/obo/NCBITaxon_9615
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_10090
+subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000605
+http://purl.obolibrary.org/obo/NCBITaxon_157969
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_6447
+http://purl.obolibrary.org/obo/NCBITaxon_56140
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_6447
+http://purl.obolibrary.org/obo/NCBITaxon_5658
+subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+http://purl.obolibrary.org/obo/NCBITaxon_5664
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5658
+http://purl.obolibrary.org/obo/NCBITaxon_5690
+subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+http://purl.obolibrary.org/obo/NCBITaxon_5691
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5690
+http://purl.obolibrary.org/obo/NCBITaxon_5693
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5690
+http://purl.obolibrary.org/obo/NCBITaxon_5820
+subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+http://purl.obolibrary.org/obo/NCBITaxon_5833
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5820
+http://purl.obolibrary.org/obo/NCBITaxon_6181
+subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+http://purl.obolibrary.org/obo/NCBITaxon_6182
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_6181
+http://purl.obolibrary.org/obo/NCBITaxon_6183
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_6181
+http://purl.obolibrary.org/obo/NCBITaxon_6185
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_6181
+http://purl.obolibrary.org/obo/NCBITaxon_6447
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026
+http://purl.obolibrary.org/obo/NCBITaxon_6525
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_6447
+http://purl.obolibrary.org/obo/NCBITaxon_70999
+subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000565
+http://purl.obolibrary.org/obo/NCBITaxon_7164
+subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000565
+http://purl.obolibrary.org/obo/NCBITaxon_7198
+subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000565
+http://purl.obolibrary.org/obo/NCBITaxon_7393
+subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000565
+http://purl.obolibrary.org/obo/NCBITaxon_9606
+subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000605
+http://purl.obolibrary.org/obo/NCBITaxon_9615
+subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000605
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+
+############################################################
+[Source ontology]
+#comment here
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000725
+http://purl.obolibrary.org/obo/OBI_0100026
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBI_0000725
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/OBI_0100026
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+
+############################################################
+[Source ontology]
+#comment here
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0000056
+http://purl.obolibrary.org/obo/UBERON_0000105
+http://purl.obolibrary.org/obo/UBERON_0000106
+http://purl.obolibrary.org/obo/UBERON_0000160
+http://purl.obolibrary.org/obo/UBERON_0000178
+http://purl.obolibrary.org/obo/UBERON_0001044
+http://purl.obolibrary.org/obo/UBERON_0001045
+http://purl.obolibrary.org/obo/UBERON_0001046
+http://purl.obolibrary.org/obo/UBERON_0001255
+http://purl.obolibrary.org/obo/UBERON_0001359
+http://purl.obolibrary.org/obo/UBERON_0002048
+http://purl.obolibrary.org/obo/UBERON_0002097
+http://purl.obolibrary.org/obo/UBERON_0002107
+http://purl.obolibrary.org/obo/UBERON_0005617
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0000056
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0000105
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/UBERON_0000106
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105
+http://purl.obolibrary.org/obo/UBERON_0000160
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0000178
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0001044
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0001045
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0001046
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0001255
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0001359
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0002048
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0002097
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0002107
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+http://purl.obolibrary.org/obo/UBERON_0005617
+subClassOf http://purl.obolibrary.org/obo/CARO_0000003
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+
