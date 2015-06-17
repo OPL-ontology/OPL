@@ -46,6 +46,7 @@ http://purl.org/obo/owl/OBO_REL#function_of	http://purl.obolibrary.org/obo/RO_00
 http://purl.org/obo/owl/OBO_REL#inheres_in	http://purl.obolibrary.org/obo/RO_0000052
 http://purl.org/obo/owl/OBO_REL#quality_of	http://purl.obolibrary.org/obo/RO_0000080
 http://purl.org/obo/owl/OBO_REL#role_of	http://purl.obolibrary.org/obo/RO_0000081
+http://purl.org/obo/owl/OBO_REL#has_role	http://purl.obolibrary.org/obo/RO_0000087 	
 http://purl.org/obo/owl/OBO_REL#unfolds_in	http://purl.obolibrary.org/obo/BFO_0000066
 http://purl.obolibrary.org/obo/OBI_0000294	http://purl.obolibrary.org/obo/RO_0000059
 http://purl.obolibrary.org/obo/OBI_0000297	http://purl.obolibrary.org/obo/RO_0000058
@@ -54,3 +55,4 @@ http://purl.obolibrary.org/obo/OBI_0000308 	http://purl.obolibrary.org/obo/BFO_0
 http://purl.obolibrary.org/obo/OBI_0000306	http://purl.obolibrary.org/obo/RO_0000085
 http://purl.obolibrary.org/obo/OBI_0000316	http://purl.obolibrary.org/obo/RO_0000087
 http://purl.obolibrary.org/obo/OBI_0000298	http://purl.obolibrary.org/obo/RO_0000086
+http://www.obofoundry.org/ro/ro.owl#location_of	http://purl.obolibrary.org/obo/RO_0001015
