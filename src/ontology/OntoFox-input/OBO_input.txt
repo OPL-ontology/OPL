@@ -74,31 +74,6 @@ includeAllAnnotationProperties
 ############################################################
 [Source ontology]
 #comment here
-IDOMAL
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/IDOMAL_0000565
-http://purl.obolibrary.org/obo/IDOMAL_0000605
-http://purl.obolibrary.org/obo/IDOMAL_0001274
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/IDOMAL_0000565
-subClassOf http://purl.obolibrary.org/obo/OBI_0100026
-http://purl.obolibrary.org/obo/IDOMAL_0000605
-subClassOf http://purl.obolibrary.org/obo/IDOMAL_0001274
-http://purl.obolibrary.org/obo/IDOMAL_0001274
-subClassOf http://purl.obolibrary.org/obo/OBI_0100026
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-includeAllAnnotationProperties
-
-
-############################################################
-[Source ontology]
-#comment here
 IDO
 
 [Low level source term URIs]
@@ -107,6 +82,7 @@ http://purl.obolibrary.org/obo/IDO_0000409
 http://purl.obolibrary.org/obo/IDO_0000410
 http://purl.obolibrary.org/obo/IDO_0000418
 http://purl.obolibrary.org/obo/IDO_0000420
+http://purl.obolibrary.org/obo/IDO_0000413 #parasite host role
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IDO_0000403
@@ -155,10 +131,13 @@ http://purl.obolibrary.org/obo/NCBITaxon_7198
 http://purl.obolibrary.org/obo/NCBITaxon_7393
 http://purl.obolibrary.org/obo/NCBITaxon_9606
 http://purl.obolibrary.org/obo/NCBITaxon_9615
+http://purl.obolibrary.org/obo/NCBITaxon_40674
+http://purl.obolibrary.org/obo/NCBITaxon_7742
+http://purl.obolibrary.org/obo/NCBITaxon_50557
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_10090
-subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000605
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674
 http://purl.obolibrary.org/obo/NCBITaxon_157969
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_6447
 http://purl.obolibrary.org/obo/NCBITaxon_56140
@@ -198,9 +177,15 @@ subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000565
 http://purl.obolibrary.org/obo/NCBITaxon_7393
 subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000565
 http://purl.obolibrary.org/obo/NCBITaxon_9606
-subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000605
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674
 http://purl.obolibrary.org/obo/NCBITaxon_9615
-subClassOf http://purl.obolibrary.org/obo/IDOMAL_0000605
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674
+http://purl.obolibrary.org/obo/NCBITaxon_40674
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_7742
+http://purl.obolibrary.org/obo/NCBITaxon_7742
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026
+http://purl.obolibrary.org/obo/NCBITaxon_50557
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026
 
 [Source term retrieval setting]
 includeNoIntermediates
