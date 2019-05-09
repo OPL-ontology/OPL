@@ -1,4 +1,4 @@
-###Ontology for Parasite Lifecycle (OPL)
+### Ontology for Parasite Lifecycle (OPL)
 
 The Ontology for Parasite Lifecycle (OPL) models the life cycle stage details of various parasites, including Trypanosoma sp., Leishmania major, and Plasmodium sp., etc. In addition to life cycle stages, the ontology also models necessary contextual details, such as host information, vector information, and anatomical location. OPL is based on the Basic Formal Ontology (BFO) and follows the rules set by the OBO Foundry consortium.
 
