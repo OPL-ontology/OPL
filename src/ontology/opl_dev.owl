@@ -791,7 +791,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> A hindgut that is a part of or originated from a Triatominae bug.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hindgut that is a part of or originated from a Triatominae bug.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priti Parikh</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Triatominae hindgut</rdfs:label>
     </owl:Class>
@@ -1561,7 +1561,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> A hepatocyte that is a part of or originated from a human (Homo sapiens).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hepatocyte that is a part of or originated from a human (Homo sapiens).</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priti Parikh</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human hepatocyte</obo:IAO_0000118>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:14515</oboInOwl:hasDbXref>
@@ -3235,7 +3235,6 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human blood</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OPL</obo:IAO_0000119>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9670</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens blood</rdfs:label>
     </owl:Class>
     
@@ -3338,7 +3337,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> A macrophage that is a part of or originated from a human (Homo sapiens).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macrophage that is a part of or originated from a human (Homo sapiens).</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human macrophage</obo:IAO_0000118>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:63261</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens macrophage</rdfs:label>
@@ -4022,7 +4021,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> A salivary gland that is a part of or originated from a tsetse fly of genus Glossina.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A salivary gland that is a part of or originated from a tsetse fly of genus Glossina.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priti Parikh</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glossina salivary gland</rdfs:label>
     </owl:Class>
@@ -6047,7 +6046,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000192"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum gametocyte located either in the bloodstream of the vertebrate host or midgut of mosquito vector. Gametocytes are  the precursor cells of the macro- or microgametes </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum gametocyte located either in the bloodstream of the vertebrate host or midgut of mosquito vector. Gametocytes are  the precursor cells of the macro- or microgametes</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">broaden definition to cover both vertebrate host and vector.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S Khan, C. Janse, K. Louis, C. Stoeckert</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum gametocyte</rdfs:label>
@@ -6247,7 +6246,7 @@
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000262"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum gametes that are found in midgut of mosquito vector. There are two forms of gametes: micro- and macrogametocytes.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum gametes that are found in midgut of mosquito vector. There are two forms of gametes: micro- and macrogametocytes.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S. Khan, C. Janse</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P. falciparum gamete</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum gamete</rdfs:label>
@@ -6343,6 +6342,73 @@
         <obo:IAO_0000118>asexual blood stage</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">asexual lifecycle in host red blood cell stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000310">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>blood that is part of or originated from a vertebrate.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>OPL</obo:IAO_0000119>
+        <rdfs:label>Vertebrate blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000311">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000232"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An erythrocyte that is a part of or originated from a vertebrate.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>OPL</obo:IAO_0000119>
+        <rdfs:label>Vertebrate erythrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000312">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000182"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
+        <obo:IAO_0000115>A hepatocyte that is a part of or originated from a vertebrate.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>OPL</obo:IAO_0000119>
+        <rdfs:label>Vertebrate hepatocyte</rdfs:label>
     </owl:Class>
     
 
