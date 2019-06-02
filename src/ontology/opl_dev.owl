@@ -96,6 +96,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000234 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -6342,6 +6354,580 @@
         <obo:IAO_0000118>asexual blood stage</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">asexual lifecycle in host red blood cell stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium that is found in the midgut of a mosquito vector during gamete lifecycle stage. There are two forms of gametes: micro- and macrogametocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium gamete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000264"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium gamete that is in a matured form of the macrogametocyte and found in the midgut of a mosquito vector. The macrogamete is fertilized by the microgamete, forming the zygote.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium macrogamete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000264"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium gamete that is in a matured form of exflagellated microgametocyte and found in the midgut of a mosquito vector. The microgamete fertilises the macrogamete, forming the zygote.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium microgamete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium that is located either in the bloodstream of the vertebrate host or midgut of mosquito vector during gametocyte stage. Gametocytes are the precursor cells of the macro- or microgametes</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium gametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000267"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium gametocyte that is a female gametocyte of Plasmodium and found either in the bloodstream of the vertebrate host or midgut of mosquito vector. The macrogametocyte is a precursor of the macrogamete.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium macrogametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000267"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium gametocyte that is a male gametocyte of Plasmodium and found either in the bloodstream of a vertebrate host or midgut of a mosquito vector. The microgametocyte is a precursor cell of the microgamete</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium microgametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium that is during merozoite lifecycle stage, occurs in the bloodstream of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000270"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium merozoite that is produced in an erythrocytic schizont and released into the bloodstream of a vertebrate host. These forms invade erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium erythrocytic merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000270"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium merozoite that is produced in a hepatic schizont and released into the bloodstream of a vertebrate host. These forms invade erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium hepatic merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium that is formed after traversal of the midgut wall by the ookinete stage, on the hemocoel side of the midgut wall of the mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium oocyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium that is a &apos;banana-shaped&apos; form originates from the round zygote. The ookinete is found in the midgut of a mosquito vector and traverses the midgut wall of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium ookinete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium that is a form divides through schizogony. Depending on its location, it is either called hepatic or erythrocytic schizont. The schizont is a dividing stage with 2 or more nuclei.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium schizont</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000275"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium schizont that is found in infected erythrocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium erythrocytic schizont</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000275"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium schizont that is found in infected hepatocytes (i.e. liver cells) of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium hepatic schizont</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium that is formed in the oocyst and migrates to and reside in the salivary glands of the mosquito vector. A distinction is made between oocyst-derived and salivary gland-derived sporozoites. Sporozoites invade hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000278"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium sporozoite that is found in the infected hepatocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium oocyst-derived sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000278"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium sporozoite that is found in the salivary glands of the mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium salivary gland-derived sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium that is a feeding form which has a single nucleus during the trophozoite stage. Depending on its location, it is either called hepatic or erythrocytic trophozoite.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium trophozoite that is found in erythrocytes. </obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium erythrocytic trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000282"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium erythrocytic trophozoite that has a typical &apos;ring-like&apos; appearance. Ring-form trophozoites of Plasmodium are often thin and delicate, measuring on average 1/5 the diameter of the red blood cell.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium erythrocytic ring trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium trophozoite that is found in hepatocytes. </obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium hepatic trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium that is formed after fertilisation of the macrogamete by a microgamete in the midgut of the mosquito vector. This round form is the only diploid stage in the Plasmodium life cycle.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GeneDB</obo:IAO_0000234>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium zygote</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000260"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gamete stage in the Plasmodium lifecycle, occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium gamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000085"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macrogamete stage in the Plasmodium lifecycle, occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium macrogamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000026"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A microgamete stage in the Plasmodium lifecycle, occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium microgamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000150"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gametocyte stage in the lifecycle of Plasmodium.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium gametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000028"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macrogametocyte stage in the Plasmodium lifecycle that occurs either in the bloodstream of a vertebrate host or the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium macrogametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000143"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A microgametocyte stage in the Plasmodium lifecycle that occurs either in the bloodstream of a vertebrate host or the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium microgametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000036"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A merozoite stage in the Plasmodium lifecycle that occurs in the bloodstream or hepatocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000293">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000248"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An erythrocytic merozoite stage in the Plasmodium lifecycle that occurs in the bloodstream of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium erythrocytic merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000247"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hepatic merozoite stage in the Plasmodium lifecycle that occurs in the hepatocyte of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium hepatic merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000073"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An oocyst stage in the Plasmodium lifecycle that occurs on the hemocoel side of the midgut of a mosquito vector. During this stage Plasmodium ookinete invades and escapes midgut wall of mosquito and embed itself onto the exterior of the gut membrane and develop encysted zygote, called oocyst.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium oocyst stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000153"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ookinete stage in the Plasmodium lifecycle that occurs in the midgut of a mosquito vector and on the outside of the midgut.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium ookinete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000084"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A schizont stage in the Plasmodium lifecycle that occurs in erythrocytes or in hepatocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000078"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An erythrocytic schizont stage in the Plasmodium lifecycle that occurs in infected erythrocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium erythrocytic schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000059"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hepatic schizont stage in the Plasmodium lifecycle that occurs in infected hepatocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium hepatic schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000152"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sporozoite stage in the Plasmodium lifecycle that occurs in the salivary glands of the mosquito and invades hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000256"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sporozoite stage in the Plasmodium lifecycle that develops in oocysts of the mosquito midgut.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omar harb</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium oocyst-derived sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000253"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sporozoite stage in the Plasmodium lifecycle that occurs in the salivary glands of the mosquito and invades hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omar harb</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium salivary gland-derived sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000057"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A trophozoite stage in the Plasmodium lifecycle that occurs in a vertebrate host</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000243"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A trophozoite stage in the Plasmodium life cycle that occurs in erythrocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium erythrocytic trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000140"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A trophozoite stage in the Plasmodium life cycle that occurs in erythrocytes of a vertebrate host. During this stage some Plasmodium falciparum merozoites undergo asexual reproduction cycle in erythrocytes and form young trophozoites that are referred to as &quot;ring form&quot; due to their morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium erythrocytic ring trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000261"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A trophozoite stage in the Plasmodium life cycle that occurs in hepatocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium hepatic trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000106"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A zygote stage in the Plasmodium lifecycle that occurs in the midgut of the mosquito vector where a microgamete and a macrogamete fertilizes each other to produce a diploid cell.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium zygote stage</rdfs:label>
     </owl:Class>
     
 
