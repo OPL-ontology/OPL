@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri name="http://purl.obolibrary.org/obo/opl/opl_dev.owl" uri="opl_dev.owl"/>
     <uri name="http://purl.obolibrary.org/obo/opl/import_OBO.owl" uri="import/import_OBO.owl"/>
 </catalog>
