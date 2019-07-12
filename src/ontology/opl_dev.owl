@@ -340,9 +340,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CARO_0000003 -->
+    <!-- http://purl.obolibrary.org/obo/CARO_0000006 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000006"/>
     
 
 
@@ -5931,7 +5931,7 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000213 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000213">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vesical plexus envelops the lower part of the bladder and the base of the prostate and communicates with the pudendal and prostatic plexuses. </obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priti Parikh</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia - Vesical venus plexus</obo:IAO_0000119>
