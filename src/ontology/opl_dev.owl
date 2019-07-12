@@ -278,9 +278,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPL_0000311 -->
+    <!-- http://purl.obofoundry.org/obo/OPL_0000311 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000311">
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OPL_0000311">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -299,9 +299,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPL_0000312 -->
+    <!-- http://purl.obofoundry.org/obo/OPL_0000312 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000312">
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OPL_0000312">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -320,9 +320,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPL_0000313 -->
+    <!-- http://purl.obofoundry.org/obo/OPL_0000313 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000313">
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OPL_0000313">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -341,9 +341,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPL_0000314 -->
+    <!-- http://purl.obofoundry.org/obo/OPL_0000314 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000314">
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OPL_0000314">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -362,9 +362,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPL_0000315 -->
+    <!-- http://purl.obofoundry.org/obo/OPL_0000315 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000315">
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OPL_0000315">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -383,9 +383,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPL_0000316 -->
+    <!-- http://purl.obofoundry.org/obo/OPL_0000316 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000316">
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OPL_0000316">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -404,9 +404,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPL_0000317 -->
+    <!-- http://purl.obofoundry.org/obo/OPL_0000317 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000317">
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OPL_0000317">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -425,9 +425,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPL_0000318 -->
+    <!-- http://purl.obofoundry.org/obo/OPL_0000318 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000318">
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OPL_0000318">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -953,7 +953,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1161,7 +1161,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1219,7 +1219,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000316"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000316"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 3 days schistosomulum stage of Schistosoma mansoni that occurs in the definitive host 3 days post-infection.</obo:IAO_0000115>
@@ -1260,7 +1260,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1359,7 +1359,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000316"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000316"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1386,7 +1386,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1482,7 +1482,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1564,7 +1564,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1684,7 +1684,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000312"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1813,7 +1813,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000316"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000316"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1958,7 +1958,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000316"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000316"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 6 day schistosomulum stage of Schistosoma mansoni that occurs in the definitive host 6 days post-infection.</obo:IAO_0000115>
@@ -1989,7 +1989,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000316"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000316"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A schistosoma japonicum schistosomulum stage that occurs in the definitive host 6 days post-infection.</obo:IAO_0000115>
@@ -2204,7 +2204,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000312"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2328,7 +2328,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2365,7 +2365,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000315"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000315"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 3 days schistosomulum stage of Schistosoma haematobium occurs in the definitive host 3 days post-infection.</obo:IAO_0000115>
@@ -2395,7 +2395,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 24 hours schistosomulum stage of Schistosoma mansoni that occurs in the definitive host 24 hours post-infection.</obo:IAO_0000115>
@@ -2425,7 +2425,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amastigote stage in the lifecycle of Trypanosoma cruzi that occurs in mammalian hosts.</obo:IAO_0000115>
@@ -2459,7 +2459,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2650,7 +2650,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 3 hours schistosomulum stage of Schistosoma haematobium that occurs in the definitive host 3 hours post-infection.</obo:IAO_0000115>
@@ -2994,7 +2994,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000317"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000317"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3289,7 +3289,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3426,7 +3426,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000317"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000317"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A worm stage of Schistosoma mansoni that is found in the small inferior mesenteric blood vessels surrounding the large intestine of the definitive host 3 weeks after infection.</obo:IAO_0000115>
@@ -3669,13 +3669,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000312"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3774,7 +3774,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 3 hours schistosomulum stage of Schistosoma mansoni that occurs in the definitive host 3 hours post-infection.</obo:IAO_0000115>
@@ -3838,7 +3838,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000316"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000316"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3875,7 +3875,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000315"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000315"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 6 day schistosomulum stage of Schistosoma haematobium that occurs in the definitive host 6 days post-infection.</obo:IAO_0000115>
@@ -3987,7 +3987,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 24 hours schistosomulum stage of Schistosoma haematobium that occurs in the definitive host 24 hours post-infection.</obo:IAO_0000115>
@@ -4043,13 +4043,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000312"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A metacyclic trypomastigote stage in the lifecycle of Trypanosoma cruzi that occurs in a vertebrate host.</obo:IAO_0000115>
@@ -4069,7 +4069,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4165,13 +4165,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000317"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000317"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000318"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000318"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4644,7 +4644,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amastigote stage in the lifecycle of Leishmania major that occurs in mammalian hosts.</obo:IAO_0000115>
@@ -4713,7 +4713,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000316"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000316"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 3 days schistosomulum stage of Schistosoma japonicum that occurs in the definitive host 3 days post-infection.</obo:IAO_0000115>
@@ -4847,13 +4847,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000312"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4987,13 +4987,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000312"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5130,13 +5130,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000312"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000313"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000313"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A trypomastigote stage in the Trypanosoma brucei lifecycle that occurs in the vertebrate host.</obo:IAO_0000115>
@@ -5283,13 +5283,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000312"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000313"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000313"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5458,7 +5458,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5589,7 +5589,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 3 hours schistosomulum stage of Schistosoma japonicum that occurs in the definitive host 3 hours post-infection.</obo:IAO_0000115>
@@ -5641,7 +5641,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000314"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 24 hours schistosomulum stage of Schistosoma japonicum that occurs in the definitive host 24 hours post-infection.</obo:IAO_0000115>
@@ -5781,7 +5781,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000315"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000315"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5863,7 +5863,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5890,7 +5890,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000315"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000315"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6190,13 +6190,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000317"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000317"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000318"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000318"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 7 week worm stage of Schistosoma mansoni that is the mature stage of Schistosoma mansoni and found in the small inferior mesenteric blood vessels surrounding the large intestine of the definitive host 7 weeks after weeks after infection.</obo:IAO_0000115>
@@ -6216,7 +6216,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000316"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obofoundry.org/obo/OPL_0000316"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
