@@ -19,7 +19,7 @@
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Satya Sahoo</dc:contributor>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anna Protasio</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris J. Janse</dc:creator>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stockert</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flora Logan</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priti Parikh</dc:creator>
@@ -135,9 +135,9 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <obo:IAO_0000111>definition</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
-        <obo:IAO_0000111>textual definition</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
@@ -164,9 +164,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label>definition</rdfs:label>
         <rdfs:label xml:lang="en">definition</rdfs:label>
-        <rdfs:label>textual definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -926,13 +926,27 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <oboInOwl:hasDbXref rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seeAlso</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seeAlso</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">see also</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://xmlns.com/foaf/0.1/depicted_by -->
 
-    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depicted_by"/>
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depicted_by">
+        <oboInOwl:hasDbXref rdf:resource="http://xmlns.com/foaf/0.1/depicted_by"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depicted_by</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depicted_by</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depicted by</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -2949,7 +2963,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/BTO_0000597 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0000597">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestive gland of crustaceans with functions approximately analogous to liver and pancreas of vertebrates - enzyme secretion, food absorption and storage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
@@ -2963,7 +2977,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/BTO_0001117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BTO_0001117">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1: The trunk of an elephant; also: any long flexible snout. 2: Any of various elongated or extensible tubular processes as the sucking organ of a butterfly of the oral region of an invertebrate.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bto.owl"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BrendaTissueOBO</oboInOwl:hasOBONamespace>
@@ -2973,16 +2987,15 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CARO_0000003 -->
+    <!-- http://purl.obolibrary.org/obo/CARO_0000006 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000003">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism&apos;s own genome.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical entity that has mass.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000003</oboInOwl:id>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000006</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/caro#core"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that the definition does not say &apos;generated exclusively by the co-ordinated expression of the organism&apos;s own genome&apos;, so this is still valid for cases where normal morphogenesis requires the actions of a facultative symbiont, or some looser dependency such as the a requirement for the presence of gut flora for normal gut development.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected anatomical structure</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material anatomical entity</rdfs:label>
     </owl:Class>
     
 
@@ -2990,7 +3003,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/CARO_0000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000000</oboInOwl:hasDbXref>
@@ -9486,7 +9499,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OPL_0000213 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000213">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The vesical plexus envelops the lower part of the bladder and the base of the prostate and communicates with the pudendal and prostatic plexuses. </obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priti Parikh</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia - Vesical venus plexus</obo:IAO_0000119>
@@ -12314,7 +12327,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscular duct that propels urine from the kidneys to the urinary bladder, or related organs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure consisting of long narrow duct which carries urine from the kidney to the urinary bladder.[AAO]</obo:UBPROP_0000001>
@@ -12355,7 +12368,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ureter</rdfs:label>
-        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/3/30/Urinary_system.svg"/>
+        <foaf:depicted_by rdf:resource="http://purl.obolibrary.org/obo/Urinary_system.svg"/>
     </owl:Class>
     
 
@@ -12406,7 +12419,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001322</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:27</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBdv:00005288</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HsapDv:0000001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12601</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PdumDv:0000100</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000745</oboInOwl:hasDbXref>
@@ -12423,6 +12435,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000106</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zygote stage</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16033"/>
     </owl:Class>
     
 
@@ -12430,7 +12443,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0000160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000160">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Segment of the alimentary canal extending from the stomach to the anus and, in humans and other mammals, consists of two segments, the small intestine and the large intestine.</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class is probably too inclusive</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -12479,7 +12492,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class excludes blood analogues, such as the insect analog of blood. See UBERON:0000179 haemolymphatic fluid.</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -12530,7 +12543,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0001044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saliva-secreting exocrine glands of the oral cavity[GO]</obo:IAO_0000115>
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">currently we define saliva and salivary glands very generally in functional terms but it may be more appropriate to split this class. From WP: In most vertebrates, saliva does not contain any enzymes, consisting of mucus and water only, and its primary function is to moisten food while eating. As a result, true salivary glands are rarely found in fish or aquatic tetrapods, although there are often individual mucus-secreting cells. Amphibians have a single salivary gland, the intermaxillary gland, located in the forward part of the palate. Reptiles and birds normally have only very small glands on the lips, palate, and base of the mouth, although there are some birds with large glands, which produce a sticky saliva that helps in nest-building. The distinct parotid, submandibular, and sublingual glands are only developed in mammals.</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -12577,7 +12590,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0001045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle subdivision of a digestive tract[CJM]. In vertebrates: The middle part of the alimentary canal from the stomach, or entrance of the bile duct, to, or including, the large intestine[GO].</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note we define this generically to include invertebrates (partly for consistency with GO), but the class may be split in future. We may explicitly make this a developmental class</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -12617,7 +12630,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0001046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The caudalmost subdivision of a digestive tract.</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note we define this generically to include invertebrates (partly for consistency with GO), but the class may be split in future (vertebrates have some contribution from NC - https://github.com/obophenotype/uberon/wiki/The-neural-crest). We may explicitly make this a developmental class</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -12656,7 +12669,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0001255 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001255">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distensible musculomembranous organ situated in the anterior part of the pelvic cavity in which urine collects before excretion[MP].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A saccular organ in which urine accumulates before discharge from the body. [Bemis_WE, Functional_Anatomy_of_the_Vertebrates:_An_Evolutionary_Perspective, Glossary_G-29, Grande_L, Liem_KF, Third_Edition_(2001)_Orlando_Fla.:_Harcourt_College_Publishers, Walker_WF][VHOG]</obo:UBPROP_0000001>
@@ -12699,7 +12712,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urinary bladder</rdfs:label>
-        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/3/30/Urinary_system.svg"/>
+        <foaf:depicted_by rdf:resource="http://purl.obolibrary.org/obo/Urinary_system.svg"/>
     </owl:Class>
     
 
@@ -12707,9 +12720,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0001359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001359">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A clear, colorless, bodily fluid, that occupies the subarachnoid space and the ventricular system around and inside the brain and spinal cord.</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">many sources state the CP as sole producer of CSF, but this is disputed [doi:10.1007/s11064-015-1581-6]</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">many sources state the CP as sole producer of CSF, but this is disputed [DOI:10.1007/s11064-015-1581-6]</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of organism substance that is a clear fluid that occupies the subarachnoid space and the ventricular system around and inside the brain.[TAO]</obo:UBPROP_0000001>
         <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In vertebrates, at early stages of Central Nervous System (CNS) development, the architecture of the brain primordium reveals the presence of the cavity of brain vesicles, which is filled by Embryonic Cerebro-Spinal Fluid (E-CSF). (...) Rat and chick E-CSF proteomes are similar, although rat is more complex in certain groups of proteins, e.g., apolipoproteins, which may be involved in the control of neural diversity, and has soluble enzymes present, just like adult human CSF, but unlike chick E-CSF, revealing phylogenetic brain differences between these groups of vertebrates.[uncertain][VHOG]</obo:UBPROP_0000003>
@@ -12717,7 +12730,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the FMA def states that this is subarachnoid spaces only. ZFA def states subarachnoid spaces and brain ventricles, but not SC (and has part_of to brain). Circulation: It circulates from the lateral ventricles to the foramen of Monro (Interventricular foramen), third ventricle, aqueduct of Sylvius (Cerebral aqueduct), fourth ventricle, foramen of Magendie (Median aperture) and foramina of Luschka (Lateral apertures), subarachnoid space over brain and spinal cord. It should be noted that the CSF moves in a pulsatile manner throughout the CSF system with nearly zero net flow. CSF is reabsorbed into venous sinus blood via arachnoid granulations.</obo:UBPROP_0000012>
         <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Cerebrospinal_fluid"/>
         <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0007806"/>
-        <oboInOwl:hasDbXref rdf:resource="http://uri.neuinfo.org/nif/nifstd/birnlex_1798"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIRNLEX:1798</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000237</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0130</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000329</oboInOwl:hasDbXref>
@@ -12752,7 +12765,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0002048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiration organ that develops as an oupocketing of the esophagus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Either of two organs which allow gas exchange absorbing oxygen from inhaled air and releasing carbon dioxide with exhaled air.[AAO]</obo:UBPROP_0000001>
@@ -12794,6 +12807,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snakes and limbless lizards typically possess only the right lung as a major respiratory organ; the left lung is greatly reduced, or even absent. Amphisbaenians, however, have the opposite arrangement, with a major left lung, and a reduced or absent right lung [WP]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/issues/701"/>
     </owl:Class>
     
 
@@ -12801,7 +12815,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0002097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The organ covering the body that consists of the dermis and epidermis.</obo:IAO_0000115>
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consider &apos;integumentary system&apos; for invertebrates</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -12844,7 +12858,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0002107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ which secretes bile and participates in formation of certain blood proteins.[AAO]</obo:UBPROP_0000001>
@@ -12891,7 +12905,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver</rdfs:label>
-        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/6/64/Leber_Schaf.jpg"/>
+        <foaf:depicted_by rdf:resource="http://purl.obolibrary.org/obo/Leber_Schaf.jpg"/>
     </owl:Class>
     
 
@@ -12899,7 +12913,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0005617 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005617">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vein that returns blood from the intestines.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In humans the inferior mesenteric vein empties into the splenic vein, the superior mesenteric vein joins the splenic vein to form the portal vein</obo:UBPROP_0000008>
