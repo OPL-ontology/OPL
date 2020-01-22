@@ -83,18 +83,27 @@ http://purl.obolibrary.org/obo/IDO_0000410
 http://purl.obolibrary.org/obo/IDO_0000418
 http://purl.obolibrary.org/obo/IDO_0000420
 http://purl.obolibrary.org/obo/IDO_0000413 #parasite host role
+http://purl.obolibrary.org/obo/IDO_0000404 #infectious agent role
+http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IDO_0000403
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/IDO_0000405
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/IDO_0000418
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/IDO_0000413
+subClassOf http://purl.obolibrary.org/obo/OBI_0000725
 http://purl.obolibrary.org/obo/IDO_0000409
 subClassOf http://purl.obolibrary.org/obo/OBI_0000725
 http://purl.obolibrary.org/obo/IDO_0000410
 subClassOf http://purl.obolibrary.org/obo/OBI_0000725
-http://purl.obolibrary.org/obo/IDO_0000418
-subClassOf http://purl.obolibrary.org/obo/BFO_0000023
 http://purl.obolibrary.org/obo/IDO_0000420
 subClassOf http://purl.obolibrary.org/obo/IDO_0000418
+http://purl.obolibrary.org/obo/IDO_0000404
+subClassOf http://purl.obolibrary.org/obo/IDO_0000405
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -134,6 +143,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_9615
 http://purl.obolibrary.org/obo/NCBITaxon_40674
 http://purl.obolibrary.org/obo/NCBITaxon_7742
 http://purl.obolibrary.org/obo/NCBITaxon_50557
+http://purl.obolibrary.org/obo/NCBITaxon_5654
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -143,11 +153,11 @@ subClassOf http://purl.obolibrary.org/obo/NCBITaxon_6447
 http://purl.obolibrary.org/obo/NCBITaxon_56140
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_6447
 http://purl.obolibrary.org/obo/NCBITaxon_5658
-subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5654
 http://purl.obolibrary.org/obo/NCBITaxon_5664
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5658
 http://purl.obolibrary.org/obo/NCBITaxon_5690
-subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5654
 http://purl.obolibrary.org/obo/NCBITaxon_5691
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5690
 http://purl.obolibrary.org/obo/NCBITaxon_5693
@@ -157,6 +167,8 @@ subClassOf http://purl.obolibrary.org/obo/OPL_0000232
 http://purl.obolibrary.org/obo/NCBITaxon_5833
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5820
 http://purl.obolibrary.org/obo/NCBITaxon_6181
+subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+http://purl.obolibrary.org/obo/NCBITaxon_5654
 subClassOf http://purl.obolibrary.org/obo/OPL_0000232
 http://purl.obolibrary.org/obo/NCBITaxon_6182
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_6181
