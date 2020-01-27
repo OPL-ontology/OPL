@@ -5101,7 +5101,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5654"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
