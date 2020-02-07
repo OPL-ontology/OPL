@@ -214,6 +214,9 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000055 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OPL_0000055">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000115>A relation between an organism and an organism that has vector role.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has vector</rdfs:label>
     </owl:ObjectProperty>
     
@@ -222,6 +225,9 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000065 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OPL_0000065">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000115>A relation between an organism and an organism that has host role.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has host</rdfs:label>
     </owl:ObjectProperty>
     
