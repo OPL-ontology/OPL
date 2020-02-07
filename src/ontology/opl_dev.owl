@@ -1500,6 +1500,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5690"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A parasite lifecycle stage of trypanosomes. In trypomastigote stage, the kinetoplast is near the posterior end of the body, and the flagellum lies attached to the cell body for most of its length by an undulating membrane.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
@@ -1764,6 +1770,25 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000151"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000194"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000215"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A promastigote stage where the form of parasite is short, ovoid, and slightly motile.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
@@ -2531,6 +2556,25 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000194"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000215"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A trypomastigote stage where trypomastigote form of parasites are in dividing form. This stage occurs in fly vector.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
@@ -8667,6 +8711,47 @@
         <obo:IAO_0000119>https://web.stanford.edu/group/parasites/ParaSites2003/Leishmania/Leish%20Biology.html</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/9</obo:IAO_0000233>
         <rdfs:label xml:lang="en">Trypanosomatida metacyclic stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000323">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051301"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000194"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000215"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5654"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <obo:IAO_0000115>A parasite lifecycle stage of trypanosomatidae in which the organism is in dividing form and it occurs in fly vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Achchuthan Shanmugasundram</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>procyclic stage</obo:IAO_0000118>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/10</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">Trypanosomatida procyclic stage</rdfs:label>
     </owl:Class>
     
 
