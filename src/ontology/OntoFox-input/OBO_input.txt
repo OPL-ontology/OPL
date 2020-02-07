@@ -70,6 +70,26 @@ includeNoIntermediates
 [Source annotation URIs]
 includeAllAnnotationProperties
 
+############################################################
+[Source ontology]
+#comment here
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0051301 #cell division
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0051301 #cell division
+subClassOf http://purl.obolibrary.org/obo/GO_0008150
+http://purl.obolibrary.org/obo/GO_0008150
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
 
 ############################################################
 [Source ontology]
