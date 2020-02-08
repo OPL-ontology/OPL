@@ -8241,7 +8241,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sporozoite stage in the Plasmodium lifecycle that occurs in the salivary glands of the mosquito and invades hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A salivary gland-derived sporozoite stage in the Plasmodium lifecycle that occurs in the salivary glands of the mosquito and invades hepatocytes in the vertebrate host.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omar harb</obo:IAO_0000117>
