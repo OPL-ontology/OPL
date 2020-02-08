@@ -22,7 +22,9 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/opl/import_OBO.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <protege:defaultLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en</protege:defaultLanguage>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achchuthan Shanmugasundram</dc:contributor>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kitsos Louis</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omar harb</dc:contributor>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Satya Sahoo</dc:contributor>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anna Protasio</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris J. Janse</dc:creator>
@@ -32,6 +34,7 @@
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priti Parikh</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shahid M. Khan</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-08-04</dc:date>
+        <dc:description>The Ontology for Parasite Lifecycle (OPL) models the life cycle stage details of various parasites, including Trypanosoma sp., Leishmania major, and Plasmodium sp., etc. In addition to life cycle stages, the ontology also models necessary contextual details, such as host information, vector information, and anatomical location. OPL is based on the Basic Formal Ontology (BFO) and follows the rules set by the OBO Foundry consortium.</dc:description>
         <dc:title>Ontology for Parasite Lifecycle</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Parasite Life Cycle ontology was developed as part of the NIH-funded &quot;Semantics and Services enabled Problem Solving Environment for Tcruzi&quot; project (Grant#1R01HL087795-01A1). The Kno.e.sis center, Computer Science and Engineering Department, Wright State University, Center for Bioinformatics, Department of Genetics, University of Pennsylvania School of Medicine, USA and the Tarleton Lab, Center for Tropical and Emerging Global Diseases (CTEGD), University of Georgia, USA collaborated to create this ontology. Resource page: http://knoesis.wright.edu/trykipedia</rdfs:comment>
