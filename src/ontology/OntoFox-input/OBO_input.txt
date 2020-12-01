@@ -306,3 +306,28 @@ includeNoIntermediates
 includeAllAnnotationProperties
 
 
+############################################################
+[Source ontology]
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/RO_0002160 #only_in_taxon
+http://purl.obolibrary.org/obo/RO_0002320 #evolutionarily related to
+http://purl.obolibrary.org/obo/RO_0002460 #has vector
+http://purl.obolibrary.org/obo/RO_0002454 #has host
+http://purl.obolibrary.org/obo/RO_0002321 #ecologically related to
+http://purl.obolibrary.org/obo/RO_0001900 #temporal interpretation
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/RO_0002160
+subPropertyOf http://purl.obolibrary.org/obo/RO_0002320
+http://purl.obolibrary.org/obo/RO_0002460 #has vector
+subPropertyOf http://purl.obolibrary.org/obo/RO_0002321 #ecologically related to
+http://purl.obolibrary.org/obo/RO_0002454 #has host
+subPropertyOf http://purl.obolibrary.org/obo/RO_0002321 #ecologically related to
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
