@@ -296,10 +296,7 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0002460 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002460">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002460"/>
     
 
 
