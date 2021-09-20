@@ -8,13 +8,10 @@ CARO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/CARO_0000006
-http://purl.obolibrary.org/obo/CARO_0000013
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CARO_0000006
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040
-http://purl.obolibrary.org/obo/CARO_0000013
-subClassOf http://purl.obolibrary.org/obo/CARO_0000006
 
 [Source term retrieval setting]
 includeNoIntermediates
