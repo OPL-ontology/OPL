@@ -1,0 +1,62 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/opl/dev/import_UBERON.owl
+
+############################################################
+[Source ontology]
+#comment here
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0000056
+http://purl.obolibrary.org/obo/UBERON_0000105
+http://purl.obolibrary.org/obo/UBERON_0000106
+http://purl.obolibrary.org/obo/UBERON_0000160
+http://purl.obolibrary.org/obo/UBERON_0000178
+http://purl.obolibrary.org/obo/UBERON_0001044
+http://purl.obolibrary.org/obo/UBERON_0001045
+http://purl.obolibrary.org/obo/UBERON_0001046
+http://purl.obolibrary.org/obo/UBERON_0001255
+http://purl.obolibrary.org/obo/UBERON_0001359
+http://purl.obolibrary.org/obo/UBERON_0002048
+http://purl.obolibrary.org/obo/UBERON_0002097
+http://purl.obolibrary.org/obo/UBERON_0002107
+http://purl.obolibrary.org/obo/UBERON_0005617
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0000056
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0000105
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/UBERON_0000106
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105
+http://purl.obolibrary.org/obo/UBERON_0000160
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0000178
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0001044
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0001045
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0001046
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0001255
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0001359
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0002048
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0002097
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0002107
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/UBERON_0005617
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+

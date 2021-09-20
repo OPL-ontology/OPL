@@ -1,0 +1,28 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/opl/dev/import_CL.owl
+
+############################################################
+[Source ontology]
+#comment here
+CL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000182
+http://purl.obolibrary.org/obo/CL_0000232
+http://purl.obolibrary.org/obo/CL_0000235
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CL_0000182
+subClassOf http://purl.obolibrary.org/obo/CARO_0000013
+http://purl.obolibrary.org/obo/CL_0000232
+subClassOf http://purl.obolibrary.org/obo/CARO_0000013
+http://purl.obolibrary.org/obo/CL_0000235
+subClassOf http://purl.obolibrary.org/obo/CARO_0000013
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+

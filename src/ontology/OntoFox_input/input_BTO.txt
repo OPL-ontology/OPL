@@ -1,0 +1,25 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/opl/dev/import_BTO.owl
+
+############################################################
+[Source ontology]
+#comment here
+BTO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BTO_0001117
+http://purl.obolibrary.org/obo/BTO_0000597
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BTO_0001117
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+http://purl.obolibrary.org/obo/BTO_0000597
+subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
