@@ -33,9 +33,9 @@ build:
 
 ### ROBOT
 #
-# We use the official development version of ROBOT
+# We use the latest official release version of ROBOT
 build/robot.jar: | build
-	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.4.0/robot.jar
+	curl -L -o $@ "https://github.com/ontodev/robot/releases/latest/download/robot.jar"
 
 ROBOT := java -jar build/robot.jar
 
@@ -43,14 +43,19 @@ ROBOT := java -jar build/robot.jar
 ### Imports
 #
 # Use Ontofox to import various modules.
-build/import_%.owl: src/ontology/OntoFox-input/%_input.txt | build
+build/import_%.owl: src/ontology/OntoFox_input/input_%.txt | build/robot.jar build
 	curl -s -F file=@$< -o $@ http://ontofox.hegroup.org/service.php
 
-# Use ROBOT to ensure that serialization is consistent.
-src/ontology/import/import_%.owl: build/import_%.owl
-	$(ROBOT) convert -i build/$import_*.owl -o $@
+# Use ROBOT to remove external java axioms
+src/ontology/imports/import_%.owl: build/import_%.owl
+	$(ROBOT) remove --input build/import_$*.owl \
+	--base-iri 'http://purl.obolibrary.org/obo/$*_' \
+	--axioms external \
+	--preserve-structure false \
+	--trim false \
+	--output $@ 
 
-IMPORT_FILES := $(wildcard src/ontology/import/import_*.owl)
+IMPORT_FILES := $(wildcard src/ontology/imports/import_*.owl)
 
 .PHONY: imports
 imports: $(IMPORT_FILES)
