@@ -1,0 +1,38 @@
+Ontology ID	Label	logical type	parent class	part of	Definition
+ID		CLASS_TYPE	C %	C 'part of' some % SPLIT=|	
+OPL:0000004	Triatominae hindgut	equivalent	hindgut	Triatominae	A hindgut that is a part of or originated from a Triatominae bug.
+OPL:0000005	Homo sapiens liver	equivalent	liver	Homo sapiens	A liver that is a part of or originated from a human (Homo sapiens).
+OPL:0000015	Phlebotominae proboscis	equivalent	proboscis	Phlebotominae	A proboscis that is a part of or originated from a sand fly of genus Phlebotominae.
+OPL:0000019	Homo sapiens cerebrospinal fluid	equivalent	cerebrospinal fluid	Homo sapiens	Cerebrospinal fluid that is a part of or originated from a human (Homo sapiens).
+OPL:0000027	Homo sapiens skin	equivalent	skin of body	Homo sapiens	A skin that is a part of or originated from a human (Homo sapiens) body.
+OPL:0000032	Anopheles midgut	equivalent	midgut	Anopheles <genus>	A midgut that is a part of or originated from an Anopheles mosquito.
+OPL:0000040	Homo sapiens hepatocyte	equivalent	hepatocyte	Homo sapiens	A hepatocyte that is a part of or originated from a human (Homo sapiens).
+OPL:0000047	Homo sapiens mesenteric vein	equivalent	mesenteric vein	Homo sapiens	A mesenteric vein that is a part of or originated from a human (Homo sapiens).
+OPL:0000083	Bulinus hepatopancreas	equivalent	hepatopancreas	Bulinus	Hepatopancreas that is a part of or originated from a Bulinus snail.
+OPL:0000088	Triatominae midgut	equivalent	midgut	Triatominae	A midgut that is a part of or originated from a Triatominae bug.
+OPL:0000096	Homo sapiens erythrocyte	equivalent	erythrocyte	Homo sapiens	An erythrocyte that is a part of or originated from a human (Homo sapiens).
+OPL:0000097	Homo sapiens vesical venus plexus	equivalent	vesical venus plexus	Homo sapiens	Vesical venus plexus that is a part of or originated from a human (Homo sapiens).
+OPL:0000104	Biomphalaria hepatopancreas	equivalent	hepatopancreas	Biomphalaria	Hepatopancreas that is a part of or originated from a Biomphalaria snail.
+OPL:0000117	Homo sapiens blood	equivalent	blood	Homo sapiens	Blood that is part of or originated from a human (Homo sapiens).
+OPL:0000121	Anopheles salivary gland	equivalent	saliva-secreting gland	Anopheles <genus>	A salivary gland that is a part of or originated from an Anopheles mosquito.
+OPL:0000122	Homo sapiens macrophage	equivalent	macrophage	Homo sapiens	A macrophage that is a part of or originated from a human (Homo sapiens).
+OPL:0000133	Homo sapiens lung	equivalent	lung	Homo sapiens	A lung that is a part of or originated from a human (Homo sapiens).
+OPL:0000134	Oncomelania hepatopancreas	equivalent	hepatopancreas	Oncomelania	Hepatopancreas that is a part of or originated from a Oncomelania snail.
+OPL:0000141	Homo sapiens intestine	equivalent	intestine	Homo sapiens	An intestine that is a part of or originated from a human (Homo sapiens).
+OPL:0000154	Glossina salivary gland	equivalent	saliva-secreting gland	Glossina <genus>	A salivary gland that is a part of or originated from a tsetse fly of genus Glossina.
+OPL:0000176	Homo sapiens ureter	equivalent	ureter	Homo sapiens	A ureter that is a part of or originated from a human (Homo sapiens).
+OPL:0000194	Phlebotominae midgut	equivalent	midgut	Phlebotominae	A midgut that is a part of or originated from a sand fly of genus Phlebotominae.
+OPL:0000213	vesical venus plexus	subclass	material anatomical entity		The vesical plexus envelops the lower part of the bladder and the base of the prostate and communicates with the pudendal and prostatic plexuses.
+OPL:0000215	Glossina midgut	equivalent	midgut	Glossina <genus>	A midgut that is a part of or originated from a tsetse fly of genus Glossina.
+OPL:0000219	Homo sapiens urinary bladder	equivalent	urinary bladder	Homo sapiens	A urinary bladder that is a part of or originated from a human (Homo sapiens).
+OPL:0000310	Vertebrate blood	equivalent	blood	Vertebrata <vertebrates>	Blood that is part of or originated from a vertebrate.
+OPL:0000311	Vertebrate erythrocyte	equivalent	erythrocyte	Vertebrata <vertebrates>	An erythrocyte that is a part of or originated from a vertebrate.
+OPL:0000312	Vertebrate hepatocyte	equivalent	hepatocyte	Vertebrata <vertebrates>	A hepatocyte that is a part of or originated from a vertebrate.
+OPL:0000313	Mammalia cerebrospinal fluid	equivalent	cerebrospinal fluid	Mammalia	Cerebrospinal fluid that is a part of or originated from a mammal.
+OPL:0000314	Mammalia skin	equivalent	skin of body	Mammalia	A skin that is a part of or originated from a mammalian body.
+OPL:0000315	Mammalia liver	equivalent	liver	Mammalia	A liver that is a part of or originated from a mammal (Mammalia).
+OPL:0000316	Mammalia lung	equivalent	lung	Mammalia	A lung that is a part of or originated from a mammal (Mammalia).
+OPL:0000317	Mammalia mesenteric vein	equivalent	mesenteric vein	Mammalia	A mesenteric vein that is a part of or originated from a mammal (Mammalia).
+OPL:0000318	Mammalia intestine	equivalent	intestine	Mammalia	An intestine that is a part of or originated from a mammal (Mammalia).
+OPL:0000320	Mammalia blood	equivalent	blood	Mammalia	Blood that is part of or originated from a mammalia.
+OPL:0000321	Mammalia macrophage	equivalent	macrophage	Mammalia	A macrophage that is a part of or originated from a mammalia.

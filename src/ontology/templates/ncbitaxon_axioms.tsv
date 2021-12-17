@@ -1,0 +1,20 @@
+Ontology ID	logical type	has role	has host	has vector
+ID	CLASS_TYPE	C 'has role' some % SPLIT=|	C 'has host' some % SPLIT=|	C 'has vector' some % SPLIT=|
+NCBITaxon:70999	subclass	biological vector of infectious agent role		
+NCBITaxon:7164	subclass	biological vector of infectious agent role		
+NCBITaxon:7198	subclass	biological vector of infectious agent role		
+NCBITaxon:7393	subclass	biological vector of infectious agent role		
+NCBITaxon:9606	subclass	definitive host role		
+NCBITaxon:40674	subclass	host role		
+NCBITaxon:5833	subclass	human parasite role	Homo sapiens	Anopheles <genus>
+NCBITaxon:6183	subclass	human parasite role	Mammalia	Biomphalaria
+NCBITaxon:6185	subclass	human parasite role	Mammalia	Bulinus
+NCBITaxon:5691	subclass	human parasite role	Mammalia	Glossina <genus>
+NCBITaxon:6182	subclass	human parasite role	Mammalia	Oncomelania
+NCBITaxon:5664	subclass	human parasite role	Mammalia	Phlebotominae
+NCBITaxon:5693	subclass	human parasite role	Mammalia	Triatominae
+NCBITaxon:157969	subclass	intermediate host role		
+NCBITaxon:56140	subclass	intermediate host role		
+NCBITaxon:6525	subclass	intermediate host role		
+NCBITaxon:6181	subclass		Mammalia	
+NCBITaxon:5820	subclass		Vertebrata <vertebrates>	Anopheles <genus>
