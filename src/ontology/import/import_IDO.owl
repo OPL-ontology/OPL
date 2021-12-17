@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/opl/dev/import_IDO.owl#"
+     xml:base="http://purl.obolibrary.org/obo/opl/dev/import_IDO.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/opl/dev/import_IDO.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A symbiont role borne by an organism in virtue of the fact that it derives a growth, survival, or fitness advantage from symbiosis while the other symbiont&apos;s growth, survival, or fitness is reduced.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">parasite role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000404">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000405"/>
+        <obo:IAO_0000115 xml:lang="en">A role borne by an infectious agent when contained in a host in which its infectious disposition can be realized.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">infectious agent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role borne by pathogen in virtue of the fact that it or one of its products is sufficiently close to an organism towards which it has the pathogenic disposition to allow realization of the pathogenic disposition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">pathogen role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
+        <obo:IAO_0000115 xml:lang="en">A symbiont host role borne by an organism in virtue of the fact that its partner in symbiosis reaches developmental maturity or reproduces sexually in the host.  </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">definitive host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
+        <obo:IAO_0000115 xml:lang="en">A symbiont host role borne by an organism in virtue of the fact that its partner in symbiosis utilizes the host to undergo a developmental stage transition, and the host is required for continuation of the partner&apos;s life cycle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">intermediate host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
+        <obo:IAO_0000115 xml:lang="en">A symbiont host role borne by an organism in virtue of the fact that its partner in symbiosis derives from the host a growth, survival, or fitness advantage while the host&apos;s growth, survival, or fitness is reduced.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">parasite host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000418">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent transporter role that is borne by an organism active in the transfer of an infectious agent to an organism of another Species and in which the agent is infectious.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">infectious agent vector role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000420">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000418"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent vector role borne by an organism in virtue of the fact that the infectious agent multiplies in the vector.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">biological vector of infectious agent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000725"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
