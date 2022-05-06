@@ -169,3 +169,4 @@ OPL:0000119	exflagellated microgametocyte stage	subclass	microgametocyte stage		
 OPL:0000260	gamete stage	subclass	life cycle stage					A life cycle stage of some parasites that develop into mature sexual cells.
 OPL:0000150	gametocyte stage	subclass	life cycle stage					A life cycle stage where a cell differentiates into male or female sexual forms.
 OPL:0000059	hepatic schizont stage	subclass	schizont stage					A schizont stage that occurs in hepatocyte where sporozoites mature into a schizont.
+OPL:0000324	bradyzoite stage	subclass	parasite lifecycle stage					A life cycle stage found in the tissue cyst which replicates slowly within a parasitophorous vacuole within the host cell.
