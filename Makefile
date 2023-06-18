@@ -47,7 +47,7 @@ build/import_%.owl: src/ontology/OntoFox_input/input_%.txt | build/robot.jar bui
 	curl -s -F file=@$< -o $@ https://ontofox.hegroup.org/service.php
 
 # Use ROBOT to remove external java axioms
-src/ontology/imports/import_%.owl: build/import_%.owl
+src/ontology/import/import_%.owl: build/import_%.owl
 	$(ROBOT) remove --input build/import_$*.owl \
 	--base-iri 'http://purl.obolibrary.org/obo/$*_' \
 	--axioms external \
@@ -55,7 +55,7 @@ src/ontology/imports/import_%.owl: build/import_%.owl
 	--trim false \
 	--output $@ 
 
-IMPORT_FILES := $(wildcard src/ontology/imports/import_*.owl)
+IMPORT_FILES := $(wildcard src/ontology/import/import_*.owl)
 
 .PHONY: imports
 imports: $(IMPORT_FILES)
