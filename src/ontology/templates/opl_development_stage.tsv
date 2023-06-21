@@ -170,3 +170,25 @@ OPL:0000260	gamete stage	subclass	life cycle stage
 OPL:0000150	gametocyte stage	subclass	life cycle stage				
 OPL:0000059	hepatic schizont stage	subclass	schizont stage				
 OPL:0000324	bradyzoite stage	subclass	parasite lifecycle stage				
+OPL:0000325	tachyzoite stage	subclass	parasite lifecycle stage				
+OPL:0000347	Plasmodium vivax ookinete stage	equivalent	ookinete stage	Plasmodium vivax	Anopheles midgut		
+OPL:0000348	Plasmodium vivax sporozoite stage	equivalent	sporozoite stage	Plasmodium vivax	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte		
+OPL:0000349	Plasmodium vivax merozoite stage	equivalent	merozoite stage	Plasmodium vivax	Homo sapiens erythrocyte		
+OPL:0000350	Plasmodium vivax gametocyte stage	equivalent	gametocyte stage	Plasmodium vivax	Anopheles midgut|Homo sapiens erythrocyte		
+OPL:0000351	Plasmodium berghei sporazoite stage	equivalent	sporozoite stage	Plasmodium berghei	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte		
+OPL:0000352	Plasmodium berghei meorzoite stage	equivalent	merozoite stage	Plasmodium berghei	Homo sapiens erythrocyte		
+OPL:0000353	Neospora caninum tachyzoite stage	equivalent	tachyzoite stage	Neospora caninum	Canis		
+OPL:0000354	Eimeria maxima gametocyte stage	equivalent	gametocyte stage	Eimeria maxima	Gallus gallus erythrocyte		
+OPL:0000355	Eimeria tenella sprozoite stage	equivalent	sporozoite stage	Eimeria tenella	Gallus gallus intestine		
+OPL:0000356	Eimeria tenella oocyst stage	equivalent	oocyst stage	Eimeria tenella	Gallus gallus midgut		
+OPL:0000357	Sarcocystis neurona merozoite stage	equivalent	merozoite stage	Sarcocystis neurona	Canis lupus familiaris erythrocyte		
+OPL:0000358	Sarcocystis neurona sporozoite stage	equivalent	sporozoite stage	Sarcocystis neurona	Mammalia muscle tissue		
+OPL:0000359	Toxoplasma gondii tachyzoite stage	equivalent	tachyzoite stage	Toxoplasma gondii	Mammalia		
+OPL:0000360	Toxoplasma gondii bradyzoite stage	equivalent	bradyzoite stage	Toxoplasma gondii	Triatominae		
+OPL:0000361	Toxoplasma gondii oocysts stage	equivalent	oocyst stage	Toxoplasma gondii	Triatominae midgut		
+OPL:0000362	Leishmania amazonensis promastigote stage	equivalent	promastigote stage	Leishmania amazonensis	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis		
+OPL:0000363	Leishmania amazonensis amastigote stage	equivalent	amastigote stage	Leishmania amazonensis	Mammalia macrophage		
+OPL:0000364	Leishmania donovani promastigote stage	equivalent	promastigote stage	Leishmania donovani	Homo sapiens macrophage|Phlebotominae midgut|Phlebotominae proboscis		
+OPL:0000365	Leishmania donovani amastigote stage	equivalent	amastigote stage	Leishmania donovani	Homo sapiens macrophage		
+OPL:0000366	Leishmania infantum promastigote stage	equivalent	promastigote stage	Leishmania infantum	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis		
+OPL:0000367	Leishmania infantum amastigote stage	equivalent	amastigote stage	Leishmania infantum	Mammalia macrophage		

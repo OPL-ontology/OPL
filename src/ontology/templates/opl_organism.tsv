@@ -109,3 +109,24 @@ OPL:0000196	Schistosoma mansoni mother sporocyst	subclass	Schistosoma mansoni sp
 OPL:0000038	Schistosoma mansoni schistosomulum	subclass	Schistosoma mansoni		Schistosoma mansoni schistosomulum stage	
 OPL:0000147	Schistosoma mansoni sporocyst	subclass	Schistosoma mansoni		Schistosoma mansoni sporocyst stage	
 OPL:0000128	Schistosoma mansoni worm	subclass	Schistosoma mansoni		Schistosoma mansoni worm stage	
+OPL:0000326	Plasmodium vivax ookinete	subclass	Plasmodium vivax	Anopheles midgut	Plasmodium vivax ookinete stage	
+OPL:0000327	Plasmodium vivax sporozoite	subclass	Plasmodium vivax	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte	Plasmodium vivax sporozoite stage	
+OPL:0000328	Plasmodium vivax merozoite	subclass	Plasmodium vivax	Homo sapiens erythrocyte	Plasmodium vivax merozoite stage	
+OPL:0000329	Plasmodium vivax gametocyte	subclass	Plasmodium vivax	Anopheles midgut|Homo sapiens erythrocyte	Plasmodium vivax gametocyte stage	
+OPL:0000330	Plasmodium berghei sporazoite	subclass	Plasmodium berghei	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte	Plasmodium berghei sporazoite stage	
+OPL:0000331	Plasmodium berghei meorzoite	subclass	Plasmodium berghei	Homo sapiens erythrocyte	Plasmodium berghei merozoite stage	
+OPL:0000332	Neospora caninum tachyzoite	subclass	Neospora caninum	Canis	Neospora caninum tachyzoite stage	
+OPL:0000333	Eimeria maxima gametocyte	subclass	Eimeria maxima	Gallus gallus erythrocyte	Eimeria maxima gametocyte stage	
+OPL:0000334	Eimeria tenella sprozoite	subclass	Eimeria tenella	Gallus gallus intestine	Eimeria tenella sporozoite stage	
+OPL:0000335	Eimeria tenella oocyst	subclass	Eimeria tenella	Gallus gallus midgut	Eimeria tenella oocyst stage	
+OPL:0000336	Sarcocystis neurona merozoite	subclass	Sarcocystis neurona	Canis lupus familiaris erythrocyte	Sarcocystis neurona merozoite stage	
+OPL:0000337	Sarcocystis neurona sporozoite	subclass	Sarcocystis neurona	Mammalia muscle tissue	Sarcocystis neurona sporozoite stage	
+OPL:0000338	Toxoplasma gondii tachyzoite	subclass	Toxoplasma gondii	Mammalia	Toxoplasma gondii tachyzoite stage	
+OPL:0000339	Toxoplasma gondii bradyzoite	subclass	Toxoplasma gondii	Triatominae	Toxoplasma gondii bradyzoite stage	
+OPL:0000340	Toxoplasma gondii oocyst	subclass	Toxoplasma gondii	Triatominae midgut	Toxoplasma gondii oocysts stage	
+OPL:0000341	Leishmania amazonensis promastigote	subclass	Leishmania amazonensis	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis	Leishmania amazonensis promastigote stage	
+OPL:0000342	Leishmania amazonensis amastigote	subclass	Leishmania amazonensis	Mammalia macrophage	Leishmania amazonensis amastigote stage	
+OPL:0000343	Leishmania donovani promastigote	subclass	Leishmania donovani	Homo sapiens macrophage|Phlebotominae midgut|Phlebotominae proboscis	Leishmania donovani promastigote stage	
+OPL:0000344	Leishmania donovani amastigote	subclass	Leishmania donovani	Homo sapiens macrophage	Leishmania donovani amastigote stage	
+OPL:0000345	Leishmania infantum promastigote	subclass	Leishmania infantum	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis	Leishmania infantum promastigote stage	
+OPL:0000346	Leishmania infantum amastigote	subclass	Leishmania infantum	Mammalia macrophage	Leishmania infantum amastigote stage	
