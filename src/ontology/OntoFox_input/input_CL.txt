@@ -14,7 +14,7 @@ http://purl.obolibrary.org/obo/CL_0000235
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CL_0000000
-subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465
 http://purl.obolibrary.org/obo/CL_0000182
 subClassOf http://purl.obolibrary.org/obo/CL_0000000
 http://purl.obolibrary.org/obo/CL_0000232
