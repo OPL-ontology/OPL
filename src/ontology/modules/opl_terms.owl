@@ -4818,7 +4818,7 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000368 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000368">
-        <obo:IAO_0000115>An erythrocyte that is a part of or originated from a Gallus gallus</obo:IAO_0000115>
+        <obo:IAO_0000115>An erythrocyte that is a part of or originated from a Gallus gallus.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>He Group</obo:IAO_0000119>
         <rdfs:label>Gallus gallus erythrocyte</rdfs:label>
@@ -4829,7 +4829,7 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000369 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000369">
-        <obo:IAO_0000115>An erythrocyte that is a part of or originated from a Canis lupus familiaris</obo:IAO_0000115>
+        <obo:IAO_0000115>An erythrocyte that is a part of or originated from a Canis lupus familiaris.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>He Group</obo:IAO_0000119>
         <rdfs:label>Canis lupus familiaris erythrocyte</rdfs:label>
@@ -4840,7 +4840,7 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000370 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000370">
-        <obo:IAO_0000115>A midgut that is a part of or originated from a Gallus gallus</obo:IAO_0000115>
+        <obo:IAO_0000115>A midgut that is a part of or originated from a Gallus gallus.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>He Group</obo:IAO_0000119>
         <rdfs:label>Gallus gallus midgut</rdfs:label>
@@ -4851,7 +4851,7 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000371">
-        <obo:IAO_0000115>An intestine that is a part of or originated from a Gallus gallus</obo:IAO_0000115>
+        <obo:IAO_0000115>An intestine that is a part of or originated from a Gallus gallus.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>He Group</obo:IAO_0000119>
         <rdfs:label>Gallus gallus intestine</rdfs:label>
@@ -4862,7 +4862,7 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000372 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000372">
-        <obo:IAO_0000115>A muscle tissue that is a part of or originated from a Mammalia</obo:IAO_0000115>
+        <obo:IAO_0000115>A muscle tissue that is a part of or originated from a Mammalia.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>He Group</obo:IAO_0000119>
         <rdfs:label>Mammalia muscle tissue</rdfs:label>
@@ -4873,10 +4873,120 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000373 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000373">
-        <obo:IAO_0000115>An intestine that is a part of or originated from a Triatominae</obo:IAO_0000115>
+        <obo:IAO_0000115>An intestine that is a part of or originated from a Triatominae.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>He Group</obo:IAO_0000119>
         <rdfs:label>Triatominae intestine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000374">
+        <obo:IAO_0000115>A lifecycle stage of Plasmodium vivax.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <rdfs:label>Plasmodium vivax lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000375">
+        <obo:IAO_0000115>A lifecycle stage of Plasmodium berghei.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <rdfs:label>Plasmodium berghei lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000376">
+        <obo:IAO_0000115>A lifecycle stage of Neospora caninum.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <rdfs:label>Neospora caninum lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000377">
+        <obo:IAO_0000115>A lifecycle stage of Eimeria maxima.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <rdfs:label>Eimeria maxima lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000378">
+        <obo:IAO_0000115>A lifecycle stage of Eimeria tenella.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <rdfs:label>Eimeria tenella lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000379">
+        <obo:IAO_0000115>A lifecycle stage of Sarcocystis neurona.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <rdfs:label>Sarcocystis neurona lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000380">
+        <obo:IAO_0000115>A lifecycle stage of Toxoplasma gondii.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <rdfs:label>Toxoplasma gondii lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000381">
+        <obo:IAO_0000115>A lifecycle stage of Leishmania amazonensis.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <rdfs:label>Leishmania amazonensis lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000382">
+        <obo:IAO_0000115>A lifecycle stage of Leishmania donovani.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <rdfs:label>Leishmania donovani lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000383">
+        <obo:IAO_0000115>A lifecycle stage of Leishmania infantum.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <rdfs:label>Leishmania infantum lifecycle stage</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

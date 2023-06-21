@@ -359,9 +359,19 @@ OPL:0000364	class	Leishmania donovani promastigote stage	promastigote stage		A p
 OPL:0000365	class	Leishmania donovani amastigote stage	amastigote stage		An amastigote stage in the Leishmania donovani life cycle.	https://www.cdc.gov/parasites/leishmaniasis/biology.html	Jie Zheng|Anthony Huffman	https://github.com/OPL-ontology/OPL/issues/21	He Group		
 OPL:0000366	class	Leishmania infantum promastigote stage	promastigote stage		A promastigote stage in the Leishmania infantum life cycle.	https://www.cdc.gov/parasites/leishmaniasis/biology.html	Jie Zheng|Anthony Huffman	https://github.com/OPL-ontology/OPL/issues/21	He Group		
 OPL:0000367	class	Leishmania infantum amastigote stage	amastigote stage		An amastigote stage in the Leishmania infantum life cycle.	https://www.cdc.gov/parasites/leishmaniasis/biology.html	Jie Zheng|Anthony Huffman	https://github.com/OPL-ontology/OPL/issues/21	He Group		
-OPL:0000368	class	Gallus gallus erythrocyte	erythrocyte		An erythrocyte that is a part of or originated from a Gallus gallus	He Group	Jie Zheng				
-OPL:0000369	class	Canis lupus familiaris erythrocyte	erythrocyte		An erythrocyte that is a part of or originated from a Canis lupus familiaris	He Group	Jie Zheng				
-OPL:0000370	class	Gallus gallus midgut	midgut		A midgut that is a part of or originated from a Gallus gallus	He Group	Jie Zheng				
-OPL:0000371	class	Gallus gallus intestine	intestine		An intestine that is a part of or originated from a Gallus gallus	He Group	Jie Zheng				
-OPL:0000372	class	Mammalia muscle tissue	muscle tissue		A muscle tissue that is a part of or originated from a Mammalia	He Group	Jie Zheng				
-OPL:0000373	class	Triatominae intestine	intestine		An intestine that is a part of or originated from a Triatominae	He Group	Jie Zheng				
+OPL:0000368	class	Gallus gallus erythrocyte	erythrocyte		An erythrocyte that is a part of or originated from a Gallus gallus.	He Group	Jie Zheng				
+OPL:0000369	class	Canis lupus familiaris erythrocyte	erythrocyte		An erythrocyte that is a part of or originated from a Canis lupus familiaris.	He Group	Jie Zheng				
+OPL:0000370	class	Gallus gallus midgut	midgut		A midgut that is a part of or originated from a Gallus gallus.	He Group	Jie Zheng				
+OPL:0000371	class	Gallus gallus intestine	intestine		An intestine that is a part of or originated from a Gallus gallus.	He Group	Jie Zheng				
+OPL:0000372	class	Mammalia muscle tissue	muscle tissue		A muscle tissue that is a part of or originated from a Mammalia.	He Group	Jie Zheng				
+OPL:0000373	class	Triatominae intestine	intestine		An intestine that is a part of or originated from a Triatominae.	He Group	Jie Zheng				
+OPL:0000374	class	Plasmodium vivax lifecycle stage	parasite lifecycle stage		A lifecycle stage of Plasmodium vivax.	He Group	Jie Zheng				
+OPL:0000375	class	Plasmodium berghei lifecycle stage	parasite lifecycle stage		A lifecycle stage of Plasmodium berghei.	He Group	Jie Zheng				
+OPL:0000376	class	Neospora caninum lifecycle stage	parasite lifecycle stage		A lifecycle stage of Neospora caninum.	He Group	Jie Zheng				
+OPL:0000377	class	Eimeria maxima lifecycle stage	parasite lifecycle stage		A lifecycle stage of Eimeria maxima.	He Group	Jie Zheng				
+OPL:0000378	class	Eimeria tenella lifecycle stage	parasite lifecycle stage		A lifecycle stage of Eimeria tenella.	He Group	Jie Zheng				
+OPL:0000379	class	Sarcocystis neurona lifecycle stage	parasite lifecycle stage		A lifecycle stage of Sarcocystis neurona.	He Group	Jie Zheng				
+OPL:0000380	class	Toxoplasma gondii lifecycle stage	parasite lifecycle stage		A lifecycle stage of Toxoplasma gondii.	He Group	Jie Zheng				
+OPL:0000381	class	Leishmania amazonensis lifecycle stage	parasite lifecycle stage		A lifecycle stage of Leishmania amazonensis.	He Group	Jie Zheng				
+OPL:0000382	class	Leishmania donovani lifecycle stage	parasite lifecycle stage		A lifecycle stage of Leishmania donovani.	He Group	Jie Zheng				
+OPL:0000383	class	Leishmania infantum lifecycle stage	parasite lifecycle stage		A lifecycle stage of Leishmania infantum.	He Group	Jie Zheng				

@@ -192,3 +192,13 @@ OPL:0000364	Leishmania donovani promastigote stage	equivalent	promastigote stage
 OPL:0000365	Leishmania donovani amastigote stage	equivalent	amastigote stage	Leishmania donovani	Homo sapiens macrophage		
 OPL:0000366	Leishmania infantum promastigote stage	equivalent	promastigote stage	Leishmania infantum	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis		
 OPL:0000367	Leishmania infantum amastigote stage	equivalent	amastigote stage	Leishmania infantum	Mammalia macrophage		
+OPL:0000374	Plasmodium vivax lifecycle stage	equivalent	parasite lifecycle stage	Plasmodium vivax			
+OPL:0000375	Plasmodium berghei lifecycle stage	equivalent	parasite lifecycle stage	Plasmodium berghei			
+OPL:0000376	Neospora caninum lifecycle stage	equivalent	parasite lifecycle stage	Neospora caninum			
+OPL:0000377	Eimeria maxima lifecycle stage	equivalent	parasite lifecycle stage	Eimeria maxima			
+OPL:0000378	Eimeria tenella lifecycle stage	equivalent	parasite lifecycle stage	Eimeria tenella			
+OPL:0000379	Sarcocystis neurona lifecycle stage	equivalent	parasite lifecycle stage	Sarcocystis neurona			
+OPL:0000380	Toxoplasma gondii lifecycle stage	equivalent	parasite lifecycle stage	Toxoplasma gondii			
+OPL:0000381	Leishmania amazonensis lifecycle stage	equivalent	parasite lifecycle stage	Leishmania amazonensis			
+OPL:0000382	Leishmania donovani lifecycle stage	equivalent	parasite lifecycle stage	Leishmania donovani			
+OPL:0000383	Leishmania infantum lifecycle stage	equivalent	parasite lifecycle stage	Leishmania infantum			
