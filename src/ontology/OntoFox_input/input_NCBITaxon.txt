@@ -33,8 +33,51 @@ http://purl.obolibrary.org/obo/NCBITaxon_40674
 http://purl.obolibrary.org/obo/NCBITaxon_7742
 http://purl.obolibrary.org/obo/NCBITaxon_50557
 http://purl.obolibrary.org/obo/NCBITaxon_5654
+http://purl.obolibrary.org/obo/NCBITaxon_9031 #Gallus gallus
+http://purl.obolibrary.org/obo/NCBITaxon_5855 #Plasmodium vivax
+http://purl.obolibrary.org/obo/NCBITaxon_5821 #Plasmodium berghei
+http://purl.obolibrary.org/obo/NCBITaxon_5804 #Eimeria maxima
+http://purl.obolibrary.org/obo/NCBITaxon_5802 #Eimeria tenella
+http://purl.obolibrary.org/obo/NCBITaxon_5800 #Eimeria
+http://purl.obolibrary.org/obo/NCBITaxon_29176 #Neospora caninum
+http://purl.obolibrary.org/obo/NCBITaxon_9611 #Canis
+http://purl.obolibrary.org/obo/NCBITaxon_42890 #Sarcocystis neurona
+http://purl.obolibrary.org/obo/NCBITaxon_5811 #Toxoplasma gondii
+http://purl.obolibrary.org/obo/NCBITaxon_5659 #Leishmania amazonensis
+http://purl.obolibrary.org/obo/NCBITaxon_5661 #Leishmania donovani
+http://purl.obolibrary.org/obo/NCBITaxon_5671 #Leishmania infantum
+http://purl.obolibrary.org/obo/NCBITaxon_9913 #Bos taurus
+http://purl.obolibrary.org/obo/NCBITaxon_9874 #Odocoileus virginianus
 
 [Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_9913 #Bos taurus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674
+http://purl.obolibrary.org/obo/NCBITaxon_9874 #Odocoileus virginianus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674
+http://purl.obolibrary.org/obo/NCBITaxon_5855 #Plasmodium vivax
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5820
+http://purl.obolibrary.org/obo/NCBITaxon_5821 #Plasmodium berghei
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5820
+http://purl.obolibrary.org/obo/NCBITaxon_5804 #Eimeria maxima
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5800 #Eimeria
+http://purl.obolibrary.org/obo/NCBITaxon_5802 #Eimeria tenella
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5800 #Eimeria
+http://purl.obolibrary.org/obo/NCBITaxon_5800 #Eimeria
+subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+http://purl.obolibrary.org/obo/NCBITaxon_29176 #Neospora caninum
+subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+http://purl.obolibrary.org/obo/NCBITaxon_9611 #Canis
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674
+http://purl.obolibrary.org/obo/NCBITaxon_42890 #Sarcocystis neurona
+subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+http://purl.obolibrary.org/obo/NCBITaxon_5811 #Toxoplasma gondii
+subClassOf http://purl.obolibrary.org/obo/OPL_0000232
+http://purl.obolibrary.org/obo/NCBITaxon_5659 #Leishmania amazonensis
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5658
+http://purl.obolibrary.org/obo/NCBITaxon_5661 #Leishmania donovani
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5658
+http://purl.obolibrary.org/obo/NCBITaxon_5671 #Leishmania infantum
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5658
 http://purl.obolibrary.org/obo/NCBITaxon_10090
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674
 http://purl.obolibrary.org/obo/NCBITaxon_157969
@@ -80,6 +123,8 @@ subClassOf http://purl.obolibrary.org/obo/NCBITaxon_50557
 http://purl.obolibrary.org/obo/NCBITaxon_9606
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674
 http://purl.obolibrary.org/obo/NCBITaxon_9615
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_9611 #Canis
+http://purl.obolibrary.org/obo/NCBITaxon_9611 #Canis
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674
 http://purl.obolibrary.org/obo/NCBITaxon_40674
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_7742
@@ -87,6 +132,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_7742
 subClassOf http://purl.obolibrary.org/obo/OBI_0100026
 http://purl.obolibrary.org/obo/NCBITaxon_50557
 subClassOf http://purl.obolibrary.org/obo/OBI_0100026
+http://purl.obolibrary.org/obo/NCBITaxon_9031 #Gallus gallus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_7742
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -94,5 +141,6 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
-
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 

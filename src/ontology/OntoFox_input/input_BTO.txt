@@ -12,9 +12,9 @@ http://purl.obolibrary.org/obo/BTO_0000597
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BTO_0001117
-subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465
 http://purl.obolibrary.org/obo/BTO_0000597
-subClassOf http://purl.obolibrary.org/obo/CARO_0000006
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000465
 
 [Source term retrieval setting]
 includeNoIntermediates
