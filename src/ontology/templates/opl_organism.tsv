@@ -114,7 +114,7 @@ OPL:0000327	Plasmodium vivax sporozoite	subclass	Plasmodium vivax	Anopheles sali
 OPL:0000328	Plasmodium vivax merozoite	subclass	Plasmodium vivax	Homo sapiens erythrocyte	Plasmodium vivax merozoite stage	
 OPL:0000329	Plasmodium vivax gametocyte	subclass	Plasmodium vivax	Anopheles midgut|Homo sapiens erythrocyte	Plasmodium vivax gametocyte stage	
 OPL:0000330	Plasmodium berghei sporazoite	subclass	Plasmodium berghei	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte	Plasmodium berghei sporazoite stage	
-OPL:0000331	Plasmodium berghei meorzoite	subclass	Plasmodium berghei	Homo sapiens erythrocyte	Plasmodium berghei merozoite stage	
+OPL:0000331	Plasmodium berghei merozoite	subclass	Plasmodium berghei	Homo sapiens erythrocyte	Plasmodium berghei merozoite stage	
 OPL:0000332	Neospora caninum tachyzoite	subclass	Neospora caninum	Canis	Neospora caninum tachyzoite stage	
 OPL:0000333	Eimeria maxima gametocyte	subclass	Eimeria maxima	Gallus gallus erythrocyte	Eimeria maxima gametocyte stage	
 OPL:0000334	Eimeria tenella sprozoite	subclass	Eimeria tenella	Gallus gallus intestine	Eimeria tenella sporozoite stage	
