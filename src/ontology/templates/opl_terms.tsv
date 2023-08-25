@@ -406,8 +406,10 @@ OPL:0000411	class	Eimeria acervulina merozoite stage	merozoite stage		A merozoit
 OPL:0000412	class	Cryptosporidium parvum oocyst stage	oocyst stage		An oocyst stage in the Cryptosporidium parvum.	https://www.cdc.gov/parasites/crypto/pathogen.html	Jie Zheng|Anthony Huffman	https://github.com/OPL-ontology/OPL/issues/24	He Group		
 OPL:0000413	class	Cryptosporidium parvum sporozoite stage	sporozoite stage		A sporozoite stage in the Cryptosporidium parvum.	https://www.cdc.gov/parasites/crypto/pathogen.html	Jie Zheng|Anthony Huffman	https://github.com/OPL-ontology/OPL/issues/24	He Group		
 OPL:0000414	class	Primates erythrocyte	erythrocyte	primate erythrocyte	An erythrocyte that is a part of or originated from a primate.	He Group	Jie Zheng		He Group		
-OPL:0000415	class	Plasmodium yoelii lifecycle stage	parasite lifecycle stage		A lifecycle stage of Plasmodium yoelii lifecycle stage.	He Group	Jie Zheng		He Group		
-OPL:0000416	class	Plasmodium chabaudi lifecycle stage	parasite lifecycle stage		A lifecycle stage of Plasmodium chabaudi lifecycle stage.	He Group	Jie Zheng		He Group		
-OPL:0000417	class	Plasmodium knowlesi lifecycle stage	parasite lifecycle stage		A lifecycle stage of Plasmodium knowlesi lifecycle stage.	He Group	Jie Zheng		He Group		
-OPL:0000418	class	Eimeria acervulina lifecycle stage	parasite lifecycle stage		A lifecycle stage of Eimeria acervulina lifecycle stage.	He Group	Jie Zheng		He Group		
-OPL:0000419	class	Cryptosporidium parvum lifecycle stage	parasite lifecycle stage		A lifecycle stage of Cryptosporidium parvum lifecycle stage.	He Group	Jie Zheng		He Group		
+OPL:0000415	class	Plasmodium yoelii lifecycle stage	parasite lifecycle stage		A lifecycle stage of Plasmodium yoelii.	He Group	Jie Zheng		He Group		
+OPL:0000416	class	Plasmodium chabaudi lifecycle stage	parasite lifecycle stage		A lifecycle stage of Plasmodium chabaudi.	He Group	Jie Zheng		He Group		
+OPL:0000417	class	Plasmodium knowlesi lifecycle stage	parasite lifecycle stage		A lifecycle stage of Plasmodium knowlesi.	He Group	Jie Zheng		He Group		
+OPL:0000418	class	Eimeria acervulina lifecycle stage	parasite lifecycle stage		A lifecycle stage of Eimeria acervulina.	He Group	Jie Zheng		He Group		
+OPL:0000419	class	Cryptosporidium parvum lifecycle stage	parasite lifecycle stage		A lifecycle stage of Cryptosporidium parvum.	He Group	Jie Zheng		He Group		
+OPL:0000420	class	Neospora caninum bradyzoite	Neospora caninum		A Neospora caninum in bradyzoite stage.	https://www.mdpi.com/2306-7381/9/2/87	Jie Zheng|Anthony Huffman	https://github.com/OPL-ontology/OPL/issues/24	He Group		
+OPL:0000421	class	Neospora caninum bradyzoite stage	bradyzoite stage		A bradyzoite stage in the Neospora caninum.	https://www.mdpi.com/2306-7381/9/2/87	Jie Zheng|Anthony Huffman	https://github.com/OPL-ontology/OPL/issues/24	He Group		

@@ -56,6 +56,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OPL_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000002">
@@ -2002,6 +2008,19 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000414 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000414"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000420">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
 </rdf:RDF>
 
 

@@ -3174,6 +3174,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OPL_0000420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000420">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29176"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000421"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000421"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000106"/>
