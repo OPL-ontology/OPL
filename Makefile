@@ -78,7 +78,9 @@ MODULE_NAMES := opl_terms\
  opl_misc\
  opl_anatomical_entity\
  opl_development_stage\
+ opl_development_stage_occurs_in\
  opl_organism\
+ opl_organism_located_in\
  ncbitaxon_axioms\
  opl_obsolete
 

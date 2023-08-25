@@ -1,0 +1,204 @@
+Ontology ID	label	parent class	occurs in
+ID			C 'occurs in' some % SPLIT=|
+OPL:0000323	Trypanosomatida procyclic stage	parasite lifecycle stage	('Phlebotominae midgut' or 'Glossina midgut')
+OPL:0000044	procyclic promastigote stage	promastigote stage	('Phlebotominae midgut' or 'Glossina midgut')
+OPL:0000076	procyclic trypomastigote stage	trypomastigote stage	('Phlebotominae midgut' or 'Glossina midgut')
+OPL:0000287	Plasmodium macrogamete stage	macrogamete stage	Anopheles midgut
+OPL:0000288	Plasmodium microgamete stage	microgamete stage	Anopheles midgut
+OPL:0000295	Plasmodium oocyst stage	oocyst stage	Anopheles midgut
+OPL:0000296	Plasmodium ookinete stage	ookinete stage	Anopheles midgut
+OPL:0000307	Plasmodium zygote stage	zygote stage	Anopheles midgut
+OPL:0000007	Plasmodium falciparum exflagellated microgametocyte stage	exflagellated microgametocyte stage	Anopheles midgut
+OPL:0000075	Plasmodium falciparum macrogamete stage	macrogamete stage	Anopheles midgut
+OPL:0000113	Plasmodium falciparum oocyst stage	oocyst stage	Anopheles midgut
+OPL:0000170	Plasmodium falciparum microgamete stage	microgamete stage	Anopheles midgut
+OPL:0000187	Plasmodium falciparum ookinete stage	ookinete stage	Anopheles midgut
+OPL:0000199	Plasmodium falciparum zygote stage	zygote stage	Anopheles midgut
+OPL:0000262	Plasmodium falciparum gamete stage	gamete stage	Anopheles midgut
+OPL:0000010	Plasmodium falciparum microgametocyte stage	microgametocyte stage	Anopheles midgut|Homo sapiens erythrocyte
+OPL:0000068	Plasmodium falciparum macrogametocyte stage	macrogametocyte stage	Anopheles midgut|Homo sapiens erythrocyte
+OPL:0000192	Plasmodium falciparum gametocyte stage	gametocyte stage	Anopheles midgut|Homo sapiens erythrocyte
+OPL:0000290	Plasmodium macrogametocyte stage	macrogametocyte stage	Anopheles midgut|Vertebrate erythrocyte
+OPL:0000291	Plasmodium microgametocyte stage	microgametocyte stage	Anopheles midgut|Vertebrate erythrocyte
+OPL:0000115	Plasmodium falciparum sporozoite stage	sporozoite stage	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte
+OPL:0000300	Plasmodium sporozoite stage	sporozoite stage	Anopheles salivary gland|Vertebrate blood|Vertebrate hepatocyte
+OPL:0000220	Schistosoma mansoni daughter sporocyst stage	daughter sporocyst stage	Biomphalaria hepatopancreas
+OPL:0000163	Schistosoma haematobium daughter sporocyst stage	daughter sporocyst stage	Bulinus hepatopancreas
+OPL:0000263	asexual lifecycle in host red blood cell stage	parasite lifecycle stage	erythrocyte
+OPL:0000243	erythrocytic trophozoite stage	trophozoite stage	erythrocyte
+OPL:0000081	Trypanosoma brucei procyclic trypomastigote stage	procyclic promastigote stage	Glossina midgut
+OPL:0000216	Trypanosoma brucei epimastigote stage	epimastigote stage	Glossina salivary gland
+OPL:0000056	Trypanosoma brucei metacyclic trypomastigote stage	metacyclic trypomastigote stage	Glossina salivary gland|Mammalia blood
+OPL:0000247	hepatic merozoite stage	merozoite stage	hepatocyte
+OPL:0000261	hepatic trophozoite stage	trophozoite stage	hepatocyte
+OPL:0000035	Plasmodium falciparum erythrocytic schizont stage	erythrocytic schizont stage	Homo sapiens erythrocyte
+OPL:0000103	Plasmodium falciparum merozoite stage	merozoite stage	Homo sapiens erythrocyte
+OPL:0000207	Plasmodium falciparum erythrocytic trophozoite stage	erythrocytic trophozoite stage	Homo sapiens erythrocyte
+OPL:0000158	Plasmodium falciparum schizont stage	schizont stage	Homo sapiens erythrocyte|Homo sapiens hepatocyte
+OPL:0000251	Plasmodium falciparum trophozoite stage	trophozoite stage	Homo sapiens erythrocyte|Homo sapiens hepatocyte
+OPL:0000093	Plasmodium falciparum hepatic schizont stage	hepatic schizont stage	Homo sapiens hepatocyte
+OPL:0000250	Plasmodium falciparum hepatic trophozoite stage	hepatic trophozoite stage	Homo sapiens hepatocyte
+OPL:0000139	Schistosoma japonicum 7 week worm stage	7 week parasitic worm stage	Homo sapiens intestine|Homo sapiens mesenteric vein
+OPL:0000106	Schistosoma japonicum 3 week worm stage	3 week parasitic worm stage	Homo sapiens mesenteric vein
+OPL:0000202	Schistosoma haematobium 3 week worm stage	3 week parasitic worm stage	Homo sapiens urinary bladder
+OPL:0000111	Schistosoma haematobium 7 week worm stage	7 week parasitic worm stage	Homo sapiens vesical venus plexus
+OPL:0000080	parasite lifecycle in host liver stage	parasite lifecycle stage	liver
+OPL:0000175	Trypanosoma brucei trypomastigote stage	trypomastigote stage	Mammalia blood|Mammalia cerebrospinal fluid
+OPL:0000131	Trypanosoma cruzi metacyclic trypomastigote stage	metacyclic trypomastigote stage	Mammalia blood|Mammalia macrophage
+OPL:0000169	Trypanosoma cruzi trypomastigote stage	trypomastigote stage	Mammalia blood|Mammalia macrophage|Triatominae hindgut
+OPL:0000217	Schistosoma mansoni 7 week worm stage	7 week parasitic worm stage	Mammalia intestine|Mammalia mesenteric vein
+OPL:0000062	Schistosoma haematobium 3 day schistosomulum stage	3 day schistosomulum stage	Mammalia liver
+OPL:0000124	Schistosoma haematobium 6 day schistosomulum stage	6 day schistosomulum stage	Mammalia liver
+OPL:0000046	Schistosoma japonicum 6 day schistosomulum stage	Schistosoma japonicum schistosomulum stage	Mammalia lung
+OPL:0000159	Schistosoma japonicum 3 day schistosomulum stage	3 day schistosomulum stage	Mammalia lung
+OPL:0000014	Schistosoma mansoni 3 day schistosomulum stage	3 day schistosomulum stage	Mammalia lung
+OPL:0000045	Schistosoma mansoni 6 day schistosomulum stage	6 day schistosomulum stage	Mammalia lung
+OPL:0000157	Leishmania major amastigote stage	amastigote stage	Mammalia macrophage
+OPL:0000064	Trypanosoma cruzi amastigote stage	amastigote stage	Mammalia macrophage
+OPL:0000189	Leishmania major promastigote stage	promastigote stage	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis
+OPL:0000102	Leishmania major metacyclic promastigote stage	metacyclic promastigote stage	Mammalia macrophage|Phlebotominae proboscis
+OPL:0000107	Schistosoma mansoni 3 week worm stage	3 week parasitic worm stage	Mammalia mesenteric vein
+OPL:0000074	Schistosoma haematobium 3 hour schistosomulum stage	3 hour schistosomulum stage	Mammalia skin
+OPL:0000129	Schistosoma haematobium 24 hour schistosomulum stage	24 hour schistosomulum stage	Mammalia skin
+OPL:0000193	Schistosoma japonicum 3 hour schistosomulum stage	3 hour schistosomulum stage	Mammalia skin
+OPL:0000195	Schistosoma japonicum 24 hour schistosomulum stage	24 hour schistosomulum stage	Mammalia skin
+OPL:0000063	Schistosoma mansoni 24 hour schistosomulum stage	24 hour schistosomulum stage	Mammalia skin
+OPL:0000120	Schistosoma mansoni 3 hour schistosomulum stage	3 hour schistosomulum stage	Mammalia skin
+OPL:0000024	Schistosoma japonicum daughter sporocyst stage	daughter sporocyst stage	Oncomelania hepatopancreas
+OPL:0000058	Leishmania major procyclic promastigote stage	procyclic promastigote stage	Phlebotominae midgut
+OPL:0000253	salivary gland-derived sporozoite stage	sporozoite stage	saliva-secreting gland
+OPL:0000223	Trypanosoma cruzi epimastigote stage	epimastigote stage	Triatominae midgut
+OPL:0000298	Plasmodium erythrocytic schizont stage	erythrocytic schizont stage	Vertebrate erythrocyte
+OPL:0000304	Plasmodium erythrocytic trophozoite stage	erythrocytic trophozoite stage	Vertebrate erythrocyte
+OPL:0000303	Plasmodium trophozoite stage	trophozoite stage	Vertebrate erythrocyte|Vertebrate hepatocyte
+OPL:0000299	Plasmodium hepatic schizont stage	hepatic schizont stage	Vertebrate hepatocyte
+OPL:0000306	Plasmodium hepatic trophozoite stage	hepatic trophozoite stage	Vertebrate hepatocyte
+OPL:0000209	Leishmania major lifecycle stage	parasite lifecycle stage	
+OPL:0000018	miracidium stage	parasite lifecycle stage	
+OPL:0000026	microgamete stage	gamete stage	
+OPL:0000036	merozoite stage	parasite lifecycle stage	
+OPL:0000057	trophozoite stage	parasite lifecycle stage	
+OPL:0000070	cercaria stage	parasite lifecycle stage	
+OPL:0000073	oocyst stage	parasite lifecycle stage	
+OPL:0000082	parasitic worm stage	parasite lifecycle stage	
+OPL:0000084	schizont stage	parasite lifecycle stage	
+OPL:0000085	macrogamete stage	gamete stage	
+OPL:0000095	schistomulum stage	parasite lifecycle stage	
+OPL:0000098	sporocyst stage	parasite lifecycle stage	
+OPL:0000108	epimastigote stage	parasite lifecycle stage	
+OPL:0000114	amastigote stage	parasite lifecycle stage	
+OPL:0000152	sporozoite stage	parasite lifecycle stage	
+OPL:0000153	ookinete stage	parasite lifecycle stage	
+OPL:0000173	hypnozoite stage	parasite lifecycle stage	
+OPL:0000181	parasite lifecycle stage	life cycle stage	
+OPL:0000286	Plasmodium gamete stage	gamete stage	
+OPL:0000289	Plasmodium gametocyte stage	gametocyte stage	
+OPL:0000292	Plasmodium merozoite stage	merozoite stage	
+OPL:0000293	Plasmodium erythrocytic merozoite stage	erythrocytic merozoite stage	
+OPL:0000294	Plasmodium hepatic merozoite stage	hepatic merozoite stage	
+OPL:0000297	Plasmodium schizont stage	schizont stage	
+OPL:0000301	Plasmodium oocyst-derived sporozoite stage	oocyst-derived sporozoite stage	
+OPL:0000302	Plasmodium salivary gland-derived sporozoite stage	salivary gland-derived sporozoite stage	
+OPL:0000305	Plasmodium erythrocytic ring trophozoite stage	erythrocytic ring trophozoite stage	
+OPL:0000042	Plasmodium falciparum erythrocytic ring trophozoite stage	erythrocytic ring trophozoite stage	
+OPL:0000165	Plasmodium falciparum lifecycle stage	parasite lifecycle stage	
+OPL:0000245	Plasmodium falciparum erythrocytic merozoite stage	erythrocytic merozoite stage	
+OPL:0000246	Plasmodium falciparum hepatic merozoite stage	hepatic merozoite stage	
+OPL:0000252	Plasmodium falciparum oocyst-derived sporozoite stage	oocyst-derived sporozoite stage	
+OPL:0000254	Plasmodium falciparum salivary gland-derived sporozoite stage	salivary gland-derived sporozoite stage	
+OPL:0000008	Schistosoma haematobium sporocyst stage	sporocyst stage	
+OPL:0000069	Schistosoma haematobium miracidium stage	miracidium stage	
+OPL:0000091	Schistosoma haematobium worm stage	parasitic worm stage	
+OPL:0000101	Schistosoma haematobium cercaria stage	cercaria stage	
+OPL:0000125	Schistosoma haematobium egg stage	egg stage	
+OPL:0000177	Schistosoma haematobium lifecycle stage	parasite lifecycle stage	
+OPL:0000197	Schistosoma haematobium schistosomulum stage	schistomulum stage	
+OPL:0000212	Schistosoma haematobium mother sporocyst stage	mother sporocyst stage	
+OPL:0000228	Schistosoma haematobium adult male worm stage	adult male parasitic worm stage	
+OPL:0000234	Schistosoma haematobium adult female worm stage	adult female parasitic worm stage	
+OPL:0000308	Schistosoma haematobium adult worm stage	adult parasitic worm stage	
+OPL:0000009	Schistosoma japonicum cercaria stage	cercaria stage	
+OPL:0000023	Schistosoma japonicum miracidium stage	miracidium stage	
+OPL:0000071	Schistosoma japonicum worm stage	parasitic worm stage	
+OPL:0000072	Schistosoma japonicum egg stage	egg stage	
+OPL:0000118	Schistosoma japonicum schistosomulum stage	schistomulum stage	
+OPL:0000156	Schistosoma japonicum lifecycle stage	parasite lifecycle stage	
+OPL:0000184	Schistosoma japonicum mother sporocyst stage	mother sporocyst stage	
+OPL:0000186	Schistosoma japonicum sporocyst stage	sporocyst stage	
+OPL:0000224	Schistosoma japonicum adult female worm stage	adult female parasitic worm stage	
+OPL:0000225	Schistosoma japonicum adult male worm stage	adult male parasitic worm stage	
+OPL:0000309	Schistosoma japonicum adult worm stage	adult parasitic worm stage	
+OPL:0000041	Schistosoma mansoni sporocyst stage	sporocyst stage	
+OPL:0000100	Schistosoma mansoni schistosomulum stage	schistomulum stage	
+OPL:0000112	Schistosoma mansoni miracidium stage	miracidium stage	
+OPL:0000135	Schistosoma mansoni egg stage	egg stage	
+OPL:0000142	Schistosoma mansoni mother sporocyst stage	mother sporocyst stage	
+OPL:0000203	Schistosoma mansoni lifecycle stage	parasite lifecycle stage	
+OPL:0000210	Schistosoma mansoni cercaria stage	cercaria stage	
+OPL:0000211	Schistosoma mansoni worm stage	parasitic worm stage	
+OPL:0000230	Schistosoma mansoni adult male worm stage	adult male parasitic worm stage	
+OPL:0000236	Schistosoma mansoni adult female worm stage	adult female parasitic worm stage	
+OPL:0000319	Schistosoma mansoni adult worm stage	adult parasitic worm stage	
+OPL:0000033	trypomastigote stage	parasite lifecycle stage	
+OPL:0000048	Trypanosoma brucei lifecycle stage	parasite lifecycle stage	
+OPL:0000185	Trypanosoma cruzi lifecycle stage	parasite lifecycle stage	
+OPL:0000322	Trypanosomatida metacyclic stage	parasite lifecycle stage	
+OPL:0000151	promastigote stage	parasite lifecycle stage	
+OPL:0000006	metacyclic promastigote stage	promastigote stage	
+OPL:0000149	metacyclic trypomastigote stage	trypomastigote stage	
+OPL:0000028	macrogametocyte stage	gametocyte stage	
+OPL:0000143	microgametocyte stage	gametocyte stage	
+OPL:0000214	mother sporocyst stage	sporocyst stage	
+OPL:0000256	oocyst-derived sporozoite stage	sporozoite stage	
+OPL:0000172	24 hour schistosomulum stage	schistomulum stage	
+OPL:0000221	3 day schistosomulum stage	schistomulum stage	
+OPL:0000017	3 hour schistosomulum stage	schistomulum stage	
+OPL:0000183	3 week parasitic worm stage	parasitic worm stage	
+OPL:0000066	6 day schistosomulum stage	schistomulum stage	
+OPL:0000148	7 week parasitic worm stage	parasitic worm stage	
+OPL:0000127	adult female parasitic worm stage	adult parasitic worm stage	
+OPL:0000239	adult male parasitic worm stage	adult parasitic worm stage	
+OPL:0000237	adult parasitic worm stage	parasitic worm stage	
+OPL:0000022	bloodstream trypomastigote stage	trypomastigote stage	
+OPL:0000086	daughter sporocyst stage	sporocyst stage	
+OPL:0000180	egg stage	life cycle stage	
+OPL:0000248	erythrocytic merozoite stage	merozoite stage	
+OPL:0000140	erythrocytic ring trophozoite stage	erythrocytic trophozoite stage	
+OPL:0000078	erythrocytic schizont stage	schizont stage	
+OPL:0000119	exflagellated microgametocyte stage	microgametocyte stage	
+OPL:0000260	gamete stage	life cycle stage	
+OPL:0000150	gametocyte stage	life cycle stage	
+OPL:0000059	hepatic schizont stage	schizont stage	
+OPL:0000324	bradyzoite stage	parasite lifecycle stage	
+OPL:0000325	tachyzoite stage	parasite lifecycle stage	
+OPL:0000347	Plasmodium vivax ookinete stage	ookinete stage	Anopheles midgut
+OPL:0000348	Plasmodium vivax sporozoite stage	sporozoite stage	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte
+OPL:0000349	Plasmodium vivax merozoite stage	merozoite stage	Homo sapiens erythrocyte
+OPL:0000350	Plasmodium vivax gametocyte stage	gametocyte stage	Anopheles midgut|Homo sapiens erythrocyte
+OPL:0000351	Plasmodium berghei sporazoite stage	sporozoite stage	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte
+OPL:0000352	Plasmodium berghei meorzoite stage	merozoite stage	Homo sapiens erythrocyte
+OPL:0000353	Neospora caninum tachyzoite stage	tachyzoite stage	Canis
+OPL:0000354	Eimeria maxima gametocyte stage	gametocyte stage	Gallus gallus erythrocyte
+OPL:0000355	Eimeria tenella sprozoite stage	sporozoite stage	Gallus gallus intestine
+OPL:0000356	Eimeria tenella oocyst stage	oocyst stage	Gallus gallus midgut
+OPL:0000357	Sarcocystis neurona merozoite stage	merozoite stage	Canis lupus familiaris erythrocyte
+OPL:0000358	Sarcocystis neurona sporozoite stage	sporozoite stage	Mammalia muscle tissue
+OPL:0000359	Toxoplasma gondii tachyzoite stage	tachyzoite stage	Mammalia
+OPL:0000360	Toxoplasma gondii bradyzoite stage	bradyzoite stage	Triatominae
+OPL:0000361	Toxoplasma gondii oocysts stage	oocyst stage	Triatominae midgut
+OPL:0000362	Leishmania amazonensis promastigote stage	promastigote stage	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis
+OPL:0000363	Leishmania amazonensis amastigote stage	amastigote stage	Mammalia macrophage
+OPL:0000364	Leishmania donovani promastigote stage	promastigote stage	Homo sapiens macrophage|Phlebotominae midgut|Phlebotominae proboscis
+OPL:0000365	Leishmania donovani amastigote stage	amastigote stage	Homo sapiens macrophage
+OPL:0000366	Leishmania infantum promastigote stage	promastigote stage	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis
+OPL:0000367	Leishmania infantum amastigote stage	amastigote stage	Mammalia macrophage
+OPL:0000374	Plasmodium vivax lifecycle stage	parasite lifecycle stage	
+OPL:0000375	Plasmodium berghei lifecycle stage	parasite lifecycle stage	
+OPL:0000376	Neospora caninum lifecycle stage	parasite lifecycle stage	
+OPL:0000377	Eimeria maxima lifecycle stage	parasite lifecycle stage	
+OPL:0000378	Eimeria tenella lifecycle stage	parasite lifecycle stage	
+OPL:0000379	Sarcocystis neurona lifecycle stage	parasite lifecycle stage	
+OPL:0000380	Toxoplasma gondii lifecycle stage	parasite lifecycle stage	
+OPL:0000381	Leishmania amazonensis lifecycle stage	parasite lifecycle stage	
+OPL:0000382	Leishmania donovani lifecycle stage	parasite lifecycle stage	
+OPL:0000383	Leishmania infantum lifecycle stage	parasite lifecycle stage	

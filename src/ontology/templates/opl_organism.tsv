@@ -1,132 +1,132 @@
-Ontology ID	label	logical type	parent class	located in	participates in	has role
-ID		CLASS_TYPE	C %	C 'located in' some % SPLIT=|	C 'participates in' some % SPLIT=|	C 'has role' some % SPLIT=|
-OPL:0000232	parasite organism	equivalent	organism			parasite role
-OPL:0000271	Plasmodium erythrocytic merozoite	equivalent	Plasmodium		erythrocytic merozoite stage	
-OPL:0000283	Plasmodium erythrocytic ring trophozoite	equivalent	Plasmodium		erythrocytic ring trophozoite stage	
-OPL:0000276	Plasmodium erythrocytic schizont	equivalent	Plasmodium	Vertebrate erythrocyte	erythrocytic schizont stage	
-OPL:0000282	Plasmodium erythrocytic trophozoite	equivalent	Plasmodium	Vertebrate erythrocyte	erythrocytic trophozoite stage	
-OPL:0000264	Plasmodium gamete	equivalent	Plasmodium		gamete stage	
-OPL:0000267	Plasmodium gametocyte	equivalent	Plasmodium		gametocyte stage	
-OPL:0000272	Plasmodium hepatic merozoite	equivalent	Plasmodium		hepatic merozoite stage	
-OPL:0000277	Plasmodium hepatic schizont	equivalent	Plasmodium	Vertebrate hepatocyte	hepatic schizont stage	
-OPL:0000284	Plasmodium hepatic trophozoite	equivalent	Plasmodium	Vertebrate hepatocyte	hepatic trophozoite stage	
-OPL:0000265	Plasmodium macrogamete	equivalent	Plasmodium	Anopheles midgut	macrogamete stage	
-OPL:0000268	Plasmodium macrogametocyte	equivalent	Plasmodium	Anopheles midgut|Vertebrate erythrocyte	macrogametocyte stage	
-OPL:0000270	Plasmodium merozoite	equivalent	Plasmodium		merozoite stage	
-OPL:0000266	Plasmodium microgamete	equivalent	Plasmodium	Anopheles midgut	microgamete stage	
-OPL:0000269	Plasmodium microgametocyte	equivalent	Plasmodium	Anopheles midgut|Vertebrate erythrocyte	microgametocyte stage	
-OPL:0000273	Plasmodium oocyst	equivalent	Plasmodium	Anopheles midgut	oocyst stage	
-OPL:0000279	Plasmodium oocyst-derived sporozoite	equivalent	Plasmodium		oocyst-derived sporozoite stage	
-OPL:0000274	Plasmodium ookinete	equivalent	Plasmodium	Anopheles midgut	ookinete stage	
-OPL:0000280	Plasmodium salivary gland-derived sporozoite	equivalent	Plasmodium		salivary gland-derived sporozoite stage	
-OPL:0000275	Plasmodium schizont	equivalent	Plasmodium		schizont stage	
-OPL:0000278	Plasmodium sporozoite	equivalent	Plasmodium	Anopheles salivary gland|Vertebrate blood|Vertebrate hepatocyte	sporozoite stage	
-OPL:0000281	Plasmodium trophozoite	equivalent	Plasmodium	Vertebrate erythrocyte|Vertebrate hepatocyte	trophozoite stage	
-OPL:0000285	Plasmodium zygote	equivalent	Plasmodium	Anopheles midgut	zygote stage	
-OPL:0000162	Plasmodium falciparum exflagellated microgametocyte	subclass	Plasmodium falciparum microgametocyte	Anopheles midgut	Plasmodium falciparum exflagellated microgametocyte stage	
-OPL:0000258	Plasmodium falciparum gamete	subclass	Plasmodium falciparum	Anopheles midgut	Plasmodium falciparum gamete stage	
-OPL:0000167	Plasmodium falciparum macrogamete	subclass	Plasmodium falciparum gamete	Anopheles midgut	Plasmodium falciparum macrogamete stage	
-OPL:0000174	Plasmodium falciparum microgamete	subclass	Plasmodium falciparum gamete	Anopheles midgut	Plasmodium falciparum microgamete stage	
-OPL:0000138	Plasmodium falciparum oocyst	subclass	Plasmodium falciparum	Anopheles midgut	Plasmodium falciparum oocyst stage	
-OPL:0000089	Plasmodium falciparum ookinete	subclass	Plasmodium falciparum	Anopheles midgut	Plasmodium falciparum ookinete stage	
-OPL:0000161	Plasmodium falciparum zygote	subclass	Plasmodium falciparum	Anopheles midgut	Plasmodium falciparum zygote stage	
-OPL:0000249	Plasmodium falciparum gametocyte	subclass	Plasmodium falciparum	Anopheles midgut|Homo sapiens erythrocyte	Plasmodium falciparum gametocyte stage	
-OPL:0000206	Plasmodium falciparum macrogametocyte	subclass	Plasmodium falciparum gametocyte	Anopheles midgut|Homo sapiens erythrocyte	Plasmodium falciparum macrogametocyte stage	
-OPL:0000050	Plasmodium falciparum microgametocyte	subclass	Plasmodium falciparum gametocyte	Anopheles midgut|Homo sapiens erythrocyte	Plasmodium falciparum microgametocyte stage	
-OPL:0000137	Plasmodium falciparum sporozoite	subclass	Plasmodium falciparum	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte	Plasmodium falciparum sporozoite stage	
-OPL:0000191	Schistosoma mansoni daughter sporocyst	subclass	Schistosoma mansoni sporocyst	Biomphalaria hepatopancreas	Schistosoma mansoni daughter sporocyst stage	
-OPL:0000109	Schistosoma haematobium daughter sporocyst	subclass	Schistosoma haematobium sporocyst	Bulinus hepatopancreas	Schistosoma haematobium daughter sporocyst stage	
-OPL:0000031	Trypanosoma brucei procyclic trypomastigote	subclass	Trypanosoma brucei trypomastigote	Glossina midgut	Trypanosoma brucei procyclic trypomastigote stage	
-OPL:0000092	Trypanosoma brucei epimastigote	subclass	Trypanosoma brucei	Glossina salivary gland	Trypanosoma brucei epimastigote stage	
-OPL:0000034	Trypanosoma brucei metacyclic trypomastigote	subclass	Trypanosoma brucei trypomastigote	Glossina salivary gland|Mammalia blood	Trypanosoma brucei metacyclic trypomastigote stage	
-OPL:0000110	Plasmodium falciparum erythrocytic schizont	subclass	Plasmodium falciparum schizont	Homo sapiens erythrocyte	Plasmodium falciparum erythrocytic schizont stage	
-OPL:0000244	Plasmodium falciparum erythrocytic trophozoite	subclass	Plasmodium falciparum trophozoite	Homo sapiens erythrocyte	Plasmodium falciparum erythrocytic trophozoite stage	
-OPL:0000130	Plasmodium falciparum merozoite	subclass	Plasmodium falciparum	Homo sapiens erythrocyte	Plasmodium falciparum merozoite stage	
-OPL:0000060	Plasmodium falciparum schizont	subclass	Plasmodium falciparum	Homo sapiens erythrocyte|Homo sapiens hepatocyte	Plasmodium falciparum schizont stage	
-OPL:0000146	Plasmodium falciparum trophozoite	subclass	Plasmodium falciparum	Homo sapiens erythrocyte|Homo sapiens hepatocyte	Plasmodium falciparum trophozoite stage	
-OPL:0000190	Plasmodium falciparum hepatic schizont	subclass	Plasmodium falciparum schizont	Homo sapiens hepatocyte	Plasmodium falciparum hepatic schizont stage	
-OPL:0000257	Plasmodium falciparum hepatic trophozoite	subclass	Plasmodium falciparum trophozoite	Homo sapiens hepatocyte	Plasmodium falciparum hepatic trophozoite stage	
-OPL:0000051	Schistosoma japonicum 7 week worm	subclass	Schistosoma japonicum worm	Homo sapiens intestine|Homo sapiens mesenteric vein	Schistosoma japonicum 7 week worm stage	
-OPL:0000053	Schistosoma japonicum 3 week worm	subclass	Schistosoma japonicum worm	Homo sapiens mesenteric vein	Schistosoma japonicum 3 week worm stage	
-OPL:0000099	Schistosoma haematobium 3 week worm	subclass	Schistosoma haematobium worm	Homo sapiens urinary bladder	Schistosoma haematobium 3 week worm stage	
-OPL:0000087	Schistosoma haematobium 7 week worm	subclass	Schistosoma haematobium worm	Homo sapiens vesical venus plexus	Schistosoma haematobium 7 week worm stage	
-OPL:0000182	Trypanosoma brucei trypomastigote	subclass	Trypanosoma brucei	Mammalia blood|Mammalia cerebrospinal fluid	Trypanosoma brucei trypomastigote stage	
-OPL:0000116	Trypanosoma cruzi metacyclic trypomastigote	subclass	Trypanosoma cruzi trypomastigote	Mammalia blood|Mammalia macrophage	Trypanosoma cruzi metacyclic trypomastigote stage	
-OPL:0000164	Trypanosoma cruzi trypomastigote	subclass	Trypanosoma cruzi	Mammalia blood|Mammalia macrophage|Triatominae hindgut	Trypanosoma cruzi trypomastigote stage	
-OPL:0000136	Schistosoma mansoni 7 week worm	subclass	Schistosoma mansoni worm	Mammalia intestine|Mammalia mesenteric vein	Schistosoma mansoni 7 week worm stage	
-OPL:0000205	Schistosoma haematobium 3 day schistosomulum	subclass	Schistosoma haematobium schistosomulum	Mammalia liver	Schistosoma haematobium 3 day schistosomulum stage	
-OPL:0000201	Schistosoma haematobium 6 day schistosomulum	subclass	Schistosoma haematobium schistosomulum	Mammalia liver	Schistosoma haematobium 6 day schistosomulum stage	
-OPL:0000020	Schistosoma japonicum 3 day schistosomulum	subclass	Schistosoma japonicum schistosomulum	Mammalia lung	Schistosoma japonicum 3 day schistosomulum stage	
-OPL:0000039	Schistosoma japonicum 6 day schistosomulum	subclass	Schistosoma japonicum schistosomulum	Mammalia lung	Schistosoma japonicum 6 day schistosomulum stage	
-OPL:0000123	Schistosoma mansoni 3 day schistosomulum	subclass	Schistosoma mansoni schistosomulum	Mammalia lung	Schistosoma mansoni 3 day schistosomulum stage	
-OPL:0000218	Schistosoma mansoni 6 day schistosomulum	subclass	Schistosoma mansoni schistosomulum	Mammalia lung	Schistosoma mansoni 6 day schistosomulum stage	
-OPL:0000204	Leishmania major amastigote	subclass	Leishmania major	Mammalia macrophage	Leishmania major amastigote stage	
-OPL:0000061	Trypanosoma cruzi amastigote	subclass	Trypanosoma cruzi	Mammalia macrophage	Trypanosoma cruzi amastigote stage	
-OPL:0000016	Leishmania major promastigote	subclass	Leishmania major	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis	Leishmania major promastigote stage	
-OPL:0000002	Leishmania major metacyclic promastigote	subclass	Leishmania major promastigote	Mammalia macrophage|Phlebotominae proboscis	Leishmania major metacyclic promastigote stage	
-OPL:0000090	Schistosoma mansoni 3 week worm	subclass	Schistosoma mansoni worm	Mammalia mesenteric vein	Schistosoma mansoni 3 week worm stage	
-OPL:0000029	Schistosoma haematobium 24 hour schistosomulum	subclass	Schistosoma haematobium schistosomulum	Mammalia skin	Schistosoma haematobium 24 hour schistosomulum stage	
-OPL:0000011	Schistosoma haematobium 3 hour schistosomulum	subclass	Schistosoma haematobium schistosomulum	Mammalia skin	Schistosoma haematobium 3 hour schistosomulum stage	
-OPL:0000132	Schistosoma japonicum 24 hour schistosomulum	subclass	Schistosoma japonicum schistosomulum	Mammalia skin	Schistosoma japonicum 24 hour schistosomulum stage	
-OPL:0000021	Schistosoma japonicum 3 hour schistosomulum	subclass	Schistosoma japonicum schistosomulum	Mammalia skin	Schistosoma japonicum 3 hour schistosomulum stage	
-OPL:0000025	Schistosoma mansoni 24 hour schistosomulum	subclass	Schistosoma mansoni schistosomulum	Mammalia skin	Schistosoma mansoni 24 hour schistosomulum stage	
-OPL:0000067	Schistosoma mansoni 3 hour schistosomulum	subclass	Schistosoma mansoni schistosomulum	Mammalia skin	Schistosoma mansoni 3 hour schistosomulum stage	
-OPL:0000030	Schistosoma japonicum daughter sporocyst	subclass	Schistosoma japonicum sporocyst	Oncomelania hepatopancreas	Schistosoma japonicum daughter sporocyst stage	
-OPL:0000160	Leishmania major procyclic promastigote	subclass	Leishmania major promastigote	Phlebotominae midgut	Leishmania major procyclic promastigote stage	
-OPL:0000049	Trypanosoma cruzi epimastigote	subclass	Trypanosoma cruzi	Triatominae midgut	Trypanosoma cruzi epimastigote stage	
-OPL:0000242	Plasmodium falciparum erythrocytic merozoite	subclass	Plasmodium falciparum merozoite		Plasmodium falciparum erythrocytic merozoite stage	
-OPL:0000222	Plasmodium falciparum erythrocytic ring trophozoite	subclass	Plasmodium falciparum erythrocytic trophozoite		Plasmodium falciparum erythrocytic ring trophozoite stage	
-OPL:0000241	Plasmodium falciparum hepatic merozoite	subclass	Plasmodium falciparum merozoite		Plasmodium falciparum hepatic merozoite stage	
-OPL:0000259	Plasmodium falciparum oocyst-derived sporozoite	subclass	Plasmodium falciparum sporozoite		Plasmodium falciparum oocyst-derived sporozoite stage	
-OPL:0000255	Plasmodium falciparum salivary gland-derived sporozoite	subclass	Plasmodium falciparum sporozoite		Plasmodium falciparum salivary gland-derived sporozoite stage	
-OPL:0000235	Schistosoma haematobium adult female worm	subclass	Schistosoma haematobium adult worm		Schistosoma haematobium adult female worm stage	
-OPL:0000198	Schistosoma haematobium adult male worm	subclass	Schistosoma haematobium adult worm		Schistosoma haematobium adult male worm stage	
-OPL:0000233	Schistosoma haematobium adult worm	subclass	Schistosoma haematobium worm		Schistosoma haematobium adult worm stage	
-OPL:0000079	Schistosoma haematobium cercaria	subclass	Schistosoma haematobium		Schistosoma haematobium cercaria stage	
-OPL:0000200	Schistosoma haematobium egg	subclass	Schistosoma haematobium		Schistosoma haematobium egg stage	
-OPL:0000012	Schistosoma haematobium miracidium	subclass	Schistosoma haematobium		Schistosoma haematobium miracidium stage	
-OPL:0000144	Schistosoma haematobium mother sporocyst	subclass	Schistosoma haematobium sporocyst		Schistosoma haematobium mother sporocyst stage	
-OPL:0000178	Schistosoma haematobium schistosomulum	subclass	Schistosoma haematobium		Schistosoma haematobium schistosomulum stage	
-OPL:0000166	Schistosoma haematobium sporocyst	subclass	Schistosoma haematobium		Schistosoma haematobium sporocyst stage	
-OPL:0000037	Schistosoma haematobium worm	subclass	Schistosoma haematobium		Schistosoma haematobium worm stage	
-OPL:0000238	Schistosoma japonicum adult female worm	subclass	Schistosoma japonicum adult worm		Schistosoma japonicum adult female worm stage	
-OPL:0000229	Schistosoma japonicum adult male worm	subclass	Schistosoma japonicum adult worm		Schistosoma japonicum adult male worm stage	
-OPL:0000226	Schistosoma japonicum adult worm	subclass	Schistosoma japonicum worm		Schistosoma japonicum adult worm stage	
-OPL:0000043	Schistosoma japonicum cercaria	subclass	Schistosoma japonicum		Schistosoma japonicum cercaria stage	
-OPL:0000052	Schistosoma japonicum egg	subclass	Schistosoma japonicum		Schistosoma japonicum egg stage	
-OPL:0000179	Schistosoma japonicum miracidium	subclass	Schistosoma japonicum		Schistosoma japonicum miracidium stage	
-OPL:0000145	Schistosoma japonicum mother sporocyst	subclass	Schistosoma japonicum sporocyst		Schistosoma japonicum mother sporocyst stage	
-OPL:0000077	Schistosoma japonicum schistosomulum	subclass	Schistosoma japonicum		Schistosoma japonicum schistosomulum stage	
-OPL:0000094	Schistosoma japonicum sporocyst	subclass	Schistosoma japonicum		Schistosoma japonicum sporocyst stage	
-OPL:0000126	Schistosoma japonicum worm	subclass	Schistosoma japonicum		Schistosoma japonicum worm stage	
-OPL:0000231	Schistosoma mansoni adult female worm	subclass	Schistosoma mansoni adult worm		Schistosoma mansoni adult female worm stage	
-OPL:0000240	Schistosoma mansoni adult male worm	subclass	Schistosoma mansoni adult worm		Schistosoma mansoni adult male worm stage	
-OPL:0000227	Schistosoma mansoni adult worm	subclass	Schistosoma mansoni worm		Schistosoma mansoni adult worm stage	
-OPL:0000168	Schistosoma mansoni cercaria	subclass	Schistosoma mansoni		Schistosoma mansoni cercaria stage	
-OPL:0000105	Schistosoma mansoni egg	subclass	Schistosoma mansoni		Schistosoma mansoni egg stage	
-OPL:0000208	Schistosoma mansoni miracidium	subclass	Schistosoma mansoni		Schistosoma mansoni miracidium stage	
-OPL:0000196	Schistosoma mansoni mother sporocyst	subclass	Schistosoma mansoni sporocyst		Schistosoma mansoni mother sporocyst stage	
-OPL:0000038	Schistosoma mansoni schistosomulum	subclass	Schistosoma mansoni		Schistosoma mansoni schistosomulum stage	
-OPL:0000147	Schistosoma mansoni sporocyst	subclass	Schistosoma mansoni		Schistosoma mansoni sporocyst stage	
-OPL:0000128	Schistosoma mansoni worm	subclass	Schistosoma mansoni		Schistosoma mansoni worm stage	
-OPL:0000326	Plasmodium vivax ookinete	subclass	Plasmodium vivax	Anopheles midgut	Plasmodium vivax ookinete stage	
-OPL:0000327	Plasmodium vivax sporozoite	subclass	Plasmodium vivax	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte	Plasmodium vivax sporozoite stage	
-OPL:0000328	Plasmodium vivax merozoite	subclass	Plasmodium vivax	Homo sapiens erythrocyte	Plasmodium vivax merozoite stage	
-OPL:0000329	Plasmodium vivax gametocyte	subclass	Plasmodium vivax	Anopheles midgut|Homo sapiens erythrocyte	Plasmodium vivax gametocyte stage	
-OPL:0000330	Plasmodium berghei sporazoite	subclass	Plasmodium berghei	Anopheles salivary gland|Homo sapiens blood|Homo sapiens hepatocyte	Plasmodium berghei sporazoite stage	
-OPL:0000331	Plasmodium berghei merozoite	subclass	Plasmodium berghei	Homo sapiens erythrocyte	Plasmodium berghei merozoite stage	
-OPL:0000332	Neospora caninum tachyzoite	subclass	Neospora caninum	Canis	Neospora caninum tachyzoite stage	
-OPL:0000333	Eimeria maxima gametocyte	subclass	Eimeria maxima	Gallus gallus erythrocyte	Eimeria maxima gametocyte stage	
-OPL:0000334	Eimeria tenella sprozoite	subclass	Eimeria tenella	Gallus gallus intestine	Eimeria tenella sporozoite stage	
-OPL:0000335	Eimeria tenella oocyst	subclass	Eimeria tenella	Gallus gallus midgut	Eimeria tenella oocyst stage	
-OPL:0000336	Sarcocystis neurona merozoite	subclass	Sarcocystis neurona	Canis lupus familiaris erythrocyte	Sarcocystis neurona merozoite stage	
-OPL:0000337	Sarcocystis neurona sporozoite	subclass	Sarcocystis neurona	Mammalia muscle tissue	Sarcocystis neurona sporozoite stage	
-OPL:0000338	Toxoplasma gondii tachyzoite	subclass	Toxoplasma gondii	Mammalia	Toxoplasma gondii tachyzoite stage	
-OPL:0000339	Toxoplasma gondii bradyzoite	subclass	Toxoplasma gondii	Triatominae	Toxoplasma gondii bradyzoite stage	
-OPL:0000340	Toxoplasma gondii oocyst	subclass	Toxoplasma gondii	Triatominae midgut	Toxoplasma gondii oocysts stage	
-OPL:0000341	Leishmania amazonensis promastigote	subclass	Leishmania amazonensis	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis	Leishmania amazonensis promastigote stage	
-OPL:0000342	Leishmania amazonensis amastigote	subclass	Leishmania amazonensis	Mammalia macrophage	Leishmania amazonensis amastigote stage	
-OPL:0000343	Leishmania donovani promastigote	subclass	Leishmania donovani	Homo sapiens macrophage|Phlebotominae midgut|Phlebotominae proboscis	Leishmania donovani promastigote stage	
-OPL:0000344	Leishmania donovani amastigote	subclass	Leishmania donovani	Homo sapiens macrophage	Leishmania donovani amastigote stage	
-OPL:0000345	Leishmania infantum promastigote	subclass	Leishmania infantum	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis	Leishmania infantum promastigote stage	
-OPL:0000346	Leishmania infantum amastigote	subclass	Leishmania infantum	Mammalia macrophage	Leishmania infantum amastigote stage	
+Ontology ID	label	logical type	parent class	participates in	has role
+ID		CLASS_TYPE	C %	C 'participates in' some % SPLIT=|	C 'has role' some % SPLIT=|
+OPL:0000232	parasite organism	equivalent	organism		parasite role
+OPL:0000271	Plasmodium erythrocytic merozoite	equivalent	Plasmodium	erythrocytic merozoite stage	
+OPL:0000283	Plasmodium erythrocytic ring trophozoite	equivalent	Plasmodium	erythrocytic ring trophozoite stage	
+OPL:0000276	Plasmodium erythrocytic schizont	equivalent	Plasmodium	erythrocytic schizont stage	
+OPL:0000282	Plasmodium erythrocytic trophozoite	equivalent	Plasmodium	erythrocytic trophozoite stage	
+OPL:0000264	Plasmodium gamete	equivalent	Plasmodium	gamete stage	
+OPL:0000267	Plasmodium gametocyte	equivalent	Plasmodium	gametocyte stage	
+OPL:0000272	Plasmodium hepatic merozoite	equivalent	Plasmodium	hepatic merozoite stage	
+OPL:0000277	Plasmodium hepatic schizont	equivalent	Plasmodium	hepatic schizont stage	
+OPL:0000284	Plasmodium hepatic trophozoite	equivalent	Plasmodium	hepatic trophozoite stage	
+OPL:0000265	Plasmodium macrogamete	equivalent	Plasmodium	macrogamete stage	
+OPL:0000268	Plasmodium macrogametocyte	equivalent	Plasmodium	macrogametocyte stage	
+OPL:0000270	Plasmodium merozoite	equivalent	Plasmodium	merozoite stage	
+OPL:0000266	Plasmodium microgamete	equivalent	Plasmodium	microgamete stage	
+OPL:0000269	Plasmodium microgametocyte	equivalent	Plasmodium	microgametocyte stage	
+OPL:0000273	Plasmodium oocyst	equivalent	Plasmodium	oocyst stage	
+OPL:0000279	Plasmodium oocyst-derived sporozoite	equivalent	Plasmodium	oocyst-derived sporozoite stage	
+OPL:0000274	Plasmodium ookinete	equivalent	Plasmodium	ookinete stage	
+OPL:0000280	Plasmodium salivary gland-derived sporozoite	equivalent	Plasmodium	salivary gland-derived sporozoite stage	
+OPL:0000275	Plasmodium schizont	equivalent	Plasmodium	schizont stage	
+OPL:0000278	Plasmodium sporozoite	equivalent	Plasmodium	sporozoite stage	
+OPL:0000281	Plasmodium trophozoite	equivalent	Plasmodium	trophozoite stage	
+OPL:0000285	Plasmodium zygote	equivalent	Plasmodium	zygote stage	
+OPL:0000162	Plasmodium falciparum exflagellated microgametocyte	subclass	Plasmodium falciparum microgametocyte	Plasmodium falciparum exflagellated microgametocyte stage	
+OPL:0000258	Plasmodium falciparum gamete	subclass	Plasmodium falciparum	Plasmodium falciparum gamete stage	
+OPL:0000167	Plasmodium falciparum macrogamete	subclass	Plasmodium falciparum gamete	Plasmodium falciparum macrogamete stage	
+OPL:0000174	Plasmodium falciparum microgamete	subclass	Plasmodium falciparum gamete	Plasmodium falciparum microgamete stage	
+OPL:0000138	Plasmodium falciparum oocyst	subclass	Plasmodium falciparum	Plasmodium falciparum oocyst stage	
+OPL:0000089	Plasmodium falciparum ookinete	subclass	Plasmodium falciparum	Plasmodium falciparum ookinete stage	
+OPL:0000161	Plasmodium falciparum zygote	subclass	Plasmodium falciparum	Plasmodium falciparum zygote stage	
+OPL:0000249	Plasmodium falciparum gametocyte	subclass	Plasmodium falciparum	Plasmodium falciparum gametocyte stage	
+OPL:0000206	Plasmodium falciparum macrogametocyte	subclass	Plasmodium falciparum gametocyte	Plasmodium falciparum macrogametocyte stage	
+OPL:0000050	Plasmodium falciparum microgametocyte	subclass	Plasmodium falciparum gametocyte	Plasmodium falciparum microgametocyte stage	
+OPL:0000137	Plasmodium falciparum sporozoite	subclass	Plasmodium falciparum	Plasmodium falciparum sporozoite stage	
+OPL:0000191	Schistosoma mansoni daughter sporocyst	subclass	Schistosoma mansoni sporocyst	Schistosoma mansoni daughter sporocyst stage	
+OPL:0000109	Schistosoma haematobium daughter sporocyst	subclass	Schistosoma haematobium sporocyst	Schistosoma haematobium daughter sporocyst stage	
+OPL:0000031	Trypanosoma brucei procyclic trypomastigote	subclass	Trypanosoma brucei trypomastigote	Trypanosoma brucei procyclic trypomastigote stage	
+OPL:0000092	Trypanosoma brucei epimastigote	subclass	Trypanosoma brucei	Trypanosoma brucei epimastigote stage	
+OPL:0000034	Trypanosoma brucei metacyclic trypomastigote	subclass	Trypanosoma brucei trypomastigote	Trypanosoma brucei metacyclic trypomastigote stage	
+OPL:0000110	Plasmodium falciparum erythrocytic schizont	subclass	Plasmodium falciparum schizont	Plasmodium falciparum erythrocytic schizont stage	
+OPL:0000244	Plasmodium falciparum erythrocytic trophozoite	subclass	Plasmodium falciparum trophozoite	Plasmodium falciparum erythrocytic trophozoite stage	
+OPL:0000130	Plasmodium falciparum merozoite	subclass	Plasmodium falciparum	Plasmodium falciparum merozoite stage	
+OPL:0000060	Plasmodium falciparum schizont	subclass	Plasmodium falciparum	Plasmodium falciparum schizont stage	
+OPL:0000146	Plasmodium falciparum trophozoite	subclass	Plasmodium falciparum	Plasmodium falciparum trophozoite stage	
+OPL:0000190	Plasmodium falciparum hepatic schizont	subclass	Plasmodium falciparum schizont	Plasmodium falciparum hepatic schizont stage	
+OPL:0000257	Plasmodium falciparum hepatic trophozoite	subclass	Plasmodium falciparum trophozoite	Plasmodium falciparum hepatic trophozoite stage	
+OPL:0000051	Schistosoma japonicum 7 week worm	subclass	Schistosoma japonicum worm	Schistosoma japonicum 7 week worm stage	
+OPL:0000053	Schistosoma japonicum 3 week worm	subclass	Schistosoma japonicum worm	Schistosoma japonicum 3 week worm stage	
+OPL:0000099	Schistosoma haematobium 3 week worm	subclass	Schistosoma haematobium worm	Schistosoma haematobium 3 week worm stage	
+OPL:0000087	Schistosoma haematobium 7 week worm	subclass	Schistosoma haematobium worm	Schistosoma haematobium 7 week worm stage	
+OPL:0000182	Trypanosoma brucei trypomastigote	subclass	Trypanosoma brucei	Trypanosoma brucei trypomastigote stage	
+OPL:0000116	Trypanosoma cruzi metacyclic trypomastigote	subclass	Trypanosoma cruzi trypomastigote	Trypanosoma cruzi metacyclic trypomastigote stage	
+OPL:0000164	Trypanosoma cruzi trypomastigote	subclass	Trypanosoma cruzi	Trypanosoma cruzi trypomastigote stage	
+OPL:0000136	Schistosoma mansoni 7 week worm	subclass	Schistosoma mansoni worm	Schistosoma mansoni 7 week worm stage	
+OPL:0000205	Schistosoma haematobium 3 day schistosomulum	subclass	Schistosoma haematobium schistosomulum	Schistosoma haematobium 3 day schistosomulum stage	
+OPL:0000201	Schistosoma haematobium 6 day schistosomulum	subclass	Schistosoma haematobium schistosomulum	Schistosoma haematobium 6 day schistosomulum stage	
+OPL:0000020	Schistosoma japonicum 3 day schistosomulum	subclass	Schistosoma japonicum schistosomulum	Schistosoma japonicum 3 day schistosomulum stage	
+OPL:0000039	Schistosoma japonicum 6 day schistosomulum	subclass	Schistosoma japonicum schistosomulum	Schistosoma japonicum 6 day schistosomulum stage	
+OPL:0000123	Schistosoma mansoni 3 day schistosomulum	subclass	Schistosoma mansoni schistosomulum	Schistosoma mansoni 3 day schistosomulum stage	
+OPL:0000218	Schistosoma mansoni 6 day schistosomulum	subclass	Schistosoma mansoni schistosomulum	Schistosoma mansoni 6 day schistosomulum stage	
+OPL:0000204	Leishmania major amastigote	subclass	Leishmania major	Leishmania major amastigote stage	
+OPL:0000061	Trypanosoma cruzi amastigote	subclass	Trypanosoma cruzi	Trypanosoma cruzi amastigote stage	
+OPL:0000016	Leishmania major promastigote	subclass	Leishmania major	Leishmania major promastigote stage	
+OPL:0000002	Leishmania major metacyclic promastigote	subclass	Leishmania major promastigote	Leishmania major metacyclic promastigote stage	
+OPL:0000090	Schistosoma mansoni 3 week worm	subclass	Schistosoma mansoni worm	Schistosoma mansoni 3 week worm stage	
+OPL:0000029	Schistosoma haematobium 24 hour schistosomulum	subclass	Schistosoma haematobium schistosomulum	Schistosoma haematobium 24 hour schistosomulum stage	
+OPL:0000011	Schistosoma haematobium 3 hour schistosomulum	subclass	Schistosoma haematobium schistosomulum	Schistosoma haematobium 3 hour schistosomulum stage	
+OPL:0000132	Schistosoma japonicum 24 hour schistosomulum	subclass	Schistosoma japonicum schistosomulum	Schistosoma japonicum 24 hour schistosomulum stage	
+OPL:0000021	Schistosoma japonicum 3 hour schistosomulum	subclass	Schistosoma japonicum schistosomulum	Schistosoma japonicum 3 hour schistosomulum stage	
+OPL:0000025	Schistosoma mansoni 24 hour schistosomulum	subclass	Schistosoma mansoni schistosomulum	Schistosoma mansoni 24 hour schistosomulum stage	
+OPL:0000067	Schistosoma mansoni 3 hour schistosomulum	subclass	Schistosoma mansoni schistosomulum	Schistosoma mansoni 3 hour schistosomulum stage	
+OPL:0000030	Schistosoma japonicum daughter sporocyst	subclass	Schistosoma japonicum sporocyst	Schistosoma japonicum daughter sporocyst stage	
+OPL:0000160	Leishmania major procyclic promastigote	subclass	Leishmania major promastigote	Leishmania major procyclic promastigote stage	
+OPL:0000049	Trypanosoma cruzi epimastigote	subclass	Trypanosoma cruzi	Trypanosoma cruzi epimastigote stage	
+OPL:0000242	Plasmodium falciparum erythrocytic merozoite	subclass	Plasmodium falciparum merozoite	Plasmodium falciparum erythrocytic merozoite stage	
+OPL:0000222	Plasmodium falciparum erythrocytic ring trophozoite	subclass	Plasmodium falciparum erythrocytic trophozoite	Plasmodium falciparum erythrocytic ring trophozoite stage	
+OPL:0000241	Plasmodium falciparum hepatic merozoite	subclass	Plasmodium falciparum merozoite	Plasmodium falciparum hepatic merozoite stage	
+OPL:0000259	Plasmodium falciparum oocyst-derived sporozoite	subclass	Plasmodium falciparum sporozoite	Plasmodium falciparum oocyst-derived sporozoite stage	
+OPL:0000255	Plasmodium falciparum salivary gland-derived sporozoite	subclass	Plasmodium falciparum sporozoite	Plasmodium falciparum salivary gland-derived sporozoite stage	
+OPL:0000235	Schistosoma haematobium adult female worm	subclass	Schistosoma haematobium adult worm	Schistosoma haematobium adult female worm stage	
+OPL:0000198	Schistosoma haematobium adult male worm	subclass	Schistosoma haematobium adult worm	Schistosoma haematobium adult male worm stage	
+OPL:0000233	Schistosoma haematobium adult worm	subclass	Schistosoma haematobium worm	Schistosoma haematobium adult worm stage	
+OPL:0000079	Schistosoma haematobium cercaria	subclass	Schistosoma haematobium	Schistosoma haematobium cercaria stage	
+OPL:0000200	Schistosoma haematobium egg	subclass	Schistosoma haematobium	Schistosoma haematobium egg stage	
+OPL:0000012	Schistosoma haematobium miracidium	subclass	Schistosoma haematobium	Schistosoma haematobium miracidium stage	
+OPL:0000144	Schistosoma haematobium mother sporocyst	subclass	Schistosoma haematobium sporocyst	Schistosoma haematobium mother sporocyst stage	
+OPL:0000178	Schistosoma haematobium schistosomulum	subclass	Schistosoma haematobium	Schistosoma haematobium schistosomulum stage	
+OPL:0000166	Schistosoma haematobium sporocyst	subclass	Schistosoma haematobium	Schistosoma haematobium sporocyst stage	
+OPL:0000037	Schistosoma haematobium worm	subclass	Schistosoma haematobium	Schistosoma haematobium worm stage	
+OPL:0000238	Schistosoma japonicum adult female worm	subclass	Schistosoma japonicum adult worm	Schistosoma japonicum adult female worm stage	
+OPL:0000229	Schistosoma japonicum adult male worm	subclass	Schistosoma japonicum adult worm	Schistosoma japonicum adult male worm stage	
+OPL:0000226	Schistosoma japonicum adult worm	subclass	Schistosoma japonicum worm	Schistosoma japonicum adult worm stage	
+OPL:0000043	Schistosoma japonicum cercaria	subclass	Schistosoma japonicum	Schistosoma japonicum cercaria stage	
+OPL:0000052	Schistosoma japonicum egg	subclass	Schistosoma japonicum	Schistosoma japonicum egg stage	
+OPL:0000179	Schistosoma japonicum miracidium	subclass	Schistosoma japonicum	Schistosoma japonicum miracidium stage	
+OPL:0000145	Schistosoma japonicum mother sporocyst	subclass	Schistosoma japonicum sporocyst	Schistosoma japonicum mother sporocyst stage	
+OPL:0000077	Schistosoma japonicum schistosomulum	subclass	Schistosoma japonicum	Schistosoma japonicum schistosomulum stage	
+OPL:0000094	Schistosoma japonicum sporocyst	subclass	Schistosoma japonicum	Schistosoma japonicum sporocyst stage	
+OPL:0000126	Schistosoma japonicum worm	subclass	Schistosoma japonicum	Schistosoma japonicum worm stage	
+OPL:0000231	Schistosoma mansoni adult female worm	subclass	Schistosoma mansoni adult worm	Schistosoma mansoni adult female worm stage	
+OPL:0000240	Schistosoma mansoni adult male worm	subclass	Schistosoma mansoni adult worm	Schistosoma mansoni adult male worm stage	
+OPL:0000227	Schistosoma mansoni adult worm	subclass	Schistosoma mansoni worm	Schistosoma mansoni adult worm stage	
+OPL:0000168	Schistosoma mansoni cercaria	subclass	Schistosoma mansoni	Schistosoma mansoni cercaria stage	
+OPL:0000105	Schistosoma mansoni egg	subclass	Schistosoma mansoni	Schistosoma mansoni egg stage	
+OPL:0000208	Schistosoma mansoni miracidium	subclass	Schistosoma mansoni	Schistosoma mansoni miracidium stage	
+OPL:0000196	Schistosoma mansoni mother sporocyst	subclass	Schistosoma mansoni sporocyst	Schistosoma mansoni mother sporocyst stage	
+OPL:0000038	Schistosoma mansoni schistosomulum	subclass	Schistosoma mansoni	Schistosoma mansoni schistosomulum stage	
+OPL:0000147	Schistosoma mansoni sporocyst	subclass	Schistosoma mansoni	Schistosoma mansoni sporocyst stage	
+OPL:0000128	Schistosoma mansoni worm	subclass	Schistosoma mansoni	Schistosoma mansoni worm stage	
+OPL:0000326	Plasmodium vivax ookinete	subclass	Plasmodium vivax	Plasmodium vivax ookinete stage	
+OPL:0000327	Plasmodium vivax sporozoite	subclass	Plasmodium vivax	Plasmodium vivax sporozoite stage	
+OPL:0000328	Plasmodium vivax merozoite	subclass	Plasmodium vivax	Plasmodium vivax merozoite stage	
+OPL:0000329	Plasmodium vivax gametocyte	subclass	Plasmodium vivax	Plasmodium vivax gametocyte stage	
+OPL:0000330	Plasmodium berghei sporazoite	subclass	Plasmodium berghei	Plasmodium berghei sporazoite stage	
+OPL:0000331	Plasmodium berghei merozoite	subclass	Plasmodium berghei	Plasmodium berghei merozoite stage	
+OPL:0000332	Neospora caninum tachyzoite	subclass	Neospora caninum	Neospora caninum tachyzoite stage	
+OPL:0000333	Eimeria maxima gametocyte	subclass	Eimeria maxima	Eimeria maxima gametocyte stage	
+OPL:0000334	Eimeria tenella sprozoite	subclass	Eimeria tenella	Eimeria tenella sporozoite stage	
+OPL:0000335	Eimeria tenella oocyst	subclass	Eimeria tenella	Eimeria tenella oocyst stage	
+OPL:0000336	Sarcocystis neurona merozoite	subclass	Sarcocystis neurona	Sarcocystis neurona merozoite stage	
+OPL:0000337	Sarcocystis neurona sporozoite	subclass	Sarcocystis neurona	Sarcocystis neurona sporozoite stage	
+OPL:0000338	Toxoplasma gondii tachyzoite	subclass	Toxoplasma gondii	Toxoplasma gondii tachyzoite stage	
+OPL:0000339	Toxoplasma gondii bradyzoite	subclass	Toxoplasma gondii	Toxoplasma gondii bradyzoite stage	
+OPL:0000340	Toxoplasma gondii oocyst	subclass	Toxoplasma gondii	Toxoplasma gondii oocysts stage	
+OPL:0000341	Leishmania amazonensis promastigote	subclass	Leishmania amazonensis	Leishmania amazonensis promastigote stage	
+OPL:0000342	Leishmania amazonensis amastigote	subclass	Leishmania amazonensis	Leishmania amazonensis amastigote stage	
+OPL:0000343	Leishmania donovani promastigote	subclass	Leishmania donovani	Leishmania donovani promastigote stage	
+OPL:0000344	Leishmania donovani amastigote	subclass	Leishmania donovani	Leishmania donovani amastigote stage	
+OPL:0000345	Leishmania infantum promastigote	subclass	Leishmania infantum	Leishmania infantum promastigote stage	
+OPL:0000346	Leishmania infantum amastigote	subclass	Leishmania infantum	Leishmania infantum amastigote stage	

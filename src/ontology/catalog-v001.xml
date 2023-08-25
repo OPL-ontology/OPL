@@ -12,7 +12,9 @@
     <uri name="http://purl.obolibrary.org/obo/opl/dev/ncbitaxon_axioms.owl" uri="modules/ncbitaxon_axioms.owl"/>
     <uri name="http://purl.obolibrary.org/obo/opl/dev/opl_anatomical_entity.owl" uri="modules/opl_anatomical_entity.owl"/>
     <uri name="http://purl.obolibrary.org/obo/opl/dev/opl_development_stage.owl" uri="modules/opl_development_stage.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opl/dev/opl_development_stage_occurs_in.owl" uri="modules/opl_development_stage_occurs_in.owl"/>
     <uri name="http://purl.obolibrary.org/obo/opl/dev/opl_organism.owl" uri="modules/opl_organism.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opl/dev/opl_organism_located_in.owl" uri="modules/opl_organism_located_in.owl"/>
     <uri name="http://purl.obolibrary.org/obo/opl/dev/opl_misc.owl" uri="modules/opl_misc.owl"/>
     <uri name="http://purl.obolibrary.org/obo/opl/dev/opl_obsolete.owl" uri="modules/opl_obsolete.owl"/>
     <uri name="http://purl.obolibrary.org/obo/opl/dev/opl_terms.owl" uri="modules/opl_terms.owl"/>

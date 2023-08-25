@@ -30,7 +30,9 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/opl/dev/import_UBERON.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/opl/dev/opl_terms.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/opl/dev/opl_organism.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/opl/dev/opl_organism_located_in.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/opl/dev/opl_development_stage.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/opl/dev/opl_development_stage_occurs_in.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/opl/dev/opl_anatomical_entity.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/opl/dev/opl_misc.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/opl/dev/opl_obsolete.owl"/>
