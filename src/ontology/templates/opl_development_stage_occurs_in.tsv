@@ -202,3 +202,18 @@ OPL:0000380	Toxoplasma gondii lifecycle stage	parasite lifecycle stage
 OPL:0000381	Leishmania amazonensis lifecycle stage	parasite lifecycle stage	
 OPL:0000382	Leishmania donovani lifecycle stage	parasite lifecycle stage	
 OPL:0000383	Leishmania infantum lifecycle stage	parasite lifecycle stage	
+OPL:0000399	Plasmodium yoelii ookinete stage	ookinete stage	Anopheles midgut
+OPL:0000400	Plasmodium yoelii sporozoite stage	sporozoite stage	
+OPL:0000401	Plasmodium yoelii merozoite stage	merozoite stage	Primates erythrocyte
+OPL:0000402	Plasmodium yoelii gametocyte stage	gametocyte stage	Primates erythrocyte
+OPL:0000403	Plasmodium chabaudi ookinete stage	ookinete stage	Anopheles midgut
+OPL:0000404	Plasmodium chabaudi sporozoite stage	sporozoite stage	
+OPL:0000405	Plasmodium chabaudi merozoite stage	merozoite stage	Primates erythrocyte
+OPL:0000406	Plasmodium chabaudi gametocyte stage	gametocyte stage	Primates erythrocyte
+OPL:0000407	Plasmodium knowlesi ookinete stage	ookinete stage	Anopheles midgut
+OPL:0000408	Plasmodium knowlesi sporozoite stage	sporozoite stage	
+OPL:0000409	Plasmodium knowlesi merozoite stage	merozoite stage	Primates erythrocyte
+OPL:0000410	Plasmodium knowlesi gametocyte stage	gametocyte stage	Primates erythrocyte
+OPL:0000411	Eimeria acervulina merozoite stage	merozoite stage	Gallus gallus erythrocyte
+OPL:0000412	Cryptosporidium parvum oocyst stage	oocyst stage	
+OPL:0000413	Cryptosporidium parvum sporozoite stage	sporozoite stage	
