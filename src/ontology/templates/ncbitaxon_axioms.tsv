@@ -24,9 +24,8 @@ NCBITaxon:5802	subclass		Gallus gallus
 NCBITaxon:9031	subclass	host role		
 NCBITaxon:5855	subclass	human parasite role	Vertebrata <vertebrates>	Anopheles <genus>
 NCBITaxon:5821	subclass	human parasite role	Mammalia	Anopheles <genus>
-NCBITaxon:29176	subclass			
 NCBITaxon:9611	subclass	definitive host role		
-NCBITaxon:29176	subclass		Canis	
+NCBITaxon:29176	subclass		Canis|Bos taurus	
 NCBITaxon:42890	subclass		Canis lupus familiaris	
 NCBITaxon:5811	subclass	human parasite role	Mammalia	Triatominae
 NCBITaxon:5659	subclass	human parasite role	Mammalia	Phlebotominae
@@ -34,3 +33,8 @@ NCBITaxon:5661	subclass	human parasite role	Homo sapiens	Phlebotominae
 NCBITaxon:5671	subclass	human parasite role	Mammalia	Phlebotominae
 NCBITaxon:9913	subclass	intermediate host role		
 NCBITaxon:9874	subclass	intermediate host role		
+NCBITaxon:5850	subclass		Primates	Anopheles <genus>
+NCBITaxon:5825	subclass		Primates	Anopheles <genus>
+NCBITaxon:5861	subclass		Primates	Anopheles <genus>
+NCBITaxon:5801	subclass		Gallus gallus	
+NCBITaxon:5807	subclass		Mammalia	
