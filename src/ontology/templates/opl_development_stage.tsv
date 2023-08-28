@@ -202,3 +202,24 @@ OPL:0000380	Toxoplasma gondii lifecycle stage	equivalent	parasite lifecycle stag
 OPL:0000381	Leishmania amazonensis lifecycle stage	equivalent	parasite lifecycle stage	Leishmania amazonensis		
 OPL:0000382	Leishmania donovani lifecycle stage	equivalent	parasite lifecycle stage	Leishmania donovani		
 OPL:0000383	Leishmania infantum lifecycle stage	equivalent	parasite lifecycle stage	Leishmania infantum		
+OPL:0000399	Plasmodium yoelii ookinete stage	equivalent	ookinete stage	Plasmodium yoelii		
+OPL:0000400	Plasmodium yoelii sporozoite stage	equivalent	sporozoite stage	Plasmodium yoelii		
+OPL:0000401	Plasmodium yoelii merozoite stage	equivalent	merozoite stage	Plasmodium yoelii		
+OPL:0000402	Plasmodium yoelii gametocyte stage	equivalent	gametocyte stage	Plasmodium yoelii		
+OPL:0000403	Plasmodium chabaudi ookinete stage	equivalent	ookinete stage	Plasmodium chabaudi		
+OPL:0000404	Plasmodium chabaudi sporozoite stage	equivalent	sporozoite stage	Plasmodium chabaudi		
+OPL:0000405	Plasmodium chabaudi merozoite stage	equivalent	merozoite stage	Plasmodium chabaudi		
+OPL:0000406	Plasmodium chabaudi gametocyte stage	equivalent	gametocyte stage	Plasmodium chabaudi		
+OPL:0000407	Plasmodium knowlesi ookinete stage	equivalent	ookinete stage	Plasmodium knowlesi		
+OPL:0000408	Plasmodium knowlesi sporozoite stage	equivalent	sporozoite stage	Plasmodium knowlesi		
+OPL:0000409	Plasmodium knowlesi merozoite stage	equivalent	merozoite stage	Plasmodium knowlesi		
+OPL:0000410	Plasmodium knowlesi gametocyte stage	equivalent	gametocyte stage	Plasmodium knowlesi		
+OPL:0000411	Eimeria acervulina merozoite stage	equivalent	merozoite stage	Eimeria acervulina		
+OPL:0000412	Cryptosporidium parvum oocyst stage	equivalent	oocyst stage	Cryptosporidium parvum		
+OPL:0000413	Cryptosporidium parvum sporozoite stage	equivalent	sporozoite stage	Cryptosporidium parvum		
+OPL:0000415	Plasmodium yoelii lifecycle stage	equivalent	parasite lifecycle stage	Plasmodium yoelii		
+OPL:0000416	Plasmodium chabaudi lifecycle stage	equivalent	parasite lifecycle stage	Plasmodium chabaudi		
+OPL:0000417	Plasmodium knowlesi lifecycle stage	equivalent	parasite lifecycle stage	Plasmodium knowlesi		
+OPL:0000418	Eimeria acervulina lifecycle stage	equivalent	parasite lifecycle stage	Eimeria acervulina		
+OPL:0000419	Cryptosporidium parvum lifecycle stage	equivalent	parasite lifecycle stage	Cryptosporidium parvum		
+OPL:0000421	Neospora caninum bradyzoite stage	equivalent	bradyzoite stage	Neospora caninum		

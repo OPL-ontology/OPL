@@ -130,3 +130,19 @@ OPL:0000343	Leishmania donovani promastigote	Leishmania donovani	Homo sapiens ma
 OPL:0000344	Leishmania donovani amastigote	Leishmania donovani	Homo sapiens macrophage
 OPL:0000345	Leishmania infantum promastigote	Leishmania infantum	Mammalia macrophage|Phlebotominae midgut|Phlebotominae proboscis
 OPL:0000346	Leishmania infantum amastigote	Leishmania infantum	Mammalia macrophage
+OPL:0000384	Plasmodium yoelii ookinete	Plasmodium yoelii	Anopheles midgut
+OPL:0000385	Plasmodium yoelii sporozoite	Plasmodium yoelii	
+OPL:0000386	Plasmodium yoelii merozoite	Plasmodium yoelii	Primates erythrocyte
+OPL:0000387	Plasmodium yoelii gametocyte	Plasmodium yoelii	Primates erythrocyte
+OPL:0000388	Plasmodium chabaudi ookinete	Plasmodium chabaudi	Anopheles midgut
+OPL:0000389	Plasmodium chabaudi sporozoite	Plasmodium chabaudi	
+OPL:0000390	Plasmodium chabaudi merozoite	Plasmodium chabaudi	Primates erythrocyte
+OPL:0000391	Plasmodium chabaudi gametocyte	Plasmodium chabaudi	Primates erythrocyte
+OPL:0000392	Plasmodium knowlesi ookinete	Plasmodium knowlesi	Anopheles midgut
+OPL:0000393	Plasmodium knowlesi sporozoite	Plasmodium knowlesi	
+OPL:0000394	Plasmodium knowlesi merozoite	Plasmodium knowlesi	Primates erythrocyte
+OPL:0000395	Plasmodium knowlesi gametocyte	Plasmodium knowlesi	Primates erythrocyte
+OPL:0000396	Eimeria acervulina merozoite	Eimeria acervulina	Gallus gallus erythrocyte
+OPL:0000397	Cryptosporidium parvum oocyst	Cryptosporidium parvum	
+OPL:0000398	Cryptosporidium parvum sporozoite	Cryptosporidium parvum	
+OPL:0000420	Neospora caninum bradyzoite	Neospora caninum	Bos taurus

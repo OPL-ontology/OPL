@@ -3941,7 +3941,7 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000301 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000301">
-        <obo:IAO_0000115>A sporozoite stage in the Plasmodium lifecycle that develops in oocysts of the mosquito midgut.</obo:IAO_0000115>
+        <obo:IAO_0000115>A sporozoite stage in the Plasmodium lifecycle that develops in oocyst of the mosquito midgut.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Omar harb</obo:IAO_0000117>
@@ -4648,7 +4648,7 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000356 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000356">
-        <obo:IAO_0000115>An oocysts stage in the Eimeria tenella life cycle.</obo:IAO_0000115>
+        <obo:IAO_0000115>An oocyst stage in the Eimeria tenella life cycle.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7351014/</obo:IAO_0000119>
@@ -4720,13 +4720,13 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000361">
-        <obo:IAO_0000115>An oocysts stage in the Toxoplasma gondii life cycle.</obo:IAO_0000115>
+        <obo:IAO_0000115>An oocyst stage in the Toxoplasma gondii life cycle.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC106833/</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/21</obo:IAO_0000233>
         <obo:IAO_0000234>He Group</obo:IAO_0000234>
-        <rdfs:label>Toxoplasma gondii oocysts stage</rdfs:label>
+        <rdfs:label>Toxoplasma gondii oocyst stage</rdfs:label>
     </owl:Class>
     
 
@@ -4987,6 +4987,527 @@
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>He Group</obo:IAO_0000119>
         <rdfs:label>Leishmania infantum lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000384">
+        <obo:IAO_0000115>A Plasmodium yoelii in ookinete stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium yoelii ookinete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000385">
+        <obo:IAO_0000115>A Plasmodium yoelii in sporozoite stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium yoelii sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000386">
+        <obo:IAO_0000115>A Plasmodium yoelii in merozoite stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium yoelii merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000387">
+        <obo:IAO_0000115>A Plasmodium yoelii in gametocyte stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium yoelii gametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000388">
+        <obo:IAO_0000115>A Plasmodium chabaudi in ookinete stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium chabaudi ookinete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000389">
+        <obo:IAO_0000115>A Plasmodium chabaudi in sporozoite stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium chabaudi sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000390">
+        <obo:IAO_0000115>A Plasmodium chabaudi in merozoite stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium chabaudi merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000391">
+        <obo:IAO_0000115>A Plasmodium chabaudi in gametocyte stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium chabaudi gametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000392">
+        <obo:IAO_0000115>A Plasmodium knowlesi in ookinete stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium knowlesi ookinete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000393">
+        <obo:IAO_0000115>A Plasmodium knowlesi in sporozoite stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium knowlesi sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000394">
+        <obo:IAO_0000115>A Plasmodium knowlesi in merozoite stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium knowlesi merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000395">
+        <obo:IAO_0000115>A Plasmodium knowlesi in gametocyte stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium knowlesi gametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000396">
+        <obo:IAO_0000115>A Eimeria acervulina in merozoite stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7351014/</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Eimeria acervulina merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000397">
+        <obo:IAO_0000115>A Cryptosporidium parvum in oocyst stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/parasites/crypto/pathogen.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Cryptosporidium parvum oocyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000398">
+        <obo:IAO_0000115>A Cryptosporidium parvum in sporozoite stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/parasites/crypto/pathogen.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Cryptosporidium parvum sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000399">
+        <obo:IAO_0000115>An ookinete stage in the Plasmodium yoelii.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium yoelii ookinete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000400">
+        <obo:IAO_0000115>A sporozoite stage in the Plasmodium yoelii.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium yoelii sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000401">
+        <obo:IAO_0000115>A merozoite stage in the Plasmodium yoelii.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium yoelii merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000402">
+        <obo:IAO_0000115>A gametocyte stage in the Plasmodium yoelii.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium yoelii gametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000403">
+        <obo:IAO_0000115>An ookinete stage in the Plasmodium chabaudi.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium chabaudi ookinete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000404">
+        <obo:IAO_0000115>A sporozoite stage in the Plasmodium chabaudi.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium chabaudi sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000405">
+        <obo:IAO_0000115>A merozoite stage in the Plasmodium chabaudi.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium chabaudi merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000406">
+        <obo:IAO_0000115>A gametocyte stage in the Plasmodium chabaudi.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium chabaudi gametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000407">
+        <obo:IAO_0000115>An ookinete stage in the Plasmodium knowlesi.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium knowlesi ookinete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000408">
+        <obo:IAO_0000115>A sporozoite stage in the Plasmodium knowlesi.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium knowlesi sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000409">
+        <obo:IAO_0000115>A merozoite stage in the Plasmodium knowlesi.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium knowlesi merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000410">
+        <obo:IAO_0000115>A gametocyte stage in the Plasmodium knowlesi.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/dpdx/malaria/index.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium knowlesi gametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000411">
+        <obo:IAO_0000115>A merozoite stage in the Eimeria acervulina.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7351014/</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Eimeria acervulina merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000412">
+        <obo:IAO_0000115>An oocyst stage in the Cryptosporidium parvum.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/parasites/crypto/pathogen.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Cryptosporidium parvum oocyst stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000413">
+        <obo:IAO_0000115>A sporozoite stage in the Cryptosporidium parvum.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cdc.gov/parasites/crypto/pathogen.html</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Cryptosporidium parvum sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000414">
+        <obo:IAO_0000115>An erythrocyte that is a part of or originated from a primate.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>primate erythrocyte</obo:IAO_0000118>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Primates erythrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000415">
+        <obo:IAO_0000115>A lifecycle stage of Plasmodium yoelii.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium yoelii lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000416">
+        <obo:IAO_0000115>A lifecycle stage of Plasmodium chabaudi.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium chabaudi lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000417">
+        <obo:IAO_0000115>A lifecycle stage of Plasmodium knowlesi.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Plasmodium knowlesi lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000418">
+        <obo:IAO_0000115>A lifecycle stage of Eimeria acervulina.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Eimeria acervulina lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000419">
+        <obo:IAO_0000115>A lifecycle stage of Cryptosporidium parvum.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>He Group</obo:IAO_0000119>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Cryptosporidium parvum lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000420">
+        <obo:IAO_0000115>A Neospora caninum in bradyzoite stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.mdpi.com/2306-7381/9/2/87</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Neospora caninum bradyzoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000421">
+        <obo:IAO_0000115>A bradyzoite stage in the Neospora caninum.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.mdpi.com/2306-7381/9/2/87</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/24</obo:IAO_0000233>
+        <obo:IAO_0000234>He Group</obo:IAO_0000234>
+        <rdfs:label>Neospora caninum bradyzoite stage</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
